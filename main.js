@@ -1,7 +1,6 @@
 // Aminate the logo with library TweenMax
 // source https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js
 
-
 // adding scaling and rotation
 
 TweenMax.from('#logo', 1,{
