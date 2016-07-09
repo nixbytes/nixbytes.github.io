@@ -35,11 +35,20 @@ main
 position:relative;
 width: 135px;
 height:135px;
-background: blue;
+background: #00FFFF;
 
 
 }
-/**/
+/* log and image set */
+#logo img {
+
+position:relative;
+display:block;
+margin: 0 auto;
+padding-top:30px;
+
+}
+
 /**/
 
 /**/
