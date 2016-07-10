@@ -7,23 +7,41 @@
         <!-- TweenMax -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
-
+        <!-- add JQuery UI for tabs -->
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     </head>
     <body>
-     
         
+        <div id="tabs">
             <aside id="left">
                 <div id="logo"><img id="logoTxt" src="img/logo.png"></div>
                 <nav>
                     <ul>
-                        <li class="link" ><a href="#projects" >GitHub Projects</a></li>
+                        <li class="link"><a href="#projects" >GitHub Projects</a></li>
                         <li class="link"><a href="#about"  >About Me</a></li>
                         <li class="link"><a href="#contact"  >Contact</a></li>
                     </ul>
                 </nav>
             </aside>
-            
-     
+            <div id="projects">
+                <p>First tab is active by default:</p>
+                
+            </div>
+            <div id="about">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            </div>
+            <div id="contact">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            </div>
+        </div>
+        <script>
+        $( "#tabs" ).tabs();
+        </script>
+        
         <script src="main.js"></script>
     </body>
 </html>

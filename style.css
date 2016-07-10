@@ -1,5 +1,10 @@
 /**/
 /* Define the page body */
+/*{
+
+    border: 1px solid red;
+}*/
+
 body
 {
     font-family: monospace;
@@ -25,17 +30,17 @@ body
 }
 /* first column side */
 
-.blur
-{
-    -webkit-filter: blur(1px);
-       -moz-filter: blur(1px);
-         -o-filter: blur(1px);
-        -ms-filter: blur(1px);
-            filter: blur(1px);
-
+#projects{
+    padding:20% 0 10% 20%;
 }
 
+#about{
+     padding:20% 0 10% 20%;
+}
 
+#contact{
+     padding:20% 0 10% 20%;
+}
 #left
 {
     float: left;
