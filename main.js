@@ -3,20 +3,20 @@
 
 // adding scaling and rotation
 
-TweenMax.from('#logo', 1,{
-	// backout with ease function
-	opacity: 0,
-	rotation:360,
-	scale:0,
-	left: -200,
-	ease: Back.easeOut
+TweenMax.from('#logo', 1, {
+    // backout with ease function
+    opacity: 0,
+    rotation: 360,
+    scale: 0,
+    left: -200,
+    ease: Back.easeOut
 });
 
 // Delay the animation for effect
 
-TweenMax.to('#logo',1,{
-	borderRadius: "50%",
-	delay:0.9
+TweenMax.to('#logo', 1, {
+    borderRadius: "50%",
+    delay: 0.9
 });
 
 TweenMax.from("#logoTxt", 1, {

@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EZ-WebCraft</title>
+        <!-- TweenMax -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EZ-WebCraft</title>
-    <!---->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-</head>
-
-<body>
-    <aside id="left">
-        <div id="logo"><img id="logoTxt" src="img/logo.png"></div>
-        <nav>
-            <ul>
-                <li class="link"><a href="#">GitHub Projects</a></li>
-                <li class="link"><a href="#">About Me</a></li>
-                <li class="link"><a href="#">Contact</a></li> 
-            </ul>
-        </nav>
-    </aside>
-
-    <main>
-
-    </main>
-
-    <script src="main.js"></script>
-</body>
-
+    </head>
+    <body>
+     
+        
+            <aside id="left">
+                <div id="logo"><img id="logoTxt" src="img/logo.png"></div>
+                <nav>
+                    <ul>
+                        <li class="link" ><a href="#projects"  class="tablinks" onclick="openCity(event, 'tabs-1')">GitHub Projects</a></li>
+                        <li class="link"><a href="#about"  class="tablinks" onclick="openCity(event, 'tabs-2')">About Me</a></li>
+                        <li class="link"><a href="#contact"  class="tablinks" onclick="openCity(event, 'tabs-3')">Contact</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+     
+        <script src="main.js"></script>
+    </body>
 </html>
