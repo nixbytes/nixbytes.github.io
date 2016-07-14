@@ -1,149 +1,199 @@
-/**/
-/* Define the page body 
 *
 {
     border: 1px solid red;
 }
-*/
+@font-face
+{
+    font-family: Peas-Carrots;
+
+    src: url('./font/Peas & Carrots/Peas & Carrots.ttf');
+}
+@font-face
+{
+    font-family: Oranges;
+
+    src: url('./font/Orange Juice/orange juice.ttf');
+}
+html,
 body
-{
-    font-family: monospace;
-
-    position: relative;
-
-    overflow-x: hidden;
-
-    width: 100%;
-    height: 100%;
-
-    background-color: #d8c4ab ;
-}
-/* first column side */
-
-#projects
-{
-    margin: auto;
-    padding: 20%;
-
-    
-}
-
-#about
-{
-    margin: auto;
-    padding: 20%;
-
-}
-
-#contact
-{
-    margin: auto;
-    padding: 20%;
-   
-}
-#left
-{
-    float: left;
-    width: 135px;
-    padding: 40px 0 0 40px;
-}
-
-/* @media screen and (min-width: 28.75em)
-{
-    #projects
-    {
-        width: 33.3333333%;
-    }
-    #about
-    {
-        width: 33.3333333%;
-    }
-    #contact
-    {
-        width: 33.3333333%;
-    }
-}
-@media screen and (min-width: 40.5em) {
-    #projects
-    {
-        width: 16.6666667%;
-    }
-    #about
-    {
-        width: 16.6666667%;
-    }
-    #contact
-    {
-        width: 16.6666667%;
-    }
-}
-logo style */
-
-#logo
-{
-    /*position: relative;*/
-    width: 135px;
-    height: 135px;
-
-    background: #43333d;
-}
-/* log and image set */
-#logo img
-{
-    position: relative;
-
-    display: block;
-
-    margin: 0 auto;
-    padding-top: 38px;
-}
-
-
-
-nav
-{
-    margin-top: 150px;
-}
-
-ul
 {
     margin: 0;
     padding: 0;
-
-    list-style-type: none;
-
-    text-align: right;
 }
-
-.link
+a
 {
-    position: relative;
-}
-
-li
-{
-    font-size: 24px;
-
-    margin-bottom: 10px;
-    padding: 10px 0 20px 0;
-
-    border-bottom: 1px solid red;
-    border-radius: 5%;
-}
-
-li a
-{
-    position: center;
-
     text-decoration: none;
 
-    color: red;
+    color: white;
 }
-/* Second column side wgich is the main */
-
-main
+a:hover
 {
-    float: left: ;
+    color: #ff4f99;
+}
+.container
+{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.jumbotron
+{
+    height: 800px;
 
-    margin: 45px 0 0 150px;
+    background: url(img/apple-iphone-desk-office.jpg) no-repeat center center;
+    background-size: cover;
+}
+header
+{
+    background-color: #333;
+}
+.nav
+{
+    margin: 0;
+    padding: 20px 0;
+
+    list-style-type: none;
+}
+.nav li
+{
+    font-family: 'Peas-Carrots', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    display: inline;
+
+    margin-right: 25px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.main
+{
+    position: relative;
+    top: 180px;
+
+    text-align: center;
+}
+.main h1
+{
+    font-family: Oranges, sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+
+    margin-top: 0;
+    margin-bottom: 80px;
+
+    text-transform: uppercase;
+
+    color: #fff ;
+}
+.btn-primary
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    display: none;
+
+    padding: 16px 40px;
+
+    text-decoration: none;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+
+    color: #fff;
+    /*border-radius: 50%;*/
+    background-color: #ff0097;
+}
+.btn-default
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+
+    display: inline-block;
+
+    margin-bottom: 20px;
+    padding: 10px 20px;
+
+    text-decoration: none;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+
+    color: #333;
+    border: 1px solid #333;
+}
+@media (min-width:720px)
+{
+    .btn-default
+    {
+        padding: 15px 50px;
+    }
+}
+.supporting
+{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.supporting .col
+{
+    font-family: 'Raleway', sans-serif;
+
+    float: left;
+
+    width: 33%;
+
+    text-align: center;
+}
+.supporting img
+{
+    height: 32px;
+}
+.supporting h2
+{
+    font-size: 23px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+}
+.supporting p
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    margin-bottom: 40px;
+    padding: 0 50px;
+}
+.clearfix
+{
+    clear: both;
+}
+footer
+{
+    padding: 30px 0;
+
+    color: #fff;
+    background-color: #333;
+}
+footer p
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+
+    text-transform: uppercase;
+}
+@media (max-width: 500px)
+{
+    .main h1
+    {
+        font-size: 50px;
+
+        padding: 0 40px;
+    }
+    .supporting .col
+    {
+        width: 100%;
+    }
 }

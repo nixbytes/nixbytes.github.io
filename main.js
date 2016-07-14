@@ -3,6 +3,12 @@
 
 // adding scaling and rotation
 
+$(document).ready(function() {
+
+    $(".btn-primary").fadeIn(3000);
+
+});
+
 TweenMax.from('#logo', 1, {
     // backout with ease function
     opacity: 0,
@@ -24,9 +30,8 @@ TweenMax.from("#logoTxt", 1, {
     delay: 1.2
 });
 TweenMax.staggerFrom(".link", 0.5, {
-        opacity: 0,
-        left: -200,
-        delay: 1.2,
-        ease: Back.easeOut
-    },
-    0.2);
+    opacity: 0,
+    left: -200,
+    delay: 1.2,
+    ease: Back.easeOut
+}, 0.2);

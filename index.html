@@ -1,47 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EZ-WebCraft</title>
-        <!-- TweenMax -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <!-- add JQuery UI for tabs -->
-        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    </head>
-    <body>
-        
-        <div id="tabs">
-            <aside id="left">
-                <div id="logo"><img id="logoTxt" src="img/logo.png"></div>
-                <nav>
-                    <ul>
-                        <li class="link"><a href="#projects" >GitHub Projects</a></li>
-                        <li class="link"><a href="#about"  >About Me</a></li>
-                        <li class="link"><a href="#contact"  >Contact</a></li>
-                    </ul>
-                </nav>
-            </aside>
-            <div id="projects">
-                <p>First tab is active by default:</p>
-                
-            </div>
-            <div id="about">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-            </div>
-            <div id="contact">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-            </div>
-        </div>
-        <script>
-        $( "#tabs" ).tabs();
-        </script>
-        
-        <script src="main.js"></script>
-    </body>
+<!doctype html>
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+		<script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<ul class="nav">
+					<li><a  href="#">About</a></li>
+					<li><a  href="https://github.com/ezwebcraft">GitHub</a></li>
+					<li><a  href="#">Contact</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="jumbotron">
+			<div class="container">
+				<div class="main" id="logo">
+					<h1 id="logoTxt">EZ-WebCraft GitHub</h1>
+					<a class="btn-primary" href="#">Front-End Web Developer</a>
+				</div>
+			</div>
+		</div>
+		<main class="supporting">
+		<div class="container">
+			<div class="col">
+				<i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
+				<h2>Standard</h2>
+				<p>knowledge and experience with front-end web development</p>
+				<a class="btn-default" href="https://github.com/ezwebcraft">Learn more</a>
+			</div>
+			<div class="col">
+				<i class="fa fa-github fa-5x" aria-hidden="true"></i>
+				<h2>Git</h2>
+				<p>Knowledge with git and github tools</p>
+				<a class="btn-default" href="https://github.com/ezwebcraft">Learn more</a>
+			</div>
+			<div class="col">
+				<i class="fa fa-cogs fa-5x" aria-hidden="true"></i>
+				<h2>Build Tools</h2>
+				<p>Knowledge of Front-End build tools(Gulp, Bower and NPM)</p>
+				<a class="btn-default" href="https://github.com/ezwebcraft">Learn more</a>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		</main>
+		<footer>
+			<div class="container">
+				<p>&copy; EZ-WebCraft 2013</p>
+			</div>
+		</footer>
+	</body>
 </html>
