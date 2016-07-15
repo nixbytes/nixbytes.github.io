@@ -30,6 +30,11 @@ a:hover
 {
     color: #ff4f99;
 }
+.about{
+background-color:grey;
+padding:5%;
+
+}
 .container
 {
     max-width: 940px;
