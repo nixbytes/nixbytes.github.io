@@ -14,6 +14,13 @@
 
     src: url('./font/Orange Juice/orange juice.ttf');
 }
+
+@font-face
+{
+    font-family: Cubano;
+
+    src: url('./font/Cubano/webfonts/cubano-regular-webfont.ttf');
+}
 html,
 body
 {
@@ -30,11 +37,13 @@ a:hover
 {
     color: #ff4f99;
 }
-.about{
-color:#fff;
-background-color:#565155;
-padding:6%;
 
+.about
+{
+    padding: 6%;
+
+    color: #fff;
+    background-color: #565155;
 }
 .container
 {
@@ -94,6 +103,11 @@ header
 
     color: #fff ;
 }
+.main a
+{
+    font-family: Cubano ,sans-serif;
+    font-size: 16px;
+}
 .btn-primary
 {
     font-family: 'Raleway', sans-serif;
@@ -130,6 +144,8 @@ header
     color: #333;
     border: 1px solid #333;
 }
+
+
 @media (min-width:720px)
 {
     .btn-default
