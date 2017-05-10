@@ -8,21 +8,24 @@ body, html {
     margin: 0;
 
 }
-
-.bgimg {
-    background-image: url('img/galymzhan-abdugalimov-181.jpg');
+.bgimg:before{
+  overflow: auto;
+  position: relative;
+  filter: blur(2px);
+}
+.bgimg{
+    background-image: url('img/galymzhan-abdugalimov-181.png');
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    color: white;
+    color: red;
     font-family: "Courier New", Courier, monospace;
     font-size: 25px;
 
+
 }
-.bmimg img {
-  filter: blur(2px);
-}
+
 .topleft {
     position: absolute;
     top: 0;
@@ -66,8 +69,10 @@ hr {
     </div>
   </div>
 
+<script>
+// timer in javascript
 
-  </script>
+</script>
 
 </body>
 
