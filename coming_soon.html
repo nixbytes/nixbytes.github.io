@@ -103,7 +103,8 @@ hr {
   justify-content: center;
 }
 .img_hover h3,
-.img_hover h5 {
+.img_hover h5,
+.img_hover h6 {
   margin: 0;
   opacity: 0;
   letter-spacing: 1px;
@@ -126,6 +127,15 @@ hr {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
+.img_hover h6 {
+  font-weight: normal;
+  background-color: #ae895d;
+  padding:9px 20px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
 .img_hover a {
   position: absolute;
   top: 0;
@@ -143,7 +153,9 @@ hr {
 .img_hover:hover h3,
 .img_hover.hover h3,
 .img_hover:hover h5,
-.img_hover.hover h5 {
+.img_hover.hover h5,
+.img_hover:hover h6,
+.img_hover.hover h6{
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
@@ -158,7 +170,13 @@ hr {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
-/* Demo purposes only */
+
+.img_hover:hover h6,
+.img_hover.hover h6 {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+/* clock purposes only */
 body {
   background-color: #212121;
   text-align: center;
@@ -168,12 +186,19 @@ body {
 
 <body>
 
-  <figure class="img_hover"><img src="img/galymzhan-abdugalimov-181.jpg" alt="sample87"/>
+  <figure class="img_hover"><img src="img/apple-iphone-desk-office.jpg" alt="sample87"/>
+
     <figcaption>
       <h3>EZ-WebCraft </h3>
       <h5>More Coming Soon</h5>
+
+<h6>GitHub</h6>
+
+<p id="clock" style="font-size:30px"></p>
     </figcaption><a href="https://github.com/ezwebcraft"></a>
   </figure>
+
+
   <!-- <div class="bgimg">
     <div class="topleft">
       <p>EZ-WebCraft</p>
@@ -197,7 +222,36 @@ $(".hover").mouseleave(
 );
 
 </script>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("June 1, 2017 15:37:25").getTime();
 
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in an element with id="clock"
+    document.getElementById("clock").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    // If the count down is over, write some text
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("clock").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
 </body>
 
 </html>
