@@ -26,3 +26,11 @@ var countdownfunction = setInterval(function() {
         document.getElementById("clock").innerHTML = "EXPIRED";
     }
 }, 1000);
+
+// hover class
+
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
