@@ -1,7 +1,19 @@
 body, html {
     height: 100%;
     margin: 0;
+    background-color: black;
 
+}
+.img_bg{
+    /*background-image: url('../img/apple-iphone-desk-office.jpg');*/
+    
+    width: 100%;
+    /*background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;*/
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
