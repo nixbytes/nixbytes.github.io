@@ -26,6 +26,7 @@ body
 {
     margin: 0;
     padding: 0;
+
 }
 a
 {
@@ -54,10 +55,19 @@ a:hover
 .jumbotron
 {
     height: 800px;
+    /*background-image: url('img/apple-iphone-desk-office.jpg') no-repeat center center;
+    background-size: cover;*/
+    /*background-color: rgb(144, 80, 156);*/
+    /*word-wrap: break-word;*/
 
-    background: url('img/apple-iphone-desk-office.jpg') no-repeat center center;
-    background-size: cover;
+    background: #000000; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #000000, #0f9b0f); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #000000, #0f9b0f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
+
+
 header
 {
     background-color: #333;
@@ -152,7 +162,9 @@ header
     {
         padding: 15px 50px;
     }
+
 }
+
 .supporting
 {
     padding-top: 80px;
