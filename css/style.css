@@ -55,7 +55,7 @@ a:hover
 {
     height: 800px;
 
-    background: url(img/apple-iphone-desk-office.jpg) no-repeat center center;
+    background: url('img/apple-iphone-desk-office.jpg') no-repeat center center;
     background-size: cover;
 }
 header
