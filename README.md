@@ -1,2 +1,7 @@
 # ezwebcraft.github.io
-Portfolio SIte
+
+source code for ezwebcraft github 
+
+Portfolio Site
+- basic github site
+
