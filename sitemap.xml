@@ -3,56 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://ezwebcraft.com/post/post-title-test/</loc>
-    <lastmod>2018-12-04T22:19:58-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ezwebcraft.com/archives/older-post/</loc>
+    <loc>https://linuxbytes.github.io/archives/older-post/</loc>
     <lastmod>2018-12-04T22:17:34-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ezwebcraft.com/about/about/</loc>
+    <loc>https://linuxbytes.github.io/about/</loc>
     <lastmod>2018-12-04T22:02:58-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ezwebcraft.com/post/my-first-post/</loc>
+    <loc>https://linuxbytes.github.io/post/my-first-post/</loc>
     <lastmod>2018-11-25T16:51:40-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ezwebcraft.com/about/</loc>
-    <lastmod>2018-12-04T22:02:58-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://ezwebcraft.com/archives/</loc>
+    <loc>https://linuxbytes.github.io/archives/</loc>
     <lastmod>2018-12-04T22:17:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ezwebcraft.com/categories/</loc>
+    <loc>https://linuxbytes.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ezwebcraft.com/</loc>
-    <lastmod>2018-12-04T22:19:58-05:00</lastmod>
+    <loc>https://linuxbytes.github.io/post/</loc>
+    <lastmod>2018-11-25T16:51:40-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ezwebcraft.com/post/</loc>
-    <lastmod>2018-12-04T22:19:58-05:00</lastmod>
+    <loc>https://linuxbytes.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ezwebcraft.com/tags/</loc>
+    <loc>https://linuxbytes.github.io/</loc>
+    <lastmod>2018-12-04T22:17:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
