@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on EZ-WebCraft</title>
+    <link>http://ezwebcraft.com/posts/</link>
+    <description>Recent content in Posts on EZ-WebCraft</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Nov 2018 16:51:40 -0500</lastBuildDate>
+    
+	<atom:link href="http://ezwebcraft.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://ezwebcraft.com/posts/my-first-post/</link>
+      <pubDate>Sun, 25 Nov 2018 16:51:40 -0500</pubDate>
+      
+      <guid>http://ezwebcraft.com/posts/my-first-post/</guid>
+      <description>Hello, This is my first Post for discussing technology, and its uses started to blog to speak about the passion I have for Linux/Unix, Python and Open Source technology. I will Post my thought with no scheduled time frame, and I am thinking of adding a new post on my twitter account if you wish to follow me feel free to do so. Hope you enjoy my blog post and my thought on tech.</description>
+    </item>
+    
+  </channel>
+</rss>

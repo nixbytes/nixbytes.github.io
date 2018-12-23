@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://ezwebcraft.com/post/post-title-test/</loc>
+    <lastmod>2018-12-04T22:19:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezwebcraft.com/archives/older-post/</loc>
+    <lastmod>2018-12-04T22:17:34-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezwebcraft.com/about/about/</loc>
+    <lastmod>2018-12-04T22:02:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezwebcraft.com/post/my-first-post/</loc>
+    <lastmod>2018-11-25T16:51:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezwebcraft.com/about/</loc>
+    <lastmod>2018-12-04T22:02:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ezwebcraft.com/archives/</loc>
+    <lastmod>2018-12-04T22:17:34-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ezwebcraft.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ezwebcraft.com/</loc>
+    <lastmod>2018-12-04T22:19:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ezwebcraft.com/post/</loc>
+    <lastmod>2018-12-04T22:19:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ezwebcraft.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

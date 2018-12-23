@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EZ-WebCraft</title>
+    <link>http://ezwebcraft.com/</link>
+    <description>Recent content on EZ-WebCraft</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Dec 2018 22:19:58 -0500</lastBuildDate>
+    
+	<atom:link href="http://ezwebcraft.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post Title Test</title>
+      <link>http://ezwebcraft.com/post/post-title-test/</link>
+      <pubDate>Tue, 04 Dec 2018 22:19:58 -0500</pubDate>
+      
+      <guid>http://ezwebcraft.com/post/post-title-test/</guid>
+      <description>Nam eu augue sed enim pulvinar viverra vitae in enim. Curabitur semper semper hendrerit. Sed vulputate purus sed ex luctus, quis mattis lectus ornare. Duis molestie dolor neque, id dictum justo tempus sollicitudin. Donec sodales, enim non tristique vestibulum, neque metus sodales augue, vel semper lectus lectus et turpis. Maecenas consectetur mi tortor, ut pretium metus tempor eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas viverra mi eget felis porta maximus.</description>
+    </item>
+    
+    <item>
+      <title>Older Post</title>
+      <link>http://ezwebcraft.com/archives/older-post/</link>
+      <pubDate>Tue, 04 Dec 2018 22:17:34 -0500</pubDate>
+      
+      <guid>http://ezwebcraft.com/archives/older-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elementum varius tortor eu dignissim. Ut ut urna eget diam molestie finibus quis ut quam. Suspendisse maximus euismod massa ac feugiat. Duis maximus ullamcorper consectetur. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque sagittis interdum sapien. Suspendisse eleifend dolor eget tincidunt blandit.
+Phasellus id malesuada felis. Aliquam dapibus, mi sit amet fermentum mattis, neque erat dignissim diam, et volutpat orci turpis sed ex.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://ezwebcraft.com/about/about/</link>
+      <pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate>
+      
+      <guid>http://ezwebcraft.com/about/about/</guid>
+      <description>About me
+I am a Linux engineer by day and a Pythoneer by night. I am an ambitious problem solver with a passion for Unix (Solaris, AIX, OSX) / Linux (Slackware, Redhat, Ubuntu, Centos), development and technology as a whole. I am continually evaluating and upgrading my skills so that I can stay at the cutting edge of IT by studying and taking online courses.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://ezwebcraft.com/post/my-first-post/</link>
+      <pubDate>Sun, 25 Nov 2018 16:51:40 -0500</pubDate>
+      
+      <guid>http://ezwebcraft.com/post/my-first-post/</guid>
+      <description>Hello, This is my first Post for discussing technology, and its uses started to blog to speak about the passion I have for Linux/Unix, Python and Open Source technology. I will Post my thought with no scheduled time frame, and I am thinking of adding a new post on my twitter account if you wish to follow me feel free to do so. Hope you enjoy my blog post and my thought on tech.</description>
+    </item>
+    
+  </channel>
+</rss>
