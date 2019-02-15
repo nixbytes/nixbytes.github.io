@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on linuxbytes</title>
+    <link>https://linuxbytes.github.io/posts/</link>
+    <description>Recent content in Posts on linuxbytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Dec 2018 11:25:28 -0500</lastBuildDate>
+    
+	<atom:link href="https://linuxbytes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mastering Regular Expressions</title>
+      <link>https://linuxbytes.github.io/posts/mastering-regular-expressions/</link>
+      <pubDate>Sat, 29 Dec 2018 11:25:28 -0500</pubDate>
+      
+      <guid>https://linuxbytes.github.io/posts/mastering-regular-expressions/</guid>
+      <description>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://linuxbytes.github.io/posts/my-first-post/</link>
+      <pubDate>Sun, 25 Nov 2018 16:51:40 -0500</pubDate>
+      
+      <guid>https://linuxbytes.github.io/posts/my-first-post/</guid>
+      <description>Hello, This is my first Post for discussing technology, and its uses started to blog to speak about the passion I have for Linux/Unix, Python and Open Source technology. I will Post my thought with no scheduled time frame, and I am thinking of adding a new post on my twitter account if you wish to follow me feel free to do so. Hope you enjoy my blog post and my thought on tech.</description>
+    </item>
+    
+  </channel>
+</rss>
