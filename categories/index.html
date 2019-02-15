@@ -12,24 +12,22 @@
 <link rel="canonical" href="https://linuxbytes.github.io/categories/" />
 
 
-<link rel="stylesheet" href="/assets/style.css">
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="https://linuxbytes.github.io/assets/style.css">
 
 
+<link rel="stylesheet" href="https://linuxbytes.github.io/style.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://linuxbytes.github.io/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://linuxbytes.github.io/img/favicon.png">
 
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Categories :: linuxbytes — I am a Linux engineer by day and a Coder by night" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:site" content="" />
+<meta name="twitter:site" content="https://linuxbytes.github.io" />
 <meta name="twitter:creator" content="" />
-<meta name="twitter:image" content="https://linuxbytes.github.ioimg/default.jpg">
+<meta name="twitter:image" content="">
 
 
 <meta property="og:locale" content="en" />
@@ -38,7 +36,7 @@
 <meta property="og:description" content="" />
 <meta property="og:url" content="https://linuxbytes.github.io/categories/" />
 <meta property="og:site_name" content="Categories" />
-<meta property="og:image" content="https://linuxbytes.github.ioimg/default.jpg">
+<meta property="og:image" content="">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 
@@ -57,46 +55,61 @@
 <div class="container">
   <header class="header">
   <span class="header__inner">
-    <a href="https://linuxbytes.github.io" style="text-decoration: none;">
-  <div class="logo">
-    
-      <span class="logo__mark">></span>
-      <span class="logo__text">Linux Bytes</span>
-      <span class="logo__cursor"></span>
-    
-  </div>
+    <a href="https://linuxbytes.github.io" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Linux Bytes</span>
+    <span class="logo__cursor"></span>
+  
 </a>
 
     <span class="header__right">
       
         <nav class="menu">
-  <ul class="menu__inner">
+  <ul class="menu__inner menu__inner--desktop">
     
-      <li><a href="/about">About</a></li>
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/archives">Archives</a></li>
+        
+      
     
-      <li><a href="/archives">Archives</a></li>
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/archives">Archives</a></li>
+      
     
   </ul>
 </nav>
+
         <span class="menu-trigger">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path d="M0 0h24v24H0z" fill="none"/>
             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-          </svg>        
+          </svg>
         </span>
       
       <span class="theme-toggle">
-        <svg class="bulb-off" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="24" height="24"/>
-  <path d="M4 19C4 19.55 4.45 20 5 20H9C9.55 20 10 19.55 10 19V18H4V19ZM7 0C3.14 0 0 3.14 0 7C0 9.38 1.19 11.47 3 12.74V15C3 15.55 3.45 16 4 16H10C10.55 16 11 15.55 11 15V12.74C12.81 11.47 14 9.38 14 7C14 3.14 10.86 0 7 0ZM9.85 11.1L9 11.7V14H5V11.7L4.15 11.1C2.8 10.16 2 8.63 2 7C2 4.24 4.24 2 7 2C9.76 2 12 4.24 12 7C12 8.63 11.2 10.16 9.85 11.1Z" transform="translate(5 2)" fill="black"/>
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
 </svg>
 
-<svg class="bulb-on" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="24" height="24"/>
-  <path class="bulb-on__base" d="M4 19C4 19.55 4.45 20 5 20H9C9.55 20 10 19.55 10 19V18H4V19Z" transform="translate(5 2)" fill="#a9a9b3" />
-  <path class="bulb-on__glass" d="M0 7C0 3.14 3.14 0 7 0C10.86 0 14 3.14 14 7C14 9.38 12.81 11.47 11 12.74V15C11 15.55 10.55 16 10 16H4C3.45 16 3 15.55 3 15V12.74C1.19 11.47 0 9.38 0 7Z" transform="translate(5 2)" fill="#a9a9b3" />
-</svg>
-  
       </span>
     </span>
   </span>
@@ -108,12 +121,16 @@
   <div class="posts">
     
     
+    
+
+    
     <div class="pagination">
   <div class="pagination__buttons">
     
     
   </div>
 </div>
+
   </div>
 
   </div>
@@ -122,30 +139,27 @@
     <footer class="footer">
   <div class="footer__inner">
     
-      <a href="https://linuxbytes.github.io" style="text-decoration: none;">
-  <div class="logo">
-    
-      <span class="logo__mark">></span>
-      <span class="logo__text">Linux Bytes</span>
-      <span class="logo__cursor"></span>
-    
-  </div>
+      <a href="https://linuxbytes.github.io" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Linux Bytes</span>
+    <span class="logo__cursor"></span>
+  
 </a>
 
       <div class="copyright">
-        <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
-        <span>Theme created by <a href="https://twitter.com/panr">panr</a> 2018</span>
+        <span>© 2019 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr">panr</a></span>
       </div>
     
   </div>
 </footer>
 
-
-  <script src="/assets/main.js"></script>
-
-  <script src="/assets/prism.js"></script>
-
-
+<script src="https://linuxbytes.github.io/assets/main.js"></script>
+<script src="https://linuxbytes.github.io/assets/prism.js"></script>
 
   
 </div>
