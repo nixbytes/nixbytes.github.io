@@ -6,10 +6,19 @@
     <description>Recent content in Posts on linuxbytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Dec 2018 11:25:28 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 21 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://linuxbytes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jumpstart Python</title>
+      <link>https://linuxbytes.github.io/posts/jumpstart-python/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://linuxbytes.github.io/posts/jumpstart-python/</guid>
+      <description>Python Jumpstart by Building 10 Apps &amp;ldquo;The Python Jumpstart by Building 10 Apps Course&amp;rdquo; is a great path to get started on learning python and some of the core features. Micheal Kenndy explains each topic in details and with good examples. Python is growing, and the demand for the skill set is high peak right now. Python Jumpstart will help anyone to get started on the language. I enjoy doing these small projects.</description>
+    </item>
     
     <item>
       <title>Mastering Regular Expressions</title>
