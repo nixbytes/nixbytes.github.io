@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>start on Nix Bytes</title>
+    <title>start on Linux Bytes</title>
     <link>/tags/start/</link>
-    <description>Recent content in start on Nix Bytes</description>
+    <description>Recent content in start on Linux Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Nov 2018 00:00:00 +0000</lastBuildDate>

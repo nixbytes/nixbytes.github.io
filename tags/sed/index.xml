@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sed on Nix Bytes</title>
+    <title>sed on Linux Bytes</title>
     <link>/tags/sed/</link>
-    <description>Recent content in sed on Nix Bytes</description>
+    <description>Recent content in sed on Linux Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Dec 2018 00:00:00 +0000</lastBuildDate>

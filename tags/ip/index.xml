@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IP on Nix Bytes</title>
+    <title>IP on Linux Bytes</title>
     <link>/tags/ip/</link>
-    <description>Recent content in IP on Nix Bytes</description>
+    <description>Recent content in IP on Linux Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0000</lastBuildDate>
