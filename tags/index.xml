@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on nixbytes</title>
+    <link>https://nixbytes.github.io/tags/</link>
+    <description>Recent content in Tags on nixbytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nixbytes.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bash</title>
+      <link>https://nixbytes.github.io/tags/bash/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://nixbytes.github.io/tags/shell/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>updates</title>
+      <link>https://nixbytes.github.io/tags/updates/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/updates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IP</title>
+      <link>https://nixbytes.github.io/tags/ip/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/ip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emails</title>
+      <link>https://nixbytes.github.io/tags/emails/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/emails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regex</title>
+      <link>https://nixbytes.github.io/tags/regex/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/regex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>search</title>
+      <link>https://nixbytes.github.io/tags/search/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grep</title>
+      <link>https://nixbytes.github.io/tags/grep/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/grep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ls</title>
+      <link>https://nixbytes.github.io/tags/ls/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/ls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sed</title>
+      <link>https://nixbytes.github.io/tags/sed/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/sed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cat</title>
+      <link>https://nixbytes.github.io/tags/cat/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/cat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data</title>
+      <link>https://nixbytes.github.io/tags/data/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>files</title>
+      <link>https://nixbytes.github.io/tags/files/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simple</title>
+      <link>https://nixbytes.github.io/tags/simple/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/simple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>first</title>
+      <link>https://nixbytes.github.io/tags/first/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux-moles</title>
+      <link>https://nixbytes.github.io/tags/linux-moles/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/linux-moles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>start</title>
+      <link>https://nixbytes.github.io/tags/start/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/tags/start/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
