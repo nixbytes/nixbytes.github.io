@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Training on nixbytes</title>
+    <link>https://nixbytes.github.io/tags/training/</link>
+    <description>Recent content in Training on nixbytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nixbytes.github.io/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jumpstart Python</title>
+      <link>https://nixbytes.github.io/posts/jumpstart-python/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nixbytes.github.io/posts/jumpstart-python/</guid>
+      <description>Python Jumpstart by Building 10 Apps &amp;ldquo;The Python Jumpstart by Building 10 Apps Course&amp;rdquo; is a great path to get started on learning python and some of the core features. Micheal Kenndy explains each topic in details and with good examples. Python is growing, and the demand for the skill set is high peak right now. Python Jumpstart will help anyone to get started on the language. I enjoy doing these small projects.</description>
+    </item>
+    
+  </channel>
+</rss>
