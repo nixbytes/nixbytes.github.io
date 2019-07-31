@@ -11,11 +11,21 @@
     
     
     <item>
-      <title>Older Post for testing new website</title>
-      <link>/archives/cppnd-system-monitor/</link>
+      <title>List of Projects</title>
+      <link>/projects/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/archives/cppnd-system-monitor/</guid>
+      <guid>/projects/projects/</guid>
+      <description>CppND-System-Monitor Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
+Github link CppND-System-Monitor</description>
+    </item>
+    
+    <item>
+      <title>Older Post for testing new website</title>
+      <link>/projects/cppnd-system-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cppnd-system-monitor/</guid>
       <description>CppND-System-Monitor Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
 Github link CppND-System-Monitor</description>
     </item>
