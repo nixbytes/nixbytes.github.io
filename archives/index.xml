@@ -6,19 +6,18 @@
     <description>Recent content in Archives on Linux Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/archives/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Older Post for testing new website</title>
-      <link>/archives/older-post/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      <link>/archives/cppnd-system-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/archives/older-post/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elementum varius tortor eu dignissim. Ut ut urna eget diam molestie finibus quis ut quam. Suspendisse maximus euismod massa ac feugiat. Duis maximus ullamcorper consectetur. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque sagittis interdum sapien. Suspendisse eleifend dolor eget tincidunt blandit.
-Phasellus id malesuada felis. Aliquam dapibus, mi sit amet fermentum mattis, neque erat dignissim diam, et volutpat orci turpis sed ex.</description>
+      <guid>/archives/cppnd-system-monitor/</guid>
+      <description>CppND-System-Monitor Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
+Github link CppND-System-Monitor</description>
     </item>
     
   </channel>

@@ -173,17 +173,6 @@
   </url>
   
   <url>
-    <loc>/archives/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/archives/older-post/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/first-step/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
   </url>
@@ -212,7 +201,41 @@
   </url>
   
   <url>
+    <loc>/archives/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/c&#43;&#43;/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cpp/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/oop/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/archives/cppnd-system-monitor/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/programming/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/system/</loc>
     <priority>0</priority>
   </url>
   

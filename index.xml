@@ -110,16 +110,6 @@ I am a Linux engineer by day and a coder by night. I am an ambitious problem sol
     </item>
     
     <item>
-      <title>Older Post for testing new website</title>
-      <link>/archives/older-post/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/archives/older-post/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elementum varius tortor eu dignissim. Ut ut urna eget diam molestie finibus quis ut quam. Suspendisse maximus euismod massa ac feugiat. Duis maximus ullamcorper consectetur. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque sagittis interdum sapien. Suspendisse eleifend dolor eget tincidunt blandit.
-Phasellus id malesuada felis. Aliquam dapibus, mi sit amet fermentum mattis, neque erat dignissim diam, et volutpat orci turpis sed ex.</description>
-    </item>
-    
-    <item>
       <title>First Steps</title>
       <link>/posts/first-step/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
@@ -135,6 +125,16 @@ Phasellus id malesuada felis. Aliquam dapibus, mi sit amet fermentum mattis, neq
       
       <guid>/posts/my-first-post/</guid>
       <description>Hello, This is my first Post for discussing technology, and its uses started to blog to speak about the passion I have for Linux/Unix, Python and Open Source technology. I will Post my thought with no scheduled time frame, and I am thinking of adding a new post on my twitter account if you wish to follow me feel free to do so. Hope you enjoy my blog post and my thought on tech.</description>
+    </item>
+    
+    <item>
+      <title>Older Post for testing new website</title>
+      <link>/archives/cppnd-system-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/archives/cppnd-system-monitor/</guid>
+      <description>CppND-System-Monitor Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
+Github link CppND-System-Monitor</description>
     </item>
     
   </channel>
