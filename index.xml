@@ -128,23 +128,24 @@ I am a Linux engineer by day and a coder by night. I am an ambitious problem sol
     </item>
     
     <item>
+      <title>Cpp System Monitor</title>
+      <link>/projects/cppnd-system-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cppnd-system-monitor/</guid>
+      <description>This is list of of my projects, language and technology that I have work with.
+CppND-System-Monitor Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
+Github link CppND-System-Monitor</description>
+    </item>
+    
+    <item>
       <title>List of Projects</title>
       <link>/projects/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/projects/</guid>
-      <description>CppND-System-Monitor Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
-Github link CppND-System-Monitor</description>
-    </item>
-    
-    <item>
-      <title>Older Post for testing new website</title>
-      <link>/projects/cppnd-system-monitor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/cppnd-system-monitor/</guid>
-      <description>CppND-System-Monitor Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
-Github link CppND-System-Monitor</description>
+      <description> Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
+Page Links  Cpp System Monitor  </description>
     </item>
     
   </channel>

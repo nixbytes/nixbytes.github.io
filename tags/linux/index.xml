@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Linux Bytes</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in Linux on Linux Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>List of Projects</title>
+      <link>/projects/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/projects/</guid>
+      <description> Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
+Page Links  Cpp System Monitor  </description>
+    </item>
+    
+  </channel>
+</rss>
