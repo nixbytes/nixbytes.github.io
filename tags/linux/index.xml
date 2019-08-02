@@ -20,5 +20,15 @@
 Page Links  Cpp System Monitor  </description>
     </item>
     
+    <item>
+      <title>jQuery Badges Project</title>
+      <link>/projects/jquerybadgesproject/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/jquerybadgesproject/</guid>
+      <description>Use jQuery to Fetch and Show Code School Badges Using Ajax I build a personal web page that displays the courses which I completed on Code School by pulling data from the Code School website.
+GitHub Link jQuery Badges Project</description>
+    </item>
+    
   </channel>
 </rss>
