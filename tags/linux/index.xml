@@ -11,16 +11,6 @@
     
     
     <item>
-      <title>List of Projects</title>
-      <link>/projects/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/projects/</guid>
-      <description> Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
-Page Links  Cpp System Monitor  </description>
-    </item>
-    
-    <item>
       <title>jQuery Badges Project</title>
       <link>/projects/jquerybadgesproject/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -28,6 +18,16 @@ Page Links  Cpp System Monitor  </description>
       <guid>/projects/jquerybadgesproject/</guid>
       <description>Use jQuery to Fetch and Show Code School Badges Using Ajax I build a personal web page that displays the courses which I completed on Code School by pulling data from the Code School website.
 GitHub Link jQuery Badges Project</description>
+    </item>
+    
+    <item>
+      <title>List of Projects</title>
+      <link>/projects/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/projects/</guid>
+      <description> Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
+Page Links  Cpp System Monitor CppND Route Planning jQuery Badges   </description>
     </item>
     
   </channel>

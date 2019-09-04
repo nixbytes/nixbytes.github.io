@@ -10,13 +10,21 @@
   <url>
     <loc>/</loc>
     <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/posts/</loc>
     <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/multi/</loc>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/process/</loc>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -25,27 +33,13 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/multi/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/process/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/substitution/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -54,32 +48,38 @@
   </url>
   
   <url>
+    <loc>/tags/bash/</loc>
+    <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/bash-5.0/</loc>
     <lastmod>2019-01-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/bash/</loc>
-    <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/shell/</loc>
     <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/updates/</loc>
     <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/emails/</loc>
+    <lastmod>2019-01-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/ip/</loc>
     <lastmod>2019-01-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/regex/</loc>
+    <lastmod>2019-01-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,21 +88,8 @@
   </url>
   
   <url>
-    <loc>/tags/emails/</loc>
-    <lastmod>2019-01-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/regex/</loc>
-    <lastmod>2019-01-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/search/</loc>
     <lastmod>2019-01-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -123,19 +110,21 @@
   <url>
     <loc>/tags/grep/</loc>
     <lastmod>2018-12-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/ls/</loc>
     <lastmod>2018-12-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/sed/</loc>
     <lastmod>2018-12-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cat/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -144,27 +133,18 @@
   </url>
   
   <url>
-    <loc>/tags/cat/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/data/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/files/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/simple/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -173,26 +153,23 @@
   </url>
   
   <url>
+    <loc>/tags/first/</loc>
+    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/first-step/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/first/</loc>
-    <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/linux-moles/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/start/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -201,18 +178,55 @@
   </url>
   
   <url>
-    <loc>/tags/c&#43;&#43;/</loc>
-    <priority>0</priority>
+    <loc>/tags/javascript/</loc>
+    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/cpp/</loc>
-    <priority>0</priority>
+    <loc>/projects/coffee-journals/</loc>
+    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/mini-projects/</loc>
+    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/programming/</loc>
+    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/projects/</loc>
+    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/bugger/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/game/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/c&#43;&#43;/</loc>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cpp/</loc>
   </url>
   
   <url>
@@ -221,12 +235,14 @@
   
   <url>
     <loc>/tags/io2d/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/jquerybadgesproject/</loc>
   </url>
   
   <url>
     <loc>/tags/linux/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -235,22 +251,6 @@
   
   <url>
     <loc>/tags/oop/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/programming/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/projects/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -259,11 +259,6 @@
   
   <url>
     <loc>/tags/system/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/projects/jquerybadgesproject/</loc>
   </url>
   
 </urlset>

@@ -128,6 +128,26 @@ I am a Linux engineer by day and a coder by night. I am an ambitious problem sol
     </item>
     
     <item>
+      <title>Javascript 30</title>
+      <link>/projects/coffee-journals/</link>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/coffee-journals/</guid>
+      <description>My 30 Day Challenge from http://wesbos.com/javascript30/, Build 30 things in 30 days with 30 tutorials.
+My JS 30</description>
+    </item>
+    
+    <item>
+      <title>Bugger</title>
+      <link>/projects/bugger/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/bugger/</guid>
+      <description>A Classic frogger like from udacity course
+Bugger Game</description>
+    </item>
+    
+    <item>
       <title>Cpp System Monitor</title>
       <link>/projects/cppnd-system-monitor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -138,13 +158,23 @@ Github link CppND-System-Monitor</description>
     </item>
     
     <item>
+      <title>jQuery Badges Project</title>
+      <link>/projects/jquerybadgesproject/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/jquerybadgesproject/</guid>
+      <description>Use jQuery to Fetch and Show Code School Badges Using Ajax I build a personal web page that displays the courses which I completed on Code School by pulling data from the Code School website.
+GitHub Link jQuery Badges Project</description>
+    </item>
+    
+    <item>
       <title>List of Projects</title>
       <link>/projects/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/projects/</guid>
       <description> Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
-Page Links  Cpp System Monitor  </description>
+Page Links  Cpp System Monitor CppND Route Planning jQuery Badges   </description>
     </item>
     
     <item>
@@ -155,16 +185,6 @@ Page Links  Cpp System Monitor  </description>
       <guid>/projects/cppnd-route-planning-project/</guid>
       <description>Route Planning Project In this project, I had use OpenStreetMap data and the IO2D visualization library to build a route planner that finds a path between two points on a real-world map
 Github link Route Planning Project</description>
-    </item>
-    
-    <item>
-      <title>jQuery Badges Project</title>
-      <link>/projects/jquerybadgesproject/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/jquerybadgesproject/</guid>
-      <description>Use jQuery to Fetch and Show Code School Badges Using Ajax I build a personal web page that displays the courses which I completed on Code School by pulling data from the Code School website.
-GitHub Link jQuery Badges Project</description>
     </item>
     
   </channel>
