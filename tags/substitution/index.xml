@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>substitution on Linux Bytes</title>
+    <title>substitution on NixBytes</title>
     <link>/tags/substitution/</link>
-    <description>Recent content in substitution on Linux Bytes</description>
+    <description>Recent content in substitution on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
