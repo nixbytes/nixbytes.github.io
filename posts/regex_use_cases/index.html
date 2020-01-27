@@ -6,7 +6,7 @@
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="Regex&amp;rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&amp;rsquo;t have to.
+<meta name="description" content="Regex&#39;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&#39;t have to.
 so let do some exercises on regex like emails and IP for your everyday technical needs
 Finding Mailing data extract email adresses from some file"/>
 <meta name="keywords" content=""/>
@@ -29,14 +29,14 @@ Finding Mailing data extract email adresses from some file"/>
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Regex Use Cases"/>
-<meta name="twitter:description" content="Regex&rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&rsquo;t have to.
+<meta name="twitter:description" content="Regex&#39;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&#39;t have to.
 so let do some exercises on regex like emails and IP for your everyday technical needs
 Finding Mailing data extract email adresses from some file"/>
 
 
 
 <meta property="og:title" content="Regex Use Cases" />
-<meta property="og:description" content="Regex&rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&rsquo;t have to.
+<meta property="og:description" content="Regex&#39;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&#39;t have to.
 so let do some exercises on regex like emails and IP for your everyday technical needs
 Finding Mailing data extract email adresses from some file" />
 <meta property="og:type" content="article" />
@@ -147,47 +147,41 @@ Finding Mailing data extract email adresses from some file" />
     
 
     <div class="post-content">
-      
-
-<p>Regex&rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&rsquo;t have to.</p>
-
+      <p>Regex's some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn't have to.</p>
 <p>so let do some exercises on regex like emails and IP for your everyday technical needs</p>
-
 <h3 id="finding-mailing-data">Finding Mailing data</h3>
-
 <p>extract email adresses from some file</p>
-
-<pre><code class="language-regex">([[:alnum:]_.-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6})
-</code></pre>
-
-<ol>
-<li><p><code>[:alnum:]</code>: Alphanumeric characters: <code>[:alpha:]</code> and <code>[:digit:]</code>; in the <code>C</code> locale and ASCII character encoding, this is the same as <code>[0-9A-Za-z]</code>.</p></li>
-
-<li><p><code>[ _.+]</code>: One of the characters in the brackets. in which looks for one of
-these characters <code>_.+</code></p></li>
-
-<li><p><code>?</code>: Makes quantifiers &ldquo;lazy&rdquo;</p></li>
-
-<li><p><code>\.</code>: Escapes a special character for the <code>.</code></p></li>
+<pre><code class="language-regex" data-lang="regex">([[:alnum:]_.-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6})
+</code></pre><ol>
+<li>
+<p><code>[:alnum:]</code>: Alphanumeric characters: <code>[:alpha:]</code> and <code>[:digit:]</code>; in the <code>C</code> locale and ASCII character encoding, this is the same as <code>[0-9A-Za-z]</code>.</p>
+</li>
+<li>
+<p><code>[ _.+]</code>: One of the characters in the brackets. in which looks for one of
+these characters <code>_.+</code></p>
+</li>
+<li>
+<p><code>?</code>: Makes quantifiers &ldquo;lazy&rdquo;</p>
+</li>
+<li>
+<p><code>\.</code>: Escapes a special character for the <code>.</code></p>
+</li>
 </ol>
-
 <h3 id="check-for-ip-address">Check for IP address</h3>
-
 <p>Look for IPv4 address in files</p>
-
 <pre><code>([0-9]{1,3}\.){3}[0-9]{1,3}
-</code></pre>
-
-<ol>
-<li><p><code>[0-9]</code>: One of the characters in the range from 0 to 9</p></li>
-
-<li><p><code>{1,3}</code>: One to three times, &ldquo;greedy&rdquo;</p></li>
-
-<li><p><code>\.</code>: Escapes a special character for the <code>.</code></p></li>
+</code></pre><ol>
+<li>
+<p><code>[0-9]</code>: One of the characters in the range from 0 to 9</p>
+</li>
+<li>
+<p><code>{1,3}</code>: One to three times, &ldquo;greedy&rdquo;</p>
+</li>
+<li>
+<p><code>\.</code>: Escapes a special character for the <code>.</code></p>
+</li>
 </ol>
-
 <p>Like any programming language, it just requires a bit of understanding to get the hang of it. Regex is very powerful can be used for varies of a task that is needed. so keep in mind sprinkle of regex can improve on any project you are working on the shell</p>
-
 <ul>
 <li><a href="https://www.commandlinefu.com/commands/view/5668/extract-ipv4-addressess-from-file">By: rubenmoran</a></li>
 <li><a href="https://www.commandlinefu.com/commands/view/2431/extract-email-adresses-from-some-file-or-any-other-pattern">By: wires</a></li>
@@ -196,34 +190,42 @@ these characters <code>_.+</code></p></li>
 
     </div>
     
-      <div class="pagination">
-        <div class="pagination__title">
-          <span class="pagination__title-h">Read other posts</span>
-          <hr />
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Read other posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/bash-5.0/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Bash 5.0 Release</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/linux-shell-on-ipad-or-iphone/">
+                  <span class="button__text">Linux Shell on IPad or IPhone</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
         </div>
-        <div class="pagination__buttons">
-          
-            <span class="button previous">
-              <a href="/posts/bash-5.0/">
-                <span class="button__icon">←</span>
-                <span class="button__text">Bash 5.0 Release</span>
-              </a>
-            </span>
-          
-          
-            <span class="button next">
-              <a href="/posts/linux-shell-on-ipad-or-iphone/">
-                <span class="button__text">Linux Shell on IPad or IPhone</span>
-                <span class="button__icon">→</span>
-              </a>
-            </span>
-          
-        </div>
-      </div>
+      
+    
     
 
     
+      
+        
 
+      
+    
+    
     </div>
 
       </div>
@@ -244,7 +246,7 @@ these characters <code>_.+</code></p></li>
 </a>
 
       <div class="copyright">
-        <span>© 2019 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>© 2020 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
         <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
       </div>
     

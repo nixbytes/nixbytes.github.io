@@ -146,9 +146,7 @@ maybe be a simple command line tool, but it has many uses. cat is know a known
 tool throght the unix history and has been port over into GNU coreutils. One
 important factor about cat is that since because it does not require the files to
 consist of lines of text, but works with any sort of data.</p>
-
 <p>here are of the option that this tool can do beside display information.</p>
-
 <ul>
 <li><code>-b</code> (GNU: &ndash;number-nonblank), number non-blank output lines</li>
 <li><code>-e</code> implies -v but also display end-of-line characters as $ (GNU only: -E the same, but without implying -v)</li>
@@ -158,11 +156,8 @@ consist of lines of text, but works with any sort of data.</p>
 <li><code>-u</code> use unbuffered I/O for stdout. POSIX does not specify the behavior without this option.</li>
 <li><code>-v</code> (GNU: &ndash;show-nonprinting), displays nonprinting characters, except for tabs and the end of line character</li>
 </ul>
-
 <p>so let look at a few options</p>
-
 <p>for example using the <code>cat -n</code> will show the number line of a file</p>
-
 <pre><code>root@0868755f0791:/# cat -n etc/login.defs | head
      1	#
      2	# /etc/login.defs - Configuration control definitions for the login package.
@@ -175,10 +170,7 @@ consist of lines of text, but works with any sort of data.</p>
      9	# Comment lines (lines beginning with &quot;#&quot;) and blank lines are ignored.
     10	#
 
-</code></pre>
-
-<p>now let check the end of line character with the <code>cat -e</code></p>
-
+</code></pre><p>now let check the end of line character with the <code>cat -e</code></p>
 <pre><code>root@0868755f0791:/# cat -e etc/login.defs | head
 #$
 # /etc/login.defs - Configuration control definitions for the login package.$
@@ -191,10 +183,7 @@ consist of lines of text, but works with any sort of data.</p>
 # Comment lines (lines beginning with &quot;#&quot;) and blank lines are ignored.$
 #$
 
-</code></pre>
-
-<p>with the <code>cat -T</code> command flag we can see all the tab characters</p>
-
+</code></pre><p>with the <code>cat -T</code> command flag we can see all the tab characters</p>
 <pre><code>root@0868755f0791:/# cat -T etc/bash.bashrc | tail
                    return $?
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
@@ -206,10 +195,7 @@ consist of lines of text, but works with any sort of data.</p>
 ^I^Ifi
 ^I}
 fi
-</code></pre>
-
-<p>now putting it all together</p>
-
+</code></pre><p>now putting it all together</p>
 <pre><code>root@0868755f0791:/# cat -Ten etc/bash.bashrc | tail
     62	                   return $?$
     63	                elif [ -x /usr/share/command-not-found/command-not-found ]; then$
@@ -222,37 +208,44 @@ fi
     70	^I}$
     71	fi$
 </code></pre>
-
     </div>
     
-      <div class="pagination">
-        <div class="pagination__title">
-          <span class="pagination__title-h">Read other posts</span>
-          <hr />
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Read other posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/graphical-tree-file-folder/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Graphical Tree File Folder</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/first-step/">
+                  <span class="button__text">First Steps</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
         </div>
-        <div class="pagination__buttons">
-          
-            <span class="button previous">
-              <a href="/posts/graphical-tree-file-folder/">
-                <span class="button__icon">←</span>
-                <span class="button__text">Graphical Tree File Folder</span>
-              </a>
-            </span>
-          
-          
-            <span class="button next">
-              <a href="/posts/first-step/">
-                <span class="button__text">First Steps</span>
-                <span class="button__icon">→</span>
-              </a>
-            </span>
-          
-        </div>
-      </div>
+      
+    
     
 
     
+      
+        
 
+      
+    
+    
     </div>
 
       </div>
@@ -273,7 +266,7 @@ fi
 </a>
 
       <div class="copyright">
-        <span>© 2019 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>© 2020 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
         <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
       </div>
     

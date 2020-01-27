@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on NixBytes</title>
@@ -57,7 +57,7 @@ GitHub Link jQuery Badges Project</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/projects/</guid>
-      <description> Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
+      <description>Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
 Page Links  Cpp System Monitor CppND Route Planning jQuery Badges   </description>
     </item>
     

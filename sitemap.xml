@@ -1,6 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/tags/command-line/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/docker-update-images/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/grep/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/one-liners/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/shell/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/c&#43;&#43;/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/coding/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/language/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>/posts/learning-c&#43;&#43;/</loc>
@@ -8,13 +68,28 @@
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/tags/linux/</loc>
     <lastmod>2019-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>/tags/low-level/</loc>
     <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/programming/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/aws/</loc>
+    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/aws-cloud/</loc>
+    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,11 +113,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/jumpstart-python/</loc>
     <lastmod>2019-02-21T00:00:00+00:00</lastmod>
   </url>
@@ -54,11 +124,6 @@
   
   <url>
     <loc>/posts/bash-5.0/</loc>
-    <lastmod>2019-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/shell/</loc>
     <lastmod>2019-01-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,8 +158,33 @@
   </url>
   
   <url>
+    <loc>/tags/apline/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ios/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/linux-shell-on-ipad-or-iphone/</loc>
     <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/big-data/</loc>
+    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -104,11 +194,6 @@
   
   <url>
     <loc>/posts/graphical-tree-file-folder/</loc>
-    <lastmod>2018-12-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/grep/</loc>
     <lastmod>2018-12-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -193,17 +278,12 @@
   </url>
   
   <url>
-    <loc>/tags/programming/</loc>
+    <loc>/tags/projects/</loc>
     <lastmod>2017-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/projects/</loc>
-    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/projects/</loc>
     <lastmod>2017-12-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -215,10 +295,6 @@
   <url>
     <loc>/tags/game/</loc>
     <lastmod>2017-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/c&#43;&#43;/</loc>
   </url>
   
   <url>
@@ -239,10 +315,6 @@
   
   <url>
     <loc>/projects/jquerybadgesproject/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/linux/</loc>
   </url>
   
   <url>
