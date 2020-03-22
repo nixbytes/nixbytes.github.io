@@ -1,0 +1,126 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <title>Regex Use Cases - NixBytes</title>
+
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/diello.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+    
+</head>
+
+
+<body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+  
+    <div class="flex-column">
+        <div class="ads">
+    
+</div>
+
+        <div class="home">
+            <div class="logo">
+                <h1><a href="/">NixBytes</a></h1>
+            </div>
+            <div class="navigation">
+    
+    <a href="/" class="">HOME</a>
+    <a href="javascript:void(0);" class="current">ARTICLE</a>
+    
+</div>
+
+            <div>
+                <article>
+                    <h3>Regex Use Cases</h3>
+                    <div class="less">
+                        <time>Published: Sunday, Jan 6, 2019</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2 minute read&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Using 221 words
+                    </div>
+                    <div class="em"><p>Regex&rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&rsquo;t have to.</p>
+<p>so let do some exercises on regex like emails and IP for your everyday technical needs</p>
+<h3 id="finding-mailing-data">Finding Mailing data</h3>
+<p>extract email adresses from some file</p>
+<pre><code class="language-regex" data-lang="regex">([[:alnum:]_.-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6})
+</code></pre><ol>
+<li>
+<p><code>[:alnum:]</code>: Alphanumeric characters: <code>[:alpha:]</code> and <code>[:digit:]</code>; in the <code>C</code> locale and ASCII character encoding, this is the same as <code>[0-9A-Za-z]</code>.</p>
+</li>
+<li>
+<p><code>[ _.+]</code>: One of the characters in the brackets. in which looks for one of
+these characters <code>_.+</code></p>
+</li>
+<li>
+<p><code>?</code>: Makes quantifiers &ldquo;lazy&rdquo;</p>
+</li>
+<li>
+<p><code>\.</code>: Escapes a special character for the <code>.</code></p>
+</li>
+</ol>
+<h3 id="check-for-ip-address">Check for IP address</h3>
+<p>Look for IPv4 address in files</p>
+<pre><code>([0-9]{1,3}\.){3}[0-9]{1,3}
+</code></pre><ol>
+<li>
+<p><code>[0-9]</code>: One of the characters in the range from 0 to 9</p>
+</li>
+<li>
+<p><code>{1,3}</code>: One to three times, &ldquo;greedy&rdquo;</p>
+</li>
+<li>
+<p><code>\.</code>: Escapes a special character for the <code>.</code></p>
+</li>
+</ol>
+<p>Like any programming language, it just requires a bit of understanding to get the hang of it. Regex is very powerful can be used for varies of a task that is needed. so keep in mind sprinkle of regex can improve on any project you are working on the shell</p>
+<ul>
+<li><a href="https://www.commandlinefu.com/commands/view/5668/extract-ipv4-addressess-from-file">By: rubenmoran</a></li>
+<li><a href="https://www.commandlinefu.com/commands/view/2431/extract-email-adresses-from-some-file-or-any-other-pattern">By: wires</a></li>
+<li><a href="https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html">GNU Grep</a></li>
+</ul>
+</div>
+                    <br />
+                    <br />
+                    <div class="less">Page link: <a href="/posts/regex_use_cases/" class="pagelink">/posts/regex_use_cases/</a></div>
+                    <div class="line-dotted"></div>
+                <article>
+            </div>
+            <footer>
+    <div>
+    
+        &#xA9; 2019 by <a href="https://github.com/guangmean/Niello" target="_blank">guangmean</a>. All Rights Reserved.
+    
+    </div>
+</footer>
+
+        </div>
+        <div class="ads">
+    
+</div>
+
+    </div>
+
+
+  <script src="/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="/js/vendor/jquery-3.3.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="\/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>  
+
+<script src="/js/vendor/highlight.min.js"></script>  
+<script>hljs.initHighlightingOnLoad();</script>
+                                                       
+
+
+</body>
+</html>

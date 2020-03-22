@@ -1,0 +1,222 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <title>Graphical Tree File Folder - NixBytes</title>
+
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/diello.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+    
+</head>
+
+
+<body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+  
+    <div class="flex-column">
+        <div class="ads">
+    
+</div>
+
+        <div class="home">
+            <div class="logo">
+                <h1><a href="/">NixBytes</a></h1>
+            </div>
+            <div class="navigation">
+    
+    <a href="/" class="">HOME</a>
+    <a href="javascript:void(0);" class="current">ARTICLE</a>
+    
+</div>
+
+            <div>
+                <article>
+                    <h3>Graphical Tree File Folder</h3>
+                    <div class="less">
+                        <time>Published: Wednesday, Dec 26, 2018</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;3 minute read&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Using 454 words
+                    </div>
+                    <div class="em"><h2 id="graphical-tree-of-sub-directories">Graphical tree of sub-directories</h2>
+<p>This oneliner command is for a graphical tree of sub-directories, this is an excellent oneliner when you&rsquo;re in need to view the directories in a graphical format. The tree is a recursive directory listing command or program that produces a depth indented listing of files which not generally found on all Linux or Unix systems. The first Tree Unix utility was developed by Steve Baker which includes a verbose of feature and flag option. This one-liner is a quick fix for an alternative tree version for portable and easy use.</p>
+<p>let break down how this oneliner is build by go deep with the command that is
+being used.</p>
+<h3 id="using-ls">using <code>ls</code></h3>
+<p>using <code>ls -R</code> does recursively list subdirectories encountered. this will give
+every thing in directory by level of current one</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+root@19472dcaa9be:/var/log# ls -R
+.:
+alternatives.log  apt  bootstrap.log  btmp  dpkg.log  faillog  lastlog  tallylog  wtmp
+
+./apt:
+eipp.log.xz  history.log
+</code></pre></div><h3 id="using-grep">using <code>grep</code></h3>
+<p>Now with the grep command, we grep all line that end with <code>:</code>. using the <code>$</code>we
+grabbing all line with <code>:</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+root@19472dcaa9be:/var/log# ls -R | grep <span style="color:#e6db74">&#39;:$&#39;</span>
+.:
+./apt:
+</code></pre></div><h3 id="using-sed">using <code>sed</code></h3>
+<p>using the <code>sed</code> command on the final pipe <code>|</code> we will filter out the needed
+directories and add |- and additional - for each level of the directories it
+sitting in. with <code>sed</code> the flag <code>-e</code> will append the editing commands specified
+by the command argument to the list of commands.</p>
+<p>First let remove the <code>:</code> from the list directories.</p>
+<pre><code>root@80edb8b49c29:/var#  ls -R | grep &quot;:$&quot; | sed -e 's/:$//'
+.
+./backups
+./cache
+./cache/apt
+./cache/apt/archives
+./cache/apt/archives/partial
+./cache/debconf
+./cache/ldconfig
+./lib
+./lib/apt
+./lib/apt/lists
+./lib/apt/mirrors
+./lib/apt/mirrors/partial
+./lib/apt/periodic
+./lib/dpkg
+./lib/dpkg/alternatives
+./lib/dpkg/info
+./lib/dpkg/parts
+./lib/dpkg/triggers
+./lib/dpkg/updates
+./lib/misc
+./lib/pam
+./lib/systemd
+./lib/systemd/deb-systemd-helper-enabled
+./lib/systemd/deb-systemd-helper-enabled/timers.target.wants
+./local
+./log
+./log/apt
+./mail
+./opt
+./spool
+./tmp
+</code></pre><p>now let with the regex <code>s/[^-][^\/]*\//--/g</code> from sed, replace all <code>.</code> and <code>/</code>
+and stop with last <code>/</code> with a <code>--</code> when in case with add additionalm base on
+how many dirctory each lines has.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">root@80edb8b49c29:/var# ls -R | grep <span style="color:#e6db74">&#34;:</span>$<span style="color:#e6db74">&#34;</span> | sed -e <span style="color:#e6db74">&#39;s/:$//&#39;</span> -e <span style="color:#e6db74">&#39;s/[^-][^\/]*\//--/g&#39;</span>
+.
+--backups
+--cache
+----apt
+------archives
+--------partial
+----debconf
+----ldconfig
+--lib
+----apt
+------lists
+------mirrors
+--------partial
+------periodic
+----dpkg
+------alternatives
+------info
+------parts
+------triggers
+------updates
+----misc
+----pam
+----systemd
+------deb-systemd-helper-enabled
+--------timers.target.wants
+--local
+--log
+----apt
+--mail
+--opt
+--spool
+--tmp
+
+</code></pre></div><p>finally we use this two sed regex <code>-e 's/^/ /' -e 's/-/|/'</code> and add spacing and
+<code>|</code> to the begining of the list. thier you go we have a quick tree of the
+directories with <code>--</code> as levels.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+root@19472dcaa9be:/var# ls -R | grep <span style="color:#e6db74">&#34;:</span>$<span style="color:#e6db74">&#34;</span> | sed -e <span style="color:#e6db74">&#39;s/:$//&#39;</span> -e <span style="color:#e6db74">&#39;s/[^-][^\/]*\//--/g&#39;</span> -e <span style="color:#e6db74">&#39;s/^/ /&#39;</span> -e <span style="color:#e6db74">&#39;s/-/|/&#39;</span>
+ .
+ |-backups
+ |-cache
+ |---apt
+ |-----archives
+ |-------partial
+ |---debconf
+ |---ldconfig
+ |-lib
+ |---apt
+ |-----lists
+ |-----mirrors
+ |-------partial
+ |-----periodic
+ |---dpkg
+ |-----alternatives
+ |-----info
+ |-----parts
+ |-----triggers
+ |-----updates
+ |---misc
+ |---pam
+ |---systemd
+ |-----deb-systemd-helper-enabled
+ |-------timers.target.wants
+ |-local
+ |-log
+ |---apt
+ |-mail
+ |-opt
+ |-spool
+ |-tmp
+
+</code></pre></div><p>credit: unixmonkey842 <a href="https://www.commandlinefu.com/commands/view/710/graphical-tree-of-sub-directories">source</a></p>
+</div>
+                    <br />
+                    <br />
+                    <div class="less">Page link: <a href="/posts/graphical-tree-file-folder/" class="pagelink">/posts/graphical-tree-file-folder/</a></div>
+                    <div class="line-dotted"></div>
+                <article>
+            </div>
+            <footer>
+    <div>
+    
+        &#xA9; 2019 by <a href="https://github.com/guangmean/Niello" target="_blank">guangmean</a>. All Rights Reserved.
+    
+    </div>
+</footer>
+
+        </div>
+        <div class="ads">
+    
+</div>
+
+    </div>
+
+
+  <script src="/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="/js/vendor/jquery-3.3.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="\/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>  
+
+<script src="/js/vendor/highlight.min.js"></script>  
+<script>hljs.initHighlightingOnLoad();</script>
+                                                       
+
+
+</body>
+</html>

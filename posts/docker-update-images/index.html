@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <title>Docker Update Images - NixBytes</title>
+
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/diello.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+    
+</head>
+
+
+<body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+  
+    <div class="flex-column">
+        <div class="ads">
+    
+</div>
+
+        <div class="home">
+            <div class="logo">
+                <h1><a href="/">NixBytes</a></h1>
+            </div>
+            <div class="navigation">
+    
+    <a href="/" class="">HOME</a>
+    <a href="javascript:void(0);" class="current">ARTICLE</a>
+    
+</div>
+
+            <div>
+                <article>
+                    <h3>Docker Update Images</h3>
+                    <div class="less">
+                        <time>Published: Wednesday, Nov 27, 2019</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;1 minute read&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Using 63 words
+                    </div>
+                    <div class="em"><p>A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull <!-- raw HTML omitted --> command. This simple one-liner can help you update all images at once.</p>
+<pre><code>docker images |grep -v REPOSITORY|awk '{print $1}'|xargs -L1 docker pull
+</code></pre></div>
+                    <br />
+                    <br />
+                    <div class="less">Page link: <a href="/posts/docker-update-images/" class="pagelink">/posts/docker-update-images/</a></div>
+                    <div class="line-dotted"></div>
+                <article>
+            </div>
+            <footer>
+    <div>
+    
+        &#xA9; 2019 by <a href="https://github.com/guangmean/Niello" target="_blank">guangmean</a>. All Rights Reserved.
+    
+    </div>
+</footer>
+
+        </div>
+        <div class="ads">
+    
+</div>
+
+    </div>
+
+
+  <script src="/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="/js/vendor/jquery-3.3.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="\/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>  
+
+<script src="/js/vendor/highlight.min.js"></script>  
+<script>hljs.initHighlightingOnLoad();</script>
+                                                       
+
+
+</body>
+</html>

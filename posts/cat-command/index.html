@@ -1,0 +1,152 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <title>Cat Command - NixBytes</title>
+
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/diello.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+    
+</head>
+
+
+<body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+  
+    <div class="flex-column">
+        <div class="ads">
+    
+</div>
+
+        <div class="home">
+            <div class="logo">
+                <h1><a href="/">NixBytes</a></h1>
+            </div>
+            <div class="navigation">
+    
+    <a href="/" class="">HOME</a>
+    <a href="javascript:void(0);" class="current">ARTICLE</a>
+    
+</div>
+
+            <div>
+                <article>
+                    <h3>Cat Command</h3>
+                    <div class="less">
+                        <time>Published: Sunday, Dec 16, 2018</time>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;3 minute read&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Using 461 words
+                    </div>
+                    <div class="em"><p>The cat is known for reading files sequentially and display its output. it
+maybe be a simple command line tool, but it has many uses. cat is know a known
+tool throght the unix history and has been port over into GNU coreutils. One
+important factor about cat is that since because it does not require the files to
+consist of lines of text, but works with any sort of data.</p>
+<p>here are of the option that this tool can do beside display information.</p>
+<ul>
+<li><code>-b</code> (GNU: &ndash;number-nonblank), number non-blank output lines</li>
+<li><code>-e</code> implies -v but also display end-of-line characters as $ (GNU only: -E the same, but without implying -v)</li>
+<li><code>-n</code> (GNU: &ndash;number), number all output lines</li>
+<li><code>-s</code> (GNU: &ndash;squeeze-blank), squeeze multiple adjacent blank lines</li>
+<li><code>-t</code> implies -v, but also display tabs as ^I (GNU: -T the same, but without implying -v)</li>
+<li><code>-u</code> use unbuffered I/O for stdout. POSIX does not specify the behavior without this option.</li>
+<li><code>-v</code> (GNU: &ndash;show-nonprinting), displays nonprinting characters, except for tabs and the end of line character</li>
+</ul>
+<p>so let look at a few options</p>
+<p>for example using the <code>cat -n</code> will show the number line of a file</p>
+<pre><code>root@0868755f0791:/# cat -n etc/login.defs | head
+     1	#
+     2	# /etc/login.defs - Configuration control definitions for the login package.
+     3	#
+     4	# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.
+     5	# If unspecified, some arbitrary (and possibly incorrect) value will
+     6	# be assumed.  All other items are optional - if not specified then
+     7	# the described action or option will be inhibited.
+     8	#
+     9	# Comment lines (lines beginning with &quot;#&quot;) and blank lines are ignored.
+    10	#
+
+</code></pre><p>now let check the end of line character with the <code>cat -e</code></p>
+<pre><code>root@0868755f0791:/# cat -e etc/login.defs | head
+#$
+# /etc/login.defs - Configuration control definitions for the login package.$
+#$
+# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.$
+# If unspecified, some arbitrary (and possibly incorrect) value will$
+# be assumed.  All other items are optional - if not specified then$
+# the described action or option will be inhibited.$
+#$
+# Comment lines (lines beginning with &quot;#&quot;) and blank lines are ignored.$
+#$
+
+</code></pre><p>with the <code>cat -T</code> command flag we can see all the tab characters</p>
+<pre><code>root@0868755f0791:/# cat -T etc/bash.bashrc | tail
+                   return $?
+                elif [ -x /usr/share/command-not-found/command-not-found ]; then
+^I^I   /usr/share/command-not-found/command-not-found -- &quot;$1&quot;
+                   return $?
+^I^Ielse
+^I^I   printf &quot;%s: command not found\n&quot; &quot;$1&quot; &gt;&amp;2
+^I^I   return 127
+^I^Ifi
+^I}
+fi
+</code></pre><p>now putting it all together</p>
+<pre><code>root@0868755f0791:/# cat -Ten etc/bash.bashrc | tail
+    62	                   return $?$
+    63	                elif [ -x /usr/share/command-not-found/command-not-found ]; then$
+    64	^I^I   /usr/share/command-not-found/command-not-found -- &quot;$1&quot;$
+    65	                   return $?$
+    66	^I^Ielse$
+    67	^I^I   printf &quot;%s: command not found\n&quot; &quot;$1&quot; &gt;&amp;2$
+    68	^I^I   return 127$
+    69	^I^Ifi$
+    70	^I}$
+    71	fi$
+</code></pre></div>
+                    <br />
+                    <br />
+                    <div class="less">Page link: <a href="/posts/cat-command/" class="pagelink">/posts/cat-command/</a></div>
+                    <div class="line-dotted"></div>
+                <article>
+            </div>
+            <footer>
+    <div>
+    
+        &#xA9; 2019 by <a href="https://github.com/guangmean/Niello" target="_blank">guangmean</a>. All Rights Reserved.
+    
+    </div>
+</footer>
+
+        </div>
+        <div class="ads">
+    
+</div>
+
+    </div>
+
+
+  <script src="/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="/js/vendor/jquery-3.3.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="\/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>  
+
+<script src="/js/vendor/highlight.min.js"></script>  
+<script>hljs.initHighlightingOnLoad();</script>
+                                                       
+
+
+</body>
+</html>
