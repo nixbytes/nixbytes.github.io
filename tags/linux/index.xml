@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on NixBytes</title>
+    <title>Linux on NixBytes</title>
     <link>/tags/linux/</link>
-    <description>Recent content in linux on NixBytes</description>
+    <description>Recent content in Linux on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
@@ -50,23 +50,13 @@ Why Alpine Linux you say?</description>
     </item>
     
     <item>
-      <title>jQuery Badges Project</title>
-      <link>/projects/jquerybadgesproject/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/jquerybadgesproject/</guid>
-      <description>Use jQuery to Fetch and Show Code School Badges Using Ajax I build a personal web page that displays the courses which I completed on Code School by pulling data from the Code School website.
-GitHub Link jQuery Badges Project</description>
-    </item>
-    
-    <item>
       <title>List of Projects</title>
-      <link>/projects/projects/</link>
+      <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/projects/</guid>
+      <guid>/projects/</guid>
       <description>Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
-Page Links  Cpp System Monitor CppND Route Planning jQuery Badges   </description>
+Page Links  Python HTTP Services BirthDay CountDown Wizard Battle Weather Cliet Guess Number Python File Searcher Bhyves WebSite Weather Journal App Cpp System Monitor CppND Route Planning  </description>
     </item>
     
   </channel>

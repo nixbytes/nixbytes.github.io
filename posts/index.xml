@@ -76,7 +76,7 @@ comments from the mailing list</description>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/regex_use_cases/</guid>
-      <description>Regex&#39;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&#39;t have to.
+      <description>Regex&amp;rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&amp;rsquo;t have to.
 so let do some exercises on regex like emails and IP for your everyday technical needs
 Finding Mailing data extract email adresses from some file</description>
     </item>
@@ -106,7 +106,7 @@ Why Alpine Linux you say?</description>
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/graphical-tree-file-folder/</guid>
-      <description>Graphical tree of sub-directories This oneliner command is for a graphical tree of sub-directories, this is an excellent oneliner when you&#39;re in need to view the directories in a graphical format. The tree is a recursive directory listing command or program that produces a depth indented listing of files which not generally found on all Linux or Unix systems. The first Tree Unix utility was developed by Steve Baker which includes a verbose of feature and flag option.</description>
+      <description>Graphical tree of sub-directories This oneliner command is for a graphical tree of sub-directories, this is an excellent oneliner when you&amp;rsquo;re in need to view the directories in a graphical format. The tree is a recursive directory listing command or program that produces a depth indented listing of files which not generally found on all Linux or Unix systems. The first Tree Unix utility was developed by Steve Baker which includes a verbose of feature and flag option.</description>
     </item>
     
     <item>
