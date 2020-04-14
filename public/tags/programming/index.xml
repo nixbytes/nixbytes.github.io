@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on NixBytes</title>
+    <link>/tags/programming/</link>
+    <description>Recent content in Programming on NixBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning C&#43;&#43;</title>
+      <link>/posts/learning-c&#43;&#43;/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/learning-c&#43;&#43;/</guid>
+      <description>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
+First The Community The language itself has many followers, and many business use C++ for varies of reason.</description>
+    </item>
+    
+    <item>
+      <title>Mastering Regular Expressions</title>
+      <link>/posts/mastering-regular-expressions/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/mastering-regular-expressions/</guid>
+      <description>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</description>
+    </item>
+    
+    <item>
+      <title>Javascript 30</title>
+      <link>/projects/coffee-journals/</link>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/coffee-journals/</guid>
+      <description>My 30 Day Challenge from http://wesbos.com/javascript30/, Build 30 things in 30 days with 30 tutorials.
+My JS 30</description>
+    </item>
+    
+    <item>
+      <title>Bugger</title>
+      <link>/projects/bugger/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/bugger/</guid>
+      <description>A Classic frogger like from udacity course
+Bugger Game</description>
+    </item>
+    
+    <item>
+      <title>Cpp System Monitor</title>
+      <link>/projects/cppnd-system-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cppnd-system-monitor/</guid>
+      <description>CppND-System-Monitor Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
+Github link CppND-System-Monitor</description>
+    </item>
+    
+    <item>
+      <title>jQuery Badges Project</title>
+      <link>/projects/jquerybadgesproject/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/jquerybadgesproject/</guid>
+      <description>Use jQuery to Fetch and Show Code School Badges Using Ajax I build a personal web page that displays the courses which I completed on Code School by pulling data from the Code School website.
+GitHub Link jQuery Badges Project</description>
+    </item>
+    
+    <item>
+      <title>List of Projects</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
+Page Links  Python HTTP Services BirthDay CountDown Wizard Battle Weather Cliet Guess Number Python File Searcher Bhyves WebSite Weather Journal App Cpp System Monitor CppND Route Planning  </description>
+    </item>
+    
+    <item>
+      <title>List of Projects</title>
+      <link>/projects/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/projects/</guid>
+      <description>Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
+Page Links  Cpp System Monitor CppND Route Planning jQuery Badges   </description>
+    </item>
+    
+    <item>
+      <title>Route Planning Project</title>
+      <link>/projects/cppnd-route-planning-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cppnd-route-planning-project/</guid>
+      <description>Route Planning Project In this project, I had use OpenStreetMap data and the IO2D visualization library to build a route planner that finds a path between two points on a real-world map
+Github link Route Planning Project</description>
+    </item>
+    
+  </channel>
+</rss>
