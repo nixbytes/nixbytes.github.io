@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CPP on NixBytes</title>
+    <link>/tags/cpp/</link>
+    <description>Recent content in CPP on NixBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cpp System Monitor</title>
+      <link>/projects/cppnd-system-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cppnd-system-monitor/</guid>
+      <description>CppND-System-Monitor Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
+Github link CppND-System-Monitor</description>
+    </item>
+    
+    <item>
+      <title>Route Planning Project</title>
+      <link>/projects/cppnd-route-planning-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cppnd-route-planning-project/</guid>
+      <description>Route Planning Project In this project, I had use OpenStreetMap data and the IO2D visualization library to build a route planner that finds a path between two points on a real-world map
+Github link Route Planning Project</description>
+    </item>
+    
+  </channel>
+</rss>
