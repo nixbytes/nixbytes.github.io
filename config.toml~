@@ -19,7 +19,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "LinuxBytes"
+    title = "NixBytes"
     subtitle = "Linux Admin by day and a Coder by night"
     keywords = ""
     copyright = ""
