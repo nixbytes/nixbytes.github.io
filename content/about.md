@@ -18,11 +18,8 @@ having work with varies of unix and linux system, love the platform and phusogy 
 
 #### Web Technology
 
-The web has given us so much, I believe it should still be open and free. 
-
+The web has given us so much, I believe it should still be open and free. That why we need to help opensource projects.
 
 #### Code
 
-
-
-![LinuxBytes Repo]()
+![LinuxBytes Repo](https://github.com/linuxbytes)
