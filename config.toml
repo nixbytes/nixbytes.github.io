@@ -38,9 +38,13 @@ paginate = 5
       logoHomeLink = "/"
     # or
     #
-    # path = "/img/your-example-logo.svg"
+    #  path = "/img/glitch-logo.GIF"
+     alt = "Linux Admin by day and a Coder by night"
     # alt = "Your example logo alt text"
 
+    [[params.social]]
+      name = "email"
+      url  = "mailto:real8686@gmail.com"
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "blog"
