@@ -14,12 +14,14 @@ I am continually evaluating and upgrading my skills so that I can stay at the cu
 
 #### Nix Like System
 
-having work with varies of unix and linux system, love the platform and phusogy on how this technology has done and involed over the years. Primary Linux Distro include Redhat, Centos, Ubuntu, Debian and expieremented with varies others.
+I Have worked with various Unix and Linux systems, love the platform, and philosophy on how this technology has done and involved over the years. Primary Linux Distro includes Redhat, Centos, Ubuntu, Debian, and experimented with various others.
 
 #### Web Technology
 
-The web has given us so much, I believe it should still be open and free. That why we need to help opensource projects.
+The web has given us so much. I believe it should still be open and free—that why we need to help opensource projects to ensure its freedom and assessability for all
 
 #### Code
+
+Love to code on my spare time, its a great way to keep the mind busy.
 
 ![LinuxBytes Repo](https://github.com/linuxbytes)
