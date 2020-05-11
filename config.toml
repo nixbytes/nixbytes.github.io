@@ -43,6 +43,9 @@ paginate = 5
     # alt = "Your example logo alt text"
 
     [[params.social]]
+      name = "github"
+      url  = "https://github.com/linuxbytes"
+    [[params.social]]
       name = "email"
       url  = "mailto:real8686@gmail.com"
     [languages.en.menu]
