@@ -11,11 +11,12 @@ paginate = 5
   contentTypeName = "posts"
   # "light" or "dark"
   defaultTheme = "dark"
-  # if you set this to 0, only submenu trigger will be visible
+  # If you set this to 0, only submenu trigger will be visible
   showMenuItems = 3
   # Show reading time in minutes for posts
   showReadingTime = false
-
+  # Add Home tile
+  homeSubtitle = "Linux Admin by day and a Coder by night"
 
 [languages]
   [languages.en]
@@ -32,7 +33,7 @@ paginate = 5
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
-
+    
     [languages.en.params.logo]
       logoText = "LinuxBytes"
       logoHomeLink = "/"
