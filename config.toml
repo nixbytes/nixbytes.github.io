@@ -58,10 +58,10 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "projects"
-        name = "Projects"
-        url = "/projects"
+      # [[languages.en.menu.main]]
+      #   identifier = "projects"
+      #   name = "Projects"
+      #   url = "/projects"
 
 [taxonomies]
   tag      = "tags"
