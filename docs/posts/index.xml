@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on NixBytes</title>
+        <title>Posts on LinuxBytes</title>
         <link>/posts/</link>
-        <description>Recent content in Posts on NixBytes</description>
+        <description>Recent content in Posts on LinuxBytes</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>

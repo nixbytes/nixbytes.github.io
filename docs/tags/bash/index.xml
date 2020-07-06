@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bash on NixBytes</title>
+    <title>bash on LinuxBytes</title>
     <link>/tags/bash/</link>
-    <description>Recent content in bash on NixBytes</description>
+    <description>Recent content in bash on LinuxBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate>

@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/one-liners/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
@@ -228,16 +233,6 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <lastmod>2018-12-04T22:02:58-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-12-04T22:02:58-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/first/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
   </url>
@@ -263,78 +258,7 @@
   </url>
   
   <url>
-    <loc>/tags/javascript/</loc>
-    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/coffee-journals/</loc>
-    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/mini-projects/</loc>
-    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/projects/</loc>
-    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
-    <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/bugger/</loc>
-    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/game/</loc>
-    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/cpp/</loc>
-  </url>
-  
-  <url>
-    <loc>/projects/cppnd-system-monitor/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/io2d/</loc>
-  </url>
-  
-  <url>
-    <loc>/projects/jquerybadgesproject/</loc>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>/projects/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/oop/</loc>
-  </url>
-  
-  <url>
-    <loc>/projects/cppnd-route-planning-project/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/system/</loc>
   </url>
   
 </urlset>

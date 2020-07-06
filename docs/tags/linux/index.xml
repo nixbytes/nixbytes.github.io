@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on NixBytes</title>
+    <title>linux on LinuxBytes</title>
     <link>/tags/linux/</link>
-    <description>Recent content in Linux on NixBytes</description>
+    <description>Recent content in linux on LinuxBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
@@ -47,36 +47,6 @@ Why Alpine Linux you say?</description>
       
       <guid>/posts/mastering-regular-expressions/</guid>
       <description>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</description>
-    </item>
-    
-    <item>
-      <title>jQuery Badges Project</title>
-      <link>/projects/jquerybadgesproject/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/jquerybadgesproject/</guid>
-      <description>Use jQuery to Fetch and Show Code School Badges Using Ajax I build a personal web page that displays the courses which I completed on Code School by pulling data from the Code School website.
-GitHub Link jQuery Badges Project</description>
-    </item>
-    
-    <item>
-      <title>List of Projects</title>
-      <link>/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/</guid>
-      <description>Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
-Page Links  Python HTTP Services BirthDay CountDown Wizard Battle Weather Cliet Guess Number Python File Searcher Bhyves WebSite Weather Journal App Cpp System Monitor CppND Route Planning  </description>
-    </item>
-    
-    <item>
-      <title>List of Projects</title>
-      <link>/projects/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/projects/</guid>
-      <description>Projects This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links.
-Page Links  Cpp System Monitor CppND Route Planning jQuery Badges   </description>
     </item>
     
   </channel>
