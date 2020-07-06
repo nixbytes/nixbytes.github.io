@@ -49,7 +49,10 @@ paginate = 5
     [[params.social]]
       name = "email"
       url  = "mailto:real8686@gmail.com"
-    [languages.en.menu]
+    [[params.social]]
+      name = "twitter"   
+      url  = "https://twitter.com/linuxbyte3"
+
       [[languages.en.menu.main]]
         identifier = "blog"
         name = "Blog"

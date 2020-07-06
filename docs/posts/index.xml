@@ -1,0 +1,657 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on LinuxBytes</title>
+        <link>/posts/</link>
+        <description>Recent content in Posts on LinuxBytes</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Docker Update Images</title>
+            <link>/posts/docker-update-images/</link>
+            <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/docker-update-images/</guid>
+            <description>A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
+docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull </description>
+            <content type="html"><![CDATA[<p>A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull <!-- raw HTML omitted --> command. This simple one-liner can help you update all images at once.</p>
+<pre><code>docker images |grep -v REPOSITORY|awk '{print $1}'|xargs -L1 docker pull
+</code></pre>]]></content>
+        </item>
+        
+        <item>
+            <title>Learning C&#43;&#43;</title>
+            <link>/posts/learning-c&#43;&#43;/</link>
+            <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/learning-c&#43;&#43;/</guid>
+            <description>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
+First The Community The language itself has many followers, and many business use C++ for varies of reason.</description>
+            <content type="html"><![CDATA[<p>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.</p>
+<h3 id="first-the-community">First The Community</h3>
+<p>The language itself has many followers, and many business use C++ for varies of reason. Having a great community is one of the primary core foundations that any language should have. With a good community, you can get support, and the more people will be building useful tools to make development in that particular language more accessible. That being said, that language is used a lot in AAA game companies. Also, it doesn&rsquo;t hurt that the language has an overall high answer rate on StackOverflow.</p>
+<h3 id="control">Control</h3>
+<p>This language is very performant in the right hands of a developer. Since it&rsquo;s statically typed language, C++ is generally more performant than dynamically typed languages because the code is type-checked before it is executed.  in which will take up a minimal resource if done correctly.</p>
+<h3 id="scalability">Scalability</h3>
+<p>One of its greatest strength it&rsquo;s how it scales, in the CG (computer graphics) the language is used primarily for these areas of programming for its scalability. As mention before in game programming is one of them.</p>
+<h3 id="various-of-styles">Various of Styles</h3>
+<p>C++ is a multiparadigm programming language that not only supports OOP paradigm. The language also supports anonymous functions, also known as lambda expressions. It contains generic programming styles, which allow one value to take on different types, or you Free-form the language in which you only have to follow the semantic rules of C++.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Aws Cloud Tools</title>
+            <link>/posts/aws-cloud/</link>
+            <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/aws-cloud/</guid>
+            <description>AWS Cloud The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. Now in day scripting is mostly tie to automation. as I alway say, if you can type, you script it and finally you can automate. That why shell interface is so vital in today technology,</description>
+            <content type="html"><![CDATA[<h1 id="aws-cloud">AWS Cloud</h1>
+<p>The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. Now in day scripting is mostly tie to automation. as I alway say, if you can type, you script it and finally you can automate. That why shell interface is so vital in today technology,</p>
+<h4 id="great-reosources-to-use">Great Reosources to use</h4>
+<ul>
+<li><a href="https://github.com/awslabs/aws-shell">https://github.com/awslabs/aws-shell</a></li>
+<li><a href="https://github.com/donnemartin/saws">https://github.com/donnemartin/saws</a></li>
+<li><a href="https://github.com/aws/aws-cli">https://github.com/aws/aws-cli</a></li>
+<li><a href="https://github.com/awslabs/awscli-aliases">https://github.com/awslabs/awscli-aliases</a></li>
+<li><a href="https://github.com/aws/amazon-ecs-cli">https://github.com/aws/amazon-ecs-cli</a></li>
+<li><a href="https://github.com/aws/awsmobile-cli">https://github.com/aws/awsmobile-cli</a></li>
+<li><a href="https://github.com/amazon-archives/awscli-cookbook">https://github.com/amazon-archives/awscli-cookbook</a></li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Process Substitution</title>
+            <link>/posts/process-substitution/</link>
+            <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/process-substitution/</guid>
+            <description>In the shell piping, the stdout of a command into the stdin is a powerful technique in the terminal. But, what happens if you need to pipe the stdout of multiple commands, for example comparing and sort text data? Let use an example of where process substitution can be used.
+example:
+&amp;lt;(list) or &amp;gt;(list) Now let try view the lines unique to each of these two unsorted files with using process substitution.</description>
+            <content type="html"><![CDATA[<p>In the shell piping, the stdout of a command into the stdin is a powerful technique in the terminal. But, what happens if you need to pipe the stdout of multiple commands, for example comparing and sort text data? Let use an example of where process substitution can be used.</p>
+<p>example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+  &lt;<span style="color:#f92672">(</span>list<span style="color:#f92672">)</span>
+or
+  &gt;<span style="color:#f92672">(</span>list<span style="color:#f92672">)</span>
+
+</code></pre></div><p>Now let try view the lines unique to each of these two unsorted files with using process substitution.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+&gt; sort file1 | uniq &gt;ex1
+&gt; sort file2 | uniq &gt;ex2
+&gt; comm -3 tmp1 tmp2
+        c
+        d
+        f
+&gt; rm ex1 ex2
+
+</code></pre></div><p>as you can see both files needed to be created in order to compare, with process substitution we can do all this with one line</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+&gt; comm -3 &lt;<span style="color:#f92672">(</span>sort a | uniq<span style="color:#f92672">)</span> &lt;<span style="color:#f92672">(</span>sort b | uniq<span style="color:#f92672">)</span>
+
+         c
+         d
+         f
+
+</code></pre></div><p>Let&rsquo;s point what makes process substitution a great shell technique. First, there is no need to save temporary files or create named pipes first. Secondary Reading directly from another process is often faster than having to write a temporary file to this k, then read it back in. Which make this not tie to the IO and won&rsquo;t require disk space. The substituted process can be running concurrently, which can make shell scripts to taking advantage of multiprocessing to reduce the total time for the computation.</p>
+<h4 id="wiki-history">Wiki History</h4>
+<p>Process substitution was available as a compile-time option for ksh88, the 1988 version of the Korn shell from Bell Labs.[1] The Bash shell provided process substitution no later than version 1.14, released in 1994</p>
+<p><img src="https://en.wikipedia.org/wiki/Process_substitution" alt="wiki source"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Jumpstart Python</title>
+            <link>/posts/jumpstart-python/</link>
+            <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/jumpstart-python/</guid>
+            <description>Python Jumpstart by Building 10 Apps &amp;ldquo;The Python Jumpstart by Building 10 Apps Course&amp;rdquo; is a great path to get started on learning python and some of the core features. Micheal Kenndy explains each topic in details and with good examples. Python is growing, and the demand for the skill set is high peak right now. Python Jumpstart will help anyone to get started on the language. I enjoy doing these small projects.</description>
+            <content type="html"><![CDATA[<h3 id="python-jumpstart-by-building-10-apps">Python Jumpstart by Building 10 Apps</h3>
+<p>&ldquo;The Python Jumpstart by Building 10 Apps Course&rdquo; is a great path to get started on learning python and some of the core features. Micheal Kenndy explains each topic in details and with good examples. Python is growing, and the demand for the skill set is high peak right now. Python Jumpstart will help anyone to get started on the language. I enjoy doing these small projects. For experienced programmers or someone who already know Ruby, Java, or JavaScript, learning Python Jumpstart will help anyone get started fast with this powerful language. The few things I enjoyed during my journey with JumpStart is the wide array of coverage that the course provides. For example &ldquo;Birthday app&rdquo; cover a significant aspect of programming like dates and times. Also the Wizard battle project cover classes, inheritance, and python magic methods.</p>
+<h3 id="focus-on-the-language-concepts-listed-under-them-with-thier-source">focus on the language concepts listed under them with thier source</h3>
+<ol>
+<li><a href="https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/01_hello_world/you_try"><strong>Hello world</strong></a>
+<ul>
+<li>test your environment</li>
+</ul>
+</li>
+<li><a href="https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/02-guess-number-app"><strong>Guess that number</strong></a>
+<ul>
+<li>user input</li>
+<li>conditionals</li>
+<li>string parsing</li>
+</ul>
+</li>
+<li><a href="https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/03_birthday/you_try"><strong>Birthday app</strong></a>
+<ul>
+<li>dates and times</li>
+</ul>
+</li>
+<li><a href="https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/04_journal/you_try"><strong>Personal journal</strong></a>
+<ul>
+<li>text-based file i/o</li>
+</ul>
+</li>
+<li><a href="https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/05_weather_client/you_try"><strong>Weather client</strong></a>
+<ul>
+<li>external packages</li>
+<li>pip</li>
+<li>screen scraping</li>
+<li>HTTP clients</li>
+</ul>
+</li>
+<li><a href="https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/06_lolcat_factory/you_try"><strong>LOL Cats Factory</strong></a>
+<ul>
+<li>binary files on the internet</li>
+</ul>
+</li>
+<li><a href="https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/07_wizard_battle/you_try"><strong>Wizard battle</strong></a>
+<ul>
+<li>classes</li>
+<li>inheritance</li>
+<li>magic methods</li>
+</ul>
+</li>
+<li><a href="https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/08_file_searcher/you_try"><strong>File searcher</strong></a>
+<ul>
+<li>navigating the file system</li>
+<li>generator methods</li>
+</ul>
+</li>
+<li><a href="https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/09_real_estate_analyzer/you_try"><strong>Real estate analyzer</strong></a>
+<ul>
+<li>file formats</li>
+<li>list comprehensions</li>
+<li>generators expressions</li>
+</ul>
+</li>
+<li><a href="https://github.com/mikeckennedy/python-jumpstart-course-demos/tree/master/apps/10_movie_search/you_try"><strong>Movie lookup app</strong></a>
+<ul>
+<li>error handling</li>
+<li>exceptions</li>
+<li>Advanced HTTP clients</li>
+</ul>
+</li>
+</ol>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Bash 5.0 Release</title>
+            <link>/posts/bash-5.0/</link>
+            <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/bash-5.0/</guid>
+            <description>Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
+comments from the mailing list</description>
+            <content type="html"><![CDATA[<p>Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also  The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it</p>
+<p>comments from the mailing list</p>
+<blockquote>
+<p>This release fixes several outstanding bugs in bash-4.4 and introduces several new features. The most significant bug fixes are an overhaul of how nameref variables resolve and a number of potential out-of-bounds memory errors discovered via fuzzing. There are a number of changes to the expansion of <code>$@</code> and <code>$*</code> in various contexts where word splitting is not performed to conform to a Posix standard interpretation, and additional changes to resolve corner cases for Posix conformance.</p>
+</blockquote>
+<p>Here are the large amount cool feature added to powerful shell</p>
+<h3 id="directly-from-the-mailing-list">Directly from the mailing list</h3>
+<ol>
+<li>New Features in Bash</li>
+</ol>
+<p>a. The <code>wait</code> builtin can now wait for the last process substitution created.</p>
+<p>b. There is an EPOCHSECONDS variable, which expands to the time in seconds
+since the Unix epoch.</p>
+<p>c. There is an EPOCHREALTIME variable, which expands to the time in seconds
+since the Unix epoch with microsecond granularity.</p>
+<p>d. New loadable builtins: rm, stat, fdflags.</p>
+<p>e. <code>BASH_ARGV0</code>: a new variable that expands to $0 and sets $0 on assignment.</p>
+<p>f. When supplied a numeric argument, the shell-expand-line bindable readline
+command does not perform quote removal and suppresses command and process
+substitution.</p>
+<p>g. <code>history -d</code> understands negative arguments: negative arguments offset from
+the end of the history list.</p>
+<p>h. The <code>name</code> argument to the <code>coproc</code> reserved word now undergoes word
+expansion, so unique coprocs can be created in loops.</p>
+<p>i. A nameref name resolution loop in a function now resolves to a variable by
+that name in the global scope.</p>
+<p>j. The <code>wait</code> builtin now has a <code>-f</code> option, which signfies to wait until the
+specified job or process terminates, instead of waiting until it changes
+state.</p>
+<p>k. There is a define in config-top.h that allows the shell to use a static
+value for <code>$PATH</code>, overriding whatever is in the environment at startup, for
+use by the restricted shell.</p>
+<p>l. Process substitution does not inherit the <code>v</code> option, like command
+substitution.</p>
+<p>m. If a non-interactive shell with job control enabled detects that a foreground
+job died due to <code>SIGINT</code>, it acts as if it received the <code>SIGINT</code>.</p>
+<p>n. The <code>SIGCHLD</code> trap is run once for each exiting child process even if job
+control is not enabled when the shell is in Posix mode.</p>
+<p>o. A new shopt option: <code>localvar_inherit</code>; if set, a local variable inherits the
+value of a variable with the same name at the nearest preceding scope.</p>
+<p>p. <code>bind -r</code> now checks whether a key sequence is bound before binding it to
+NULL, to avoid creating keymaps for a multi-key sequence.</p>
+<p>q. A numeric argument to the line editing <code>operate-and-get-next</code> command
+specifies which history entry to use.</p>
+<p>r. The positional parameters are now assigned before running the shell startup
+files, so startup files can use address@hidden</p>
+<p>s. There is a compile-time option that forces the shell to disable the check
+for an inherited OLDPWD being a directory.</p>
+<p>t. The <code>history</code> builtin can now delete ranges of history entries using
+<code>-d start-end</code>.</p>
+<p>u. The <code>vi-edit-and-execute-command</code> bindable readline command now puts readline
+back in vi insertion mode after executing commands from the edited file.</p>
+<p>v. The command completion code now matches aliases and shell function names
+case-insensitively if the readline completion-ignore-case variable is set.</p>
+<p>w. There is a new <code>assoc_expand_once</code> shell option that attempts to expand
+associative array subscripts only once.</p>
+<p>x. The shell only sets up <code>BASH_ARGV</code> and <code>BASH_ARGC</code> at startup if extended
+debugging mode is active. The old behavior of unconditionally setting them
+is available as part of the shell compatibility options.</p>
+<p>y. The <code>umask</code> builtin now allows modes and masks greater than octal 777.</p>
+<p>z. The <code>times</code> builtin now honors the current locale when printing a decimal
+point.</p>
+<p>aa. There is a new (disabled by default, undocumented) shell option to enable and disable sending history to syslog at runtime.</p>
+<p>bb. Bash no longer allows variable assignments preceding a special builtin that changes variable attributes to propagate back to the calling environment unless the compatibility level is 44 or lower.</p>
+<p>cc. You can set the default value for $HISTSIZE at build time in config-top.h.</p>
+<p>dd. The <code>complete</code> builtin now accepts a <code>-I</code> option that applies the completion to the initial word on the line.</p>
+<p>ee.  The internal bash malloc now uses mmap (if available) to satisfy requests greater than 128K bytes, so free can use mfree to return the pages to the kernel.</p>
+<p>ff. The shell doesn&rsquo;t automatically set <code>BASH_ARGC</code> and <code>BASH_ARGV</code> at startup unless it&rsquo;s in debugging mode, as the documentation has always said, but will dynamically create them if a script references them at the top level without having enabled debugging mode.</p>
+<p>gg. The <code>localvar_inherit</code> option will not attempt to inherit a value from a variable of an incompatible type (indexed vs. associative arrays, for example).</p>
+<p>hh. The <code>globasciiranges</code> option is now enabled by default; it can be set to off by default at configuration time.</p>
+<p>ii. Associative and indexed arrays now allow subscripts consisting solely of whitespace.</p>
+<p>jj. <code>checkwinsize</code> is now enabled by default.</p>
+<p>kk. The <code>localvar_unset</code> shopt option is now visible and documented.</p>
+<p>ll. The <code>progcomp_alias</code> shopt option is now visible and documented.</p>
+<p>mm. The signal name processing code now understands <code>SIGRTMIN+n</code>call the way up to SIGRTMAX.</p>
+<p>nn. There is a new <code>seq</code> loadable builtin.</p>
+<p>oo. Trap execution now honors the (internal) max invocations of <code>eval</code>, since traps are supposed to be executed as if using <code>eval</code>.</p>
+<p>pp. The <code>$_</code> variable doesn&rsquo;t change when the shell executes a command that forks.</p>
+<p>qq. The <code>kill</code> builtin now supports <code>-sSIGNAME</code> and <code>-nSIGNUM</code>, even though conforming applications aren&rsquo;t supposed to use them.</p>
+<p>rr. POSIX mode now enables the <code>shift_verbose</code> option.</p>
+<ol start="2">
+<li>New Features in Readline</li>
+</ol>
+<p>a. Non-incremental vi-mode search (<code>N</code>, <code>n</code>) can search for a shell pattern, as
+Posix specifies (uses fnmatch(3) if available).</p>
+<p>b. There are new <code>next-screen-line</code> and <code>previous-screen-line</code> bindable commands, which move the cursor to the same column in the next, or previous, physical line, respectively.</p>
+<p>c. There are default key bindings for control-arrow-key key combinations.</p>
+<p>d. A negative argument (-N) to <code>quoted-insert</code>  means to insert the next N characters using quoted-insert.</p>
+<p>e. New public function: <code>rl_check_signals()</code>, which allows applications to respond to signals that readline catches while waiting for input using a custom read function.</p>
+<p>f. There is new support for conditionally testing the readline version in an inputrc file, with a full set of arithmetic comparison operators available.</p>
+<p>g. There is a simple variable comparison facility available for use within an inputrc file. Allowable operators are equality and inequality; string variables may be compared to a value; boolean variables must be compared to either <code>on</code> or <code>off</code>; variable names are separated from the operator by whitespace.</p>
+<p>h. The history expansion library now understands command and process substitution and extended globbing and allows them to appear anywhere in a word.</p>
+<p>i. The history library has a new variable that allows applications to set the initial quoting state, so quoting state can be inherited from a previous line.</p>
+<p>j. Readline now allows application-defined keymap names; there is a new public function, <code>rl_set_keymap_name()</code>, to do that.</p>
+<p>k. The &ldquo;Insert&rdquo; keypad key, if available, now puts readline into overwrite mode.</p>
+<p>with a bundle of new improvement, fixes and feature it&rsquo;s a lot to cover on one news post, we will post a tutorial, use cases, and features soon.</p>
+<p><img src="https://lists.gnu.org/archive/html/bug-bash/2019-01/msg00063.html" alt="Bash mailing source">
+<img src="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" alt="Bash Wiki">
+<img src="https://linux.pictures/" alt="Bash Image Source"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Regex Use Cases</title>
+            <link>/posts/regex_use_cases/</link>
+            <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/regex_use_cases/</guid>
+            <description>Regex&amp;rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&amp;rsquo;t have to.
+so let do some exercises on regex like emails and IP for your everyday technical needs
+Finding Mailing data extract email adresses from some file</description>
+            <content type="html"><![CDATA[<p>Regex&rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&rsquo;t have to.</p>
+<p>so let do some exercises on regex like emails and IP for your everyday technical needs</p>
+<h3 id="finding-mailing-data">Finding Mailing data</h3>
+<p>extract email adresses from some file</p>
+<pre><code class="language-regex" data-lang="regex">([[:alnum:]_.-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6})
+</code></pre><ol>
+<li>
+<p><code>[:alnum:]</code>: Alphanumeric characters: <code>[:alpha:]</code> and <code>[:digit:]</code>; in the <code>C</code> locale and ASCII character encoding, this is the same as <code>[0-9A-Za-z]</code>.</p>
+</li>
+<li>
+<p><code>[ _.+]</code>: One of the characters in the brackets. in which looks for one of
+these characters <code>_.+</code></p>
+</li>
+<li>
+<p><code>?</code>: Makes quantifiers &ldquo;lazy&rdquo;</p>
+</li>
+<li>
+<p><code>\.</code>: Escapes a special character for the <code>.</code></p>
+</li>
+</ol>
+<h3 id="check-for-ip-address">Check for IP address</h3>
+<p>Look for IPv4 address in files</p>
+<pre><code>([0-9]{1,3}\.){3}[0-9]{1,3}
+</code></pre><ol>
+<li>
+<p><code>[0-9]</code>: One of the characters in the range from 0 to 9</p>
+</li>
+<li>
+<p><code>{1,3}</code>: One to three times, &ldquo;greedy&rdquo;</p>
+</li>
+<li>
+<p><code>\.</code>: Escapes a special character for the <code>.</code></p>
+</li>
+</ol>
+<p>Like any programming language, it just requires a bit of understanding to get the hang of it. Regex is very powerful can be used for varies of a task that is needed. so keep in mind sprinkle of regex can improve on any project you are working on the shell</p>
+<ul>
+<li><a href="https://www.commandlinefu.com/commands/view/5668/extract-ipv4-addressess-from-file">By: rubenmoran</a></li>
+<li><a href="https://www.commandlinefu.com/commands/view/2431/extract-email-adresses-from-some-file-or-any-other-pattern">By: wires</a></li>
+<li><a href="https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html">GNU Grep</a></li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Linux Shell on IPad or IPhone</title>
+            <link>/posts/linux-shell-on-ipad-or-iphone/</link>
+            <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/linux-shell-on-ipad-or-iphone/</guid>
+            <description>Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices. The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.
+Why Alpine Linux you say?</description>
+            <content type="html"><![CDATA[<p><img src="https://ish.app/assets/github-readme.png" alt="IOS"></p>
+<p>Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices.
+The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.</p>
+<p>Why Alpine Linux you say? Is a Linux distribution based on musl and BusyBox which many power users use, that want a light weight distro. Because of its small size, it&rsquo;s heavily used in containers providing quick a boot-up times, which makes a great choice for small userspace on IOS. To Install the iSH Shell into iOS requires TestFlight, which is a developer tool.</p>
+<p>The beauty of the shell is that is can be used on any device even on mobile. this is a great project called iSH in which you can run a container Linux on IOS is a great example. This is an excellent project that will open the doors for many users. We hope to see more of the shell get implements on more device.</p>
+<p>check it out and give a trie on your IOS device.</p>
+<h4 id="sources">Sources:</h4>
+<ul>
+<li><a href="https://ish.app/">iSH</a></li>
+<li><a href="http://osxdaily.com/2018/12/11/ish-linux-shell-ios/">osxdaily</a></li>
+<li><a href="https://github.com/tbodt/ish">iSH Github</a></li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Mastering Regular Expressions</title>
+            <link>/posts/mastering-regular-expressions/</link>
+            <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/mastering-regular-expressions/</guid>
+            <description>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</description>
+            <content type="html"><![CDATA[<p>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</p>
+<p>Regex is serving a fundamental tool for the filter, searches analyze and summarize data. In today programming languages its extremely rare for a language to not a regex engine of any kind. Let go back in history a bit, and regular expressions were also known as rational expression, which in the 1950s a man named  Stephen Cole Kleene formalized the description the logical expression as a regular language.</p>
+<p>It was a common use with Unix, Linux and Unix-like text-processing utilities such as POSIX tools, sed, awk, Perl and many others. Here is a diagram of the Translating from Thompson Kleene show as regex processor translates a regular expression</p>
+<hr>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Thompson-kleene-star.svg/1000px-Thompson-kleene-star.svg.png" alt="Alt Thompson kleene star"></p>
+<p><code>(s* means 'zero or more of s ')</code></p>
+<h4 id="sources">Sources</h4>
+<p><a href="https://en.wikipedia.org/wiki/Regular_expression">Regular Expression</a>
+<a href="https://en.wikipedia.org/wiki/Stephen_Cole_Kleene">Stephen Cole Kleene</a>
+<a href="https://linuxacademy.com/devops/training/course/name/mastering-regular-expressions">linux Academy</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Graphical Tree File Folder</title>
+            <link>/posts/graphical-tree-file-folder/</link>
+            <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/graphical-tree-file-folder/</guid>
+            <description>Graphical tree of sub-directories This oneliner command is for a graphical tree of sub-directories, this is an excellent oneliner when you&amp;rsquo;re in need to view the directories in a graphical format. The tree is a recursive directory listing command or program that produces a depth indented listing of files which not generally found on all Linux or Unix systems. The first Tree Unix utility was developed by Steve Baker which includes a verbose of feature and flag option.</description>
+            <content type="html"><![CDATA[<h2 id="graphical-tree-of-sub-directories">Graphical tree of sub-directories</h2>
+<p>This oneliner command is for a graphical tree of sub-directories, this is an excellent oneliner when you&rsquo;re in need to view the directories in a graphical format. The tree is a recursive directory listing command or program that produces a depth indented listing of files which not generally found on all Linux or Unix systems. The first Tree Unix utility was developed by Steve Baker which includes a verbose of feature and flag option. This one-liner is a quick fix for an alternative tree version for portable and easy use.</p>
+<p>let break down how this oneliner is build by go deep with the command that is
+being used.</p>
+<h3 id="using-ls">using <code>ls</code></h3>
+<p>using <code>ls -R</code> does recursively list subdirectories encountered. this will give
+every thing in directory by level of current one</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+root@19472dcaa9be:/var/log# ls -R
+.:
+alternatives.log  apt  bootstrap.log  btmp  dpkg.log  faillog  lastlog  tallylog  wtmp
+
+./apt:
+eipp.log.xz  history.log
+</code></pre></div><h3 id="using-grep">using <code>grep</code></h3>
+<p>Now with the grep command, we grep all line that end with <code>:</code>. using the <code>$</code>we
+grabbing all line with <code>:</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+root@19472dcaa9be:/var/log# ls -R | grep <span style="color:#e6db74">&#39;:$&#39;</span>
+.:
+./apt:
+</code></pre></div><h3 id="using-sed">using <code>sed</code></h3>
+<p>using the <code>sed</code> command on the final pipe <code>|</code> we will filter out the needed
+directories and add |- and additional - for each level of the directories it
+sitting in. with <code>sed</code> the flag <code>-e</code> will append the editing commands specified
+by the command argument to the list of commands.</p>
+<p>First let remove the <code>:</code> from the list directories.</p>
+<pre><code>root@80edb8b49c29:/var#  ls -R | grep &quot;:$&quot; | sed -e 's/:$//'
+.
+./backups
+./cache
+./cache/apt
+./cache/apt/archives
+./cache/apt/archives/partial
+./cache/debconf
+./cache/ldconfig
+./lib
+./lib/apt
+./lib/apt/lists
+./lib/apt/mirrors
+./lib/apt/mirrors/partial
+./lib/apt/periodic
+./lib/dpkg
+./lib/dpkg/alternatives
+./lib/dpkg/info
+./lib/dpkg/parts
+./lib/dpkg/triggers
+./lib/dpkg/updates
+./lib/misc
+./lib/pam
+./lib/systemd
+./lib/systemd/deb-systemd-helper-enabled
+./lib/systemd/deb-systemd-helper-enabled/timers.target.wants
+./local
+./log
+./log/apt
+./mail
+./opt
+./spool
+./tmp
+</code></pre><p>now let with the regex <code>s/[^-][^\/]*\//--/g</code> from sed, replace all <code>.</code> and <code>/</code>
+and stop with last <code>/</code> with a <code>--</code> when in case with add additionalm base on
+how many dirctory each lines has.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">root@80edb8b49c29:/var# ls -R | grep <span style="color:#e6db74">&#34;:</span>$<span style="color:#e6db74">&#34;</span> | sed -e <span style="color:#e6db74">&#39;s/:$//&#39;</span> -e <span style="color:#e6db74">&#39;s/[^-][^\/]*\//--/g&#39;</span>
+.
+--backups
+--cache
+----apt
+------archives
+--------partial
+----debconf
+----ldconfig
+--lib
+----apt
+------lists
+------mirrors
+--------partial
+------periodic
+----dpkg
+------alternatives
+------info
+------parts
+------triggers
+------updates
+----misc
+----pam
+----systemd
+------deb-systemd-helper-enabled
+--------timers.target.wants
+--local
+--log
+----apt
+--mail
+--opt
+--spool
+--tmp
+
+</code></pre></div><p>finally we use this two sed regex <code>-e 's/^/ /' -e 's/-/|/'</code> and add spacing and
+<code>|</code> to the begining of the list. thier you go we have a quick tree of the
+directories with <code>--</code> as levels.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+root@19472dcaa9be:/var# ls -R | grep <span style="color:#e6db74">&#34;:</span>$<span style="color:#e6db74">&#34;</span> | sed -e <span style="color:#e6db74">&#39;s/:$//&#39;</span> -e <span style="color:#e6db74">&#39;s/[^-][^\/]*\//--/g&#39;</span> -e <span style="color:#e6db74">&#39;s/^/ /&#39;</span> -e <span style="color:#e6db74">&#39;s/-/|/&#39;</span>
+ .
+ |-backups
+ |-cache
+ |---apt
+ |-----archives
+ |-------partial
+ |---debconf
+ |---ldconfig
+ |-lib
+ |---apt
+ |-----lists
+ |-----mirrors
+ |-------partial
+ |-----periodic
+ |---dpkg
+ |-----alternatives
+ |-----info
+ |-----parts
+ |-----triggers
+ |-----updates
+ |---misc
+ |---pam
+ |---systemd
+ |-----deb-systemd-helper-enabled
+ |-------timers.target.wants
+ |-local
+ |-log
+ |---apt
+ |-mail
+ |-opt
+ |-spool
+ |-tmp
+
+</code></pre></div><p>credit: unixmonkey842 <a href="https://www.commandlinefu.com/commands/view/710/graphical-tree-of-sub-directories">source</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Cat Command</title>
+            <link>/posts/cat-command/</link>
+            <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/cat-command/</guid>
+            <description>The cat is known for reading files sequentially and display its output. it maybe be a simple command line tool, but it has many uses. cat is know a known tool throght the unix history and has been port over into GNU coreutils. One important factor about cat is that since because it does not require the files to consist of lines of text, but works with any sort of data.</description>
+            <content type="html"><![CDATA[<p>The cat is known for reading files sequentially and display its output. it
+maybe be a simple command line tool, but it has many uses. cat is know a known
+tool throght the unix history and has been port over into GNU coreutils. One
+important factor about cat is that since because it does not require the files to
+consist of lines of text, but works with any sort of data.</p>
+<p>here are of the option that this tool can do beside display information.</p>
+<ul>
+<li><code>-b</code> (GNU: &ndash;number-nonblank), number non-blank output lines</li>
+<li><code>-e</code> implies -v but also display end-of-line characters as $ (GNU only: -E the same, but without implying -v)</li>
+<li><code>-n</code> (GNU: &ndash;number), number all output lines</li>
+<li><code>-s</code> (GNU: &ndash;squeeze-blank), squeeze multiple adjacent blank lines</li>
+<li><code>-t</code> implies -v, but also display tabs as ^I (GNU: -T the same, but without implying -v)</li>
+<li><code>-u</code> use unbuffered I/O for stdout. POSIX does not specify the behavior without this option.</li>
+<li><code>-v</code> (GNU: &ndash;show-nonprinting), displays nonprinting characters, except for tabs and the end of line character</li>
+</ul>
+<p>so let look at a few options</p>
+<p>for example using the <code>cat -n</code> will show the number line of a file</p>
+<pre><code>root@0868755f0791:/# cat -n etc/login.defs | head
+     1	#
+     2	# /etc/login.defs - Configuration control definitions for the login package.
+     3	#
+     4	# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.
+     5	# If unspecified, some arbitrary (and possibly incorrect) value will
+     6	# be assumed.  All other items are optional - if not specified then
+     7	# the described action or option will be inhibited.
+     8	#
+     9	# Comment lines (lines beginning with &quot;#&quot;) and blank lines are ignored.
+    10	#
+
+</code></pre><p>now let check the end of line character with the <code>cat -e</code></p>
+<pre><code>root@0868755f0791:/# cat -e etc/login.defs | head
+#$
+# /etc/login.defs - Configuration control definitions for the login package.$
+#$
+# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.$
+# If unspecified, some arbitrary (and possibly incorrect) value will$
+# be assumed.  All other items are optional - if not specified then$
+# the described action or option will be inhibited.$
+#$
+# Comment lines (lines beginning with &quot;#&quot;) and blank lines are ignored.$
+#$
+
+</code></pre><p>with the <code>cat -T</code> command flag we can see all the tab characters</p>
+<pre><code>root@0868755f0791:/# cat -T etc/bash.bashrc | tail
+                   return $?
+                elif [ -x /usr/share/command-not-found/command-not-found ]; then
+^I^I   /usr/share/command-not-found/command-not-found -- &quot;$1&quot;
+                   return $?
+^I^Ielse
+^I^I   printf &quot;%s: command not found\n&quot; &quot;$1&quot; &gt;&amp;2
+^I^I   return 127
+^I^Ifi
+^I}
+fi
+</code></pre><p>now putting it all together</p>
+<pre><code>root@0868755f0791:/# cat -Ten etc/bash.bashrc | tail
+    62	                   return $?$
+    63	                elif [ -x /usr/share/command-not-found/command-not-found ]; then$
+    64	^I^I   /usr/share/command-not-found/command-not-found -- &quot;$1&quot;$
+    65	                   return $?$
+    66	^I^Ielse$
+    67	^I^I   printf &quot;%s: command not found\n&quot; &quot;$1&quot; &gt;&amp;2$
+    68	^I^I   return 127$
+    69	^I^Ifi$
+    70	^I}$
+    71	fi$
+</code></pre>]]></content>
+        </item>
+        
+        <item>
+            <title>First Steps</title>
+            <link>/posts/first-step/</link>
+            <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/first-step/</guid>
+            <description>Hello, in shell echo &amp;quot;Hello World,&amp;quot;. Hello, fellow command line users. First I want to say thank you for visiting this site. This site is for anyone who enjoys working and using the command line aka shell. Soon we are going to add tutorials, talks, news, and man others thing about the command line for any who lives or loves using the command line. Gui is a great interface, but as we know the command line offers more precision and power than any other interface known to humans as this current state.</description>
+            <content type="html"><![CDATA[<p>Hello, in shell <code>echo &quot;Hello World,&quot;</code>. Hello, fellow command line users. First I want to say thank you for visiting this site. This site is for anyone who enjoys working and using the command line aka shell. Soon we are going to add tutorials, talks, news, and man others thing about the command line for any who lives or loves using the command line. Gui is a great interface, but as we know the command line offers more precision and power than any other interface known to humans as this current state. As many say or as you see on the internet &ldquo;Where there is a shell there is a way.&rdquo; Let&rsquo;s explore why this the case, many have argued about GUI and having graphics interface to interact, but there is a reason why we, as a power user, developer, admin or as many walks of life return to the command line. Let discussion quickly a few reasons why, well let&rsquo;s talk why many shy always from this interface.</p>
+<ul>
+<li>
+<p>Shell interface requires knowledge of the tools or system your using in which can discourage many.</p>
+</li>
+<li>
+<p>People find the command line confusing as it needs a user to be explicit in their usages.</p>
+</li>
+<li>
+<p>The command line can be very destructive in nature, which can cause a xmajor issue on users who are not familiar.</p>
+</li>
+<li>
+<p>Not all shells interface are the same which can confuse many users.</p>
+</li>
+</ul>
+<p>Now we realize the challenges with the command line, lets weight out the benefits of using it and why so many returns to it.</p>
+<ul>
+<li>
+<p>First, the command line offers in almost all cases, the command line is much faster and easier to use for expirence and pwoer users</p>
+</li>
+<li>
+<p>for most complex tasks, the command line or shell can be scripted to automate things</p>
+</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>My First Post</title>
+            <link>/posts/my-first-post/</link>
+            <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/my-first-post/</guid>
+            <description>Hello, This is my first Post for discussing technology, and its uses started to blog to speak about the passion I have for Linux/Unix, Python and Open Source technology. I will Post my thought with no scheduled time frame, and I am thinking of adding a new post on my twitter account if you wish to follow me feel free to do so. Hope you enjoy my blog post and my thought on tech.</description>
+            <content type="html"><![CDATA[<p>Hello, This is my first Post for discussing technology, and its uses started to blog to speak about the passion I have for Linux/Unix, Python and Open Source technology. I will Post my thought with no scheduled time frame, and I am thinking of adding a new post on my twitter account if you wish to follow me feel free to do so. Hope you enjoy my blog post and my thought on tech.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
