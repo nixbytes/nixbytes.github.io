@@ -61,7 +61,11 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
-      # [[languages.en.menu.main]]
+       [[languages.en.menu.main]]
+        identifier = "pyjournal"
+        name = "Pyjournals"
+        url = "/pyjournal"
+   # [[languages.en.menu.main]]
       #   identifier = "projects"
       #   name = "Projects"
       #   url = "/projects"
