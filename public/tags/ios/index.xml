@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ios on LinuxBytes</title>
+    <link>/tags/ios/</link>
+    <description>Recent content in ios on LinuxBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux Shell on IPad or IPhone</title>
+      <link>/posts/linux-shell-on-ipad-or-iphone/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/linux-shell-on-ipad-or-iphone/</guid>
+      <description>Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices. The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.
+Why Alpine Linux you say?</description>
+    </item>
+    
+  </channel>
+</rss>
