@@ -119,6 +119,15 @@ Why Alpine Linux you say?</description>
     </item>
     
     <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am a Linux engineer by day and a coder by night. I am an ambitious problem solver with a passion for Linux (Slackware, Redhat, Ubuntu, Centos)/Unix (Solaris, AIX, OSX), development, coding and technology as a whole. I am continually evaluating and upgrading my skills so that I can stay at the cutting edge of IT by studying and taking online courses. I started to create this blog to share my passion with technology.</description>
+    </item>
+    
+    <item>
       <title>First Steps</title>
       <link>/posts/first-step/</link>
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>

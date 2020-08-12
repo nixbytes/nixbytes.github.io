@@ -233,6 +233,26 @@
   </url>
   
   <url>
+    <loc>/about/</loc>
+    <lastmod>2018-12-04T22:02:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/code/</loc>
+    <lastmod>2018-12-04T22:02:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/technology/</loc>
+    <lastmod>2018-12-04T22:02:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/web/</loc>
+    <lastmod>2018-12-04T22:02:58-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/first/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
   </url>

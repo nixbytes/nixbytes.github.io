@@ -49,5 +49,14 @@ Why Alpine Linux you say?</description>
       <description>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am a Linux engineer by day and a coder by night. I am an ambitious problem solver with a passion for Linux (Slackware, Redhat, Ubuntu, Centos)/Unix (Solaris, AIX, OSX), development, coding and technology as a whole. I am continually evaluating and upgrading my skills so that I can stay at the cutting edge of IT by studying and taking online courses. I started to create this blog to share my passion with technology.</description>
+    </item>
+    
   </channel>
 </rss>
