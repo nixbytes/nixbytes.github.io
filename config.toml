@@ -1,9 +1,10 @@
 baseurl = "/"
 languageCode = "en-us"
-#theme = "hello-friend"
+theme = "hello-friend"
 #theme = "Niello"
-disableKinds = ["sitemap"]
-theme = "hello-friend-ng"
+#disableKinds = ["sitemap"]
+#disableRSS = true
+#theme = "terminal"
 paginate = 5
 
 
@@ -54,19 +55,28 @@ paginate = 5
       name = "twitter"   
       url  = "https://twitter.com/linuxbyte3"
 
-      [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "/posts"
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+    [[languages.en.menu.main]]
+      identifier = "blog"
+      name = "Blog"
+      url = "/posts"
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about"
       # [[languages.en.menu.main]]
       #   identifier = "projects"
       #   name = "Projects"
       #   url = "/projects"
 
+
+#[taxonomies]
+#    category = "blog"
+#    tag      = "tags"
+#    series   = "series"
+
+#[taxonomies]
+#  tag      = "tags"
+#  category = "categories"
 [taxonomies]
   tag      = "tags"
   category = "categories"
