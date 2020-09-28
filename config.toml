@@ -55,21 +55,6 @@ paginate = 5
       name = "twitter"   
       url  = "https://twitter.com/linuxbyte3"
 
-<<<<<<< HEAD
-      [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "/posts"
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-       [[languages.en.menu.main]]
-        identifier = "pyjournal"
-        name = "Pyjournals"
-        url = "/pyjournal"
-   # [[languages.en.menu.main]]
-=======
     [[languages.en.menu.main]]
       identifier = "blog"
       name = "Blog"
@@ -79,7 +64,6 @@ paginate = 5
       name = "About"
       url = "/about"
       # [[languages.en.menu.main]]
->>>>>>> b3ce8933a4dcfb7bc0f366842d31c9730c1fb629
       #   identifier = "projects"
       #   name = "Projects"
       #   url = "/projects"
