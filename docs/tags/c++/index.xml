@@ -2,6 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C&#43;&#43; on LinuxBytes</title>
+    
+    
+    
     <link>/tags/c&#43;&#43;/</link>
     <description>Recent content in C&#43;&#43; on LinuxBytes</description>
     <generator>Hugo -- gohugo.io</generator>
@@ -17,8 +20,19 @@
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/learning-c&#43;&#43;/</guid>
-      <description>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
-First The Community The language itself has many followers, and many business use C++ for varies of reason.</description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
+First The Community The language itself has many followers, and many business use C++ for varies of reason.
+          
+        
+        </description>
     </item>
     
   </channel>
