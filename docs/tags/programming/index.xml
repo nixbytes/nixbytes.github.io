@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programming on LinuxBytes</title>
-    
-    
-    
+    <title>programming on NixBytes</title>
     <link>/tags/programming/</link>
-    <description>Recent content in programming on LinuxBytes</description>
+    <description>Recent content in programming on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
@@ -20,19 +17,8 @@
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/learning-c&#43;&#43;/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
-First The Community The language itself has many followers, and many business use C++ for varies of reason.
-          
-        
-        </description>
+      <description>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
+First The Community The language itself has many followers, and many business use C++ for varies of reason.</description>
     </item>
     
     <item>
@@ -41,18 +27,7 @@ First The Community The language itself has many followers, and many business us
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/mastering-regular-expressions/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.
-          
-        
-        </description>
+      <description>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</description>
     </item>
     
   </channel>

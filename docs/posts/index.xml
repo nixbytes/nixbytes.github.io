@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on LinuxBytes</title>
-    
-    
-    
+    <title>Posts on NixBytes</title>
     <link>/posts/</link>
-    <description>Recent content in Posts on LinuxBytes</description>
+    <description>Recent content in Posts on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
@@ -20,19 +17,8 @@
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/docker-update-images/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
-docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull 
-          
-        
-        </description>
+      <description>A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
+docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull </description>
     </item>
     
     <item>
@@ -41,19 +27,8 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/learning-c&#43;&#43;/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
-First The Community The language itself has many followers, and many business use C++ for varies of reason.
-          
-        
-        </description>
+      <description>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
+First The Community The language itself has many followers, and many business use C++ for varies of reason.</description>
     </item>
     
     <item>
@@ -62,18 +37,7 @@ First The Community The language itself has many followers, and many business us
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/aws-cloud/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          AWS Cloud The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. Now in day scripting is mostly tie to automation. as I alway say, if you can type, you script it and finally you can automate. That why shell interface is so vital in today technology,
-          
-        
-        </description>
+      <description>AWS Cloud The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. Now in day scripting is mostly tie to automation. as I alway say, if you can type, you script it and finally you can automate. That why shell interface is so vital in today technology,</description>
     </item>
     
     <item>
@@ -82,20 +46,9 @@ First The Community The language itself has many followers, and many business us
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/process-substitution/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          In the shell piping, the stdout of a command into the stdin is a powerful technique in the terminal. But, what happens if you need to pipe the stdout of multiple commands, for example comparing and sort text data? Let use an example of where process substitution can be used.
+      <description>In the shell piping, the stdout of a command into the stdin is a powerful technique in the terminal. But, what happens if you need to pipe the stdout of multiple commands, for example comparing and sort text data? Let use an example of where process substitution can be used.
 example:
-&amp;lt;(list) or &amp;gt;(list) Now let try view the lines unique to each of these two unsorted files with using process substitution.
-          
-        
-        </description>
+&amp;lt;(list) or &amp;gt;(list) Now let try view the lines unique to each of these two unsorted files with using process substitution.</description>
     </item>
     
     <item>
@@ -104,18 +57,7 @@ example:
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/jumpstart-python/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Python Jumpstart by Building 10 Apps &amp;ldquo;The Python Jumpstart by Building 10 Apps Course&amp;rdquo; is a great path to get started on learning python and some of the core features. Micheal Kenndy explains each topic in details and with good examples. Python is growing, and the demand for the skill set is high peak right now. Python Jumpstart will help anyone to get started on the language. I enjoy doing these small projects.
-          
-        
-        </description>
+      <description>Python Jumpstart by Building 10 Apps &amp;ldquo;The Python Jumpstart by Building 10 Apps Course&amp;rdquo; is a great path to get started on learning python and some of the core features. Micheal Kenndy explains each topic in details and with good examples. Python is growing, and the demand for the skill set is high peak right now. Python Jumpstart will help anyone to get started on the language. I enjoy doing these small projects.</description>
     </item>
     
     <item>
@@ -124,19 +66,8 @@ example:
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/bash-5.0/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
-comments from the mailing list
-          
-        
-        </description>
+      <description>Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
+comments from the mailing list</description>
     </item>
     
     <item>
@@ -145,20 +76,9 @@ comments from the mailing list
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/regex_use_cases/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Regex&amp;rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&amp;rsquo;t have to.
+      <description>Regex&amp;rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&amp;rsquo;t have to.
 so let do some exercises on regex like emails and IP for your everyday technical needs
-Finding Mailing data extract email adresses from some file
-          
-        
-        </description>
+Finding Mailing data extract email adresses from some file</description>
     </item>
     
     <item>
@@ -167,19 +87,8 @@ Finding Mailing data extract email adresses from some file
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/linux-shell-on-ipad-or-iphone/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices. The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.
-Why Alpine Linux you say?
-          
-        
-        </description>
+      <description>Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices. The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.
+Why Alpine Linux you say?</description>
     </item>
     
     <item>
@@ -188,18 +97,7 @@ Why Alpine Linux you say?
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/mastering-regular-expressions/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.
-          
-        
-        </description>
+      <description>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</description>
     </item>
     
     <item>
@@ -208,18 +106,7 @@ Why Alpine Linux you say?
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/graphical-tree-file-folder/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Graphical tree of sub-directories This oneliner command is for a graphical tree of sub-directories, this is an excellent oneliner when you&amp;rsquo;re in need to view the directories in a graphical format. The tree is a recursive directory listing command or program that produces a depth indented listing of files which not generally found on all Linux or Unix systems. The first Tree Unix utility was developed by Steve Baker which includes a verbose of feature and flag option.
-          
-        
-        </description>
+      <description>Graphical tree of sub-directories This oneliner command is for a graphical tree of sub-directories, this is an excellent oneliner when you&amp;rsquo;re in need to view the directories in a graphical format. The tree is a recursive directory listing command or program that produces a depth indented listing of files which not generally found on all Linux or Unix systems. The first Tree Unix utility was developed by Steve Baker which includes a verbose of feature and flag option.</description>
     </item>
     
     <item>
@@ -228,18 +115,7 @@ Why Alpine Linux you say?
       <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/cat-command/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          The cat is known for reading files sequentially and display its output. it maybe be a simple command line tool, but it has many uses. cat is know a known tool throght the unix history and has been port over into GNU coreutils. One important factor about cat is that since because it does not require the files to consist of lines of text, but works with any sort of data.
-          
-        
-        </description>
+      <description>The cat is known for reading files sequentially and display its output. it maybe be a simple command line tool, but it has many uses. cat is know a known tool throght the unix history and has been port over into GNU coreutils. One important factor about cat is that since because it does not require the files to consist of lines of text, but works with any sort of data.</description>
     </item>
     
     <item>
@@ -248,18 +124,7 @@ Why Alpine Linux you say?
       <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/first-step/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Hello, in shell echo &amp;quot;Hello World,&amp;quot;. Hello, fellow command line users. First I want to say thank you for visiting this site. This site is for anyone who enjoys working and using the command line aka shell. Soon we are going to add tutorials, talks, news, and man others thing about the command line for any who lives or loves using the command line. Gui is a great interface, but as we know the command line offers more precision and power than any other interface known to humans as this current state.
-          
-        
-        </description>
+      <description>Hello, in shell echo &amp;quot;Hello World,&amp;quot;. Hello, fellow command line users. First I want to say thank you for visiting this site. This site is for anyone who enjoys working and using the command line aka shell. Soon we are going to add tutorials, talks, news, and man others thing about the command line for any who lives or loves using the command line. Gui is a great interface, but as we know the command line offers more precision and power than any other interface known to humans as this current state.</description>
     </item>
     
     <item>
@@ -268,18 +133,7 @@ Why Alpine Linux you say?
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/my-first-post/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Hello, This is my first Post for discussing technology, and its uses started to blog to speak about the passion I have for Linux/Unix, Python and Open Source technology. I will Post my thought with no scheduled time frame, and I am thinking of adding a new post on my twitter account if you wish to follow me feel free to do so. Hope you enjoy my blog post and my thought on tech.
-          
-        
-        </description>
+      <description>Hello, This is my first Post for discussing technology, and its uses started to blog to speak about the passion I have for Linux/Unix, Python and Open Source technology. I will Post my thought with no scheduled time frame, and I am thinking of adding a new post on my twitter account if you wish to follow me feel free to do so. Hope you enjoy my blog post and my thought on tech.</description>
     </item>
     
   </channel>
