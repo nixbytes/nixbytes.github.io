@@ -6,6 +6,7 @@ tags:
    - web
    - code
    - technology
+   - system
 ---
 
 I am a Linux engineer by day and a coder by night. I am an ambitious problem solver with a passion for  Linux (Slackware, Redhat, Ubuntu, Centos)/Unix (Solaris, AIX, OSX), development, coding and technology as a whole. 
@@ -13,7 +14,7 @@ I am continually evaluating and upgrading my skills so that I can stay at the cu
 
 ### Technology 
 
-#### Linux System
+#### Linux and Unix Systems
 
 I Have worked with various Unix and Linux systems, love the platform, and philosophy on how this technology has done and involved over the years. Primary Linux Distro includes Redhat, Centos, Ubuntu, Debian, and experimented with various others.
 

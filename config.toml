@@ -22,7 +22,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "LinuxBytes"
+    title = "NixBytes"
     subtitle = "Linux Admin by day and a Coder by night"
     keywords = ""
     copyright = ""
@@ -37,7 +37,7 @@ paginate = 5
     dateFormatList = "2006-01-02"
     
     [languages.en.params.logo]
-      logoText = "LinuxBytes"
+      logoText = "NixBytes"
       logoHomeLink = "/"
     # or
     #
@@ -47,13 +47,13 @@ paginate = 5
 
     [[params.social]]
       name = "github"
-      url  = "https://github.com/linuxbytes"
+      url  = "https://github.com/nixbytes"
     [[params.social]]
       name = "email"
       url  = "mailto:real8686@gmail.com"
     [[params.social]]
       name = "twitter"   
-      url  = "https://twitter.com/linuxbyte3"
+      url  = "https://twitter.com/nixbyte3"
 
     [[languages.en.menu.main]]
       identifier = "blog"
