@@ -2,6 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shell on NixBytes</title>
+    
+    
+    
     <link>/tags/shell/</link>
     <description>Recent content in shell on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
@@ -17,8 +20,19 @@
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/docker-update-images/</guid>
-      <description>A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
-docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull </description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
+docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull 
+          
+        
+        </description>
     </item>
     
     <item>
@@ -27,7 +41,18 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/aws-cloud/</guid>
-      <description>AWS Cloud The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. Now in day scripting is mostly tie to automation. as I alway say, if you can type, you script it and finally you can automate. That why shell interface is so vital in today technology,</description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          AWS Cloud The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. Now in day scripting is mostly tie to automation. as I alway say, if you can type, you script it and finally you can automate. That why shell interface is so vital in today technology,
+          
+        
+        </description>
     </item>
     
     <item>
@@ -36,8 +61,19 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/bash-5.0/</guid>
-      <description>Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
-comments from the mailing list</description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
+comments from the mailing list
+          
+        
+        </description>
     </item>
     
     <item>
@@ -46,8 +82,19 @@ comments from the mailing list</description>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/linux-shell-on-ipad-or-iphone/</guid>
-      <description>Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices. The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.
-Why Alpine Linux you say?</description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices. The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.
+Why Alpine Linux you say?
+          
+        
+        </description>
     </item>
     
   </channel>
