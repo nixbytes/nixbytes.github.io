@@ -9,7 +9,7 @@
     <description>Recent content on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Dec 2018 22:02:58 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,28 @@
         
           A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
 docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull 
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>ssacli on Linux</title>
+      <link>/posts/ssacli/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/ssacli/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          SSACLI TOOL HP Tool for linux make it easier to manage smart array controllers in HP servers. With the shell it make simple to create, delete and repair the logical and physical drives on the smart array.
+Two ways to use the tools hpacucli prompt
+&amp;gt; ssacli Smart Storage Administor CLI 3.47.1.0 Detecting Controllers...Done. Type &amp;#34;help&amp;#34; for a list of supported commands. Type &amp;#34;exit&amp;#34; to close the console. =&amp;gt; rescan or single command line
           
         
         </description>
