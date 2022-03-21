@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        ssacli on Linux ::
+        NixBytes — Linux Admin by day and a Coder by night
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="SSACLI TOOL #  HP Tool for linux make it easier to manage smart array controllers in HP servers. With the shell it make simple to create, delete and repair the logical and physical drives on the smart array.
+Two ways to use the tools #  hpacucli prompt
+&amp;gt; ssacli Smart Storage Administor CLI 3.47.1.0 Detecting Controllers...Done. Type &amp;#34;help&amp;#34; for a list of supported commands. Type &amp;#34;exit&amp;#34; to close the console."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/posts/ssacli/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css" />
+
+<link rel="stylesheet" href="/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="/img/favicon.png" />
+
+
+<link href="/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ssacli on Linux"/>
+<meta name="twitter:description" content="SSACLI TOOL #  HP Tool for linux make it easier to manage smart array controllers in HP servers. With the shell it make simple to create, delete and repair the logical and physical drives on the smart array.
+Two ways to use the tools #  hpacucli prompt
+&gt; ssacli Smart Storage Administor CLI 3.47.1.0 Detecting Controllers...Done. Type &#34;help&#34; for a list of supported commands. Type &#34;exit&#34; to close the console."/>
+
+
+
+<meta property="og:title" content="ssacli on Linux" />
+<meta property="og:description" content="SSACLI TOOL #  HP Tool for linux make it easier to manage smart array controllers in HP servers. With the shell it make simple to create, delete and repair the logical and physical drives on the smart array.
+Two ways to use the tools #  hpacucli prompt
+&gt; ssacli Smart Storage Administor CLI 3.47.1.0 Detecting Controllers...Done. Type &#34;help&#34; for a list of supported commands. Type &#34;exit&#34; to close the console." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/ssacli/" />
+<meta property="article:published_time" content="2019-07-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-07-29T00:00:00+00:00" /><meta property="og:site_name" content="NixBytes" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >NixBytes</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/posts">Blog</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/posts">Blog</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">ssacli on Linux</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2019-07-29
+        </span>
+
+        
+          
+        
+      
+
+      
+
+
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <h1 id="ssacli-tool">
+  SSACLI TOOL
+  <a href="#ssacli-tool" class="h-anchor" aria-hidden="true">#</a>
+</h1>
+<p>HP Tool for linux make it easier to manage smart array controllers in HP servers. With the shell it make simple to create, delete and repair the logical and physical drives on the smart array.</p>
+<h3 id="two-ways-to-use-the-tools">
+  Two ways to use the tools
+  <a href="#two-ways-to-use-the-tools" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>hpacucli prompt</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+&gt; ssacli
+Smart Storage Administor CLI 3.47.1.0
+Detecting Controllers...Done.
+Type <span style="color:#e6db74">&#34;help&#34;</span> <span style="color:#66d9ef">for</span> a list of supported commands.
+Type <span style="color:#e6db74">&#34;exit&#34;</span> to close the console.
+<span style="color:#f92672">=</span>&gt; rescan
+
+</code></pre></div><p>or single command line</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ssacli rescan
+</code></pre></div><h3 id="hpe-short-names-for-commands">
+  HPE Short names for commands
+  <a href="#hpe-short-names-for-commands" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>all commands with the toll uses a short name syntax, which makes run and writing commands easier.</p>
+<pre><code>### Shortnames:
+
+- chassisname = ch
+- controller = ctrl 
+- logicaldrive = ld
+- physicaldrive = pd 
+- drivewritecache = dwc
+- licensekey = lk
+
+### Specify drives:
+
+- A range of drives (one to three): 1E:1:1-1E:1:3
+- Drives that are unassigned: allunassigned
+
+</code></pre>
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/docker-update-images/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Docker Update Images</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/learning-c&#43;&#43;/">
+                  <span class="button__text">Learning C&#43;&#43;</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >NixBytes</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span
+          >© 2022 Powered by
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+        >
+        <span
+          >Theme created by
+          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+        >
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
