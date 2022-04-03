@@ -27,4 +27,4 @@ Love to code on my spare time, its a great way to keep the mind busy.
 
 The web has given us so much. I believe it should still be open and free—that why we need to help opensource projects to ensure its freedom and assessability for all
 
-![LinuxBytes Repo](https://github.com/linuxbytes)
+![NixBytes Repo](https://github.com/Nixbytes)
