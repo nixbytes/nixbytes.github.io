@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cat on NixBytes</title>
+    <link>/tags/cat/</link>
+    <description>Recent content in cat on NixBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cat Command</title>
+      <link>/posts/cat-command/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/cat-command/</guid>
+      <description>The cat is known for reading files sequentially and display its output. it maybe be a simple command line tool, but it has many uses. cat is know a known tool throght the unix history and has been port over into GNU coreutils. One important factor about cat is that since because it does not require the files to consist of lines of text, but works with any sort of data.</description>
+    </item>
+    
+  </channel>
+</rss>
