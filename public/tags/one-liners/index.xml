@@ -2,37 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>one-liners on NixBytes</title>
-    
-    
-    
     <link>/tags/one-liners/</link>
     <description>Recent content in one-liners on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/one-liners/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/one-liners/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker Update Images</title>
       <link>/posts/docker-update-images/</link>
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/docker-update-images/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
-docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull 
-          
-        
-        </description>
+      <description>A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
+docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull </description>
     </item>
     
   </channel>
