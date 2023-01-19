@@ -1,7 +1,6 @@
 ---
 title: "Writing Back"
 date: 2023-01-18
-draft: true
 ---
 
 # Writing Back
