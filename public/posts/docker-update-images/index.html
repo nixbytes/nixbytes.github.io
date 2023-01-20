@@ -25,25 +25,23 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
 
 
 
-<link rel="stylesheet" href="/assets/style.css" />
+
+
+<link rel="stylesheet" href="/css/style.css" />
 
 <link rel="stylesheet" href="/style.css" />
 
 
-<link
-  rel="apple-touch-icon-precomposed"
-  sizes="144x144"
-  href="/img/apple-touch-icon-144-precomposed.png"
-/>
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png" />
 <link rel="shortcut icon" href="/img/favicon.png" />
 
 
-<link href="/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
 
 
 <meta name="twitter:card" content="summary"/>
@@ -57,9 +55,10 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
 <meta property="og:description" content="A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
 docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/docker-update-images/" />
+<meta property="og:url" content="/posts/docker-update-images/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2019-11-27T00:00:00+00:00" />
 <meta property="article:modified_time" content="2019-11-27T00:00:00+00:00" /><meta property="og:site_name" content="NixBytes" />
+
 
 
 
@@ -153,13 +152,13 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
   
   
 
-  <div class="post">
+  <article class="post">
     <h1 class="post-title">Docker Update Images</h1>
     <div class="post-meta">
       
-        <span class="post-date">
+        <time class="post-date">
           2019-11-27
-        </span>
+        </time>
 
         
           
@@ -196,7 +195,7 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
     <div class="post-content">
       
       <p>A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull <!-- raw HTML omitted --> command. This simple one-liner can help you update all images at once.</p>
-<pre><code>docker images |grep -v REPOSITORY|awk '{print $1}'|xargs -L1 docker pull
+<pre tabindex="0"><code>docker images |grep -v REPOSITORY|awk '{print $1}'|xargs -L1 docker pull
 </code></pre>
     </div>
     
@@ -209,6 +208,13 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
             <hr />
           </div>
           <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/what_is_programming/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">What Is programming Really?</span>
+                </a>
+              </span>
             
             
               <span class="button next">
@@ -229,7 +235,7 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
 
       
     
-  </div>
+  </article>
 
       </div>
 
@@ -255,21 +261,18 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
 </a>
 
       <div class="copyright">
-        <span
-          >© 2022 Powered by
-          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
-        >
-        <span
-          >Theme created by
-          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
-        >
+        <span>© 2023 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span><a href="https://github.com/panr/hugo-theme-hello-friend" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
     
   </div>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
 
 
       

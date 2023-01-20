@@ -2,19 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on NixBytes</title>
+    
+    
+    
     <link>/tags/linux/</link>
     <description>Recent content in linux on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Learning C&#43;&#43;</title>
       <link>/posts/learning-c&#43;&#43;/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/learning-c&#43;&#43;/</guid>
-      <description>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
-First The Community The language itself has many followers, and many business use C++ for varies of reason.</description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
+First The Community #  The language itself has many followers, and many business use C++ for varies of reason.
+          
+        
+        </description>
     </item>
     
     <item>
@@ -23,7 +41,18 @@ First The Community The language itself has many followers, and many business us
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/aws-cloud/</guid>
-      <description>AWS Cloud The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. Now in day scripting is mostly tie to automation. as I alway say, if you can type, you script it and finally you can automate. That why shell interface is so vital in today technology,</description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          AWS Cloud #  The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. Now in day scripting is mostly tie to automation. as I alway say, if you can type, you script it and finally you can automate. That why shell interface is so vital in today technology,
+          
+        
+        </description>
     </item>
     
     <item>
@@ -32,8 +61,19 @@ First The Community The language itself has many followers, and many business us
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/linux-shell-on-ipad-or-iphone/</guid>
-      <description>Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices. The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.
-Why Alpine Linux you say?</description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices. The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.
+Why Alpine Linux you say?
+          
+        
+        </description>
     </item>
     
     <item>
@@ -42,7 +82,18 @@ Why Alpine Linux you say?</description>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/mastering-regular-expressions/</guid>
-      <description>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.
+          
+        
+        </description>
     </item>
     
     <item>
@@ -51,7 +102,18 @@ Why Alpine Linux you say?</description>
       <pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate>
       
       <guid>/about/</guid>
-      <description>I am a Linux engineer by day and a coder by night. I am an ambitious problem solver with a passion for Linux (Slackware, Redhat, Ubuntu, Centos)/Unix (Solaris, AIX, OSX), development, coding and technology as a whole. I am continually evaluating and upgrading my skills so that I can stay at the cutting edge of IT by studying and taking online courses. I started to create this blog to share my passion with technology.</description>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          I am a Linux engineer by day and a coder by night. I am an ambitious problem solver with a passion for Linux (Slackware, Redhat, Ubuntu, Centos)/Unix (Solaris, AIX, OSX), development, coding and technology as a whole. I am continually evaluating and upgrading my skills so that I can stay at the cutting edge of IT by studying and taking online courses. I started to create this blog to share my passion with technology.
+          
+        
+        </description>
     </item>
     
   </channel>
