@@ -24,25 +24,23 @@
 
 
 
-<link rel="stylesheet" href="/assets/style.css" />
+
+
+<link rel="stylesheet" href="/css/style.css" />
 
 <link rel="stylesheet" href="/style.css" />
 
 
-<link
-  rel="apple-touch-icon-precomposed"
-  sizes="144x144"
-  href="/img/apple-touch-icon-144-precomposed.png"
-/>
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png" />
 <link rel="shortcut icon" href="/img/favicon.png" />
 
 
-<link href="/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
 
 
 <meta name="twitter:card" content="summary"/>
@@ -54,9 +52,10 @@
 <meta property="og:title" content="Cat Command" />
 <meta property="og:description" content="The cat is known for reading files sequentially and display its output. it maybe be a simple command line tool, but it has many uses. cat is know a known tool throght the unix history and has been port over into GNU coreutils. One important factor about cat is that since because it does not require the files to consist of lines of text, but works with any sort of data." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/cat-command/" />
+<meta property="og:url" content="/posts/cat-command/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2018-12-16T00:00:00+00:00" />
 <meta property="article:modified_time" content="2018-12-16T00:00:00+00:00" /><meta property="og:site_name" content="NixBytes" />
+
 
 
 
@@ -150,13 +149,13 @@
   
   
 
-  <div class="post">
+  <article class="post">
     <h1 class="post-title">Cat Command</h1>
     <div class="post-meta">
       
-        <span class="post-date">
+        <time class="post-date">
           2018-12-16
-        </span>
+        </time>
 
         
           
@@ -207,7 +206,7 @@ consist of lines of text, but works with any sort of data.</p>
 </ul>
 <p>so let look at a few options</p>
 <p>for example using the <code>cat -n</code> will show the number line of a file</p>
-<pre><code>root@0868755f0791:/# cat -n etc/login.defs | head
+<pre tabindex="0"><code>root@0868755f0791:/# cat -n etc/login.defs | head
      1	#
      2	# /etc/login.defs - Configuration control definitions for the login package.
      3	#
@@ -220,7 +219,7 @@ consist of lines of text, but works with any sort of data.</p>
     10	#
 
 </code></pre><p>now let check the end of line character with the <code>cat -e</code></p>
-<pre><code>root@0868755f0791:/# cat -e etc/login.defs | head
+<pre tabindex="0"><code>root@0868755f0791:/# cat -e etc/login.defs | head
 #$
 # /etc/login.defs - Configuration control definitions for the login package.$
 #$
@@ -233,7 +232,7 @@ consist of lines of text, but works with any sort of data.</p>
 #$
 
 </code></pre><p>with the <code>cat -T</code> command flag we can see all the tab characters</p>
-<pre><code>root@0868755f0791:/# cat -T etc/bash.bashrc | tail
+<pre tabindex="0"><code>root@0868755f0791:/# cat -T etc/bash.bashrc | tail
                    return $?
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
 ^I^I   /usr/share/command-not-found/command-not-found -- &quot;$1&quot;
@@ -245,7 +244,7 @@ consist of lines of text, but works with any sort of data.</p>
 ^I}
 fi
 </code></pre><p>now putting it all together</p>
-<pre><code>root@0868755f0791:/# cat -Ten etc/bash.bashrc | tail
+<pre tabindex="0"><code>root@0868755f0791:/# cat -Ten etc/bash.bashrc | tail
     62	                   return $?$
     63	                elif [ -x /usr/share/command-not-found/command-not-found ]; then$
     64	^I^I   /usr/share/command-not-found/command-not-found -- &quot;$1&quot;$
@@ -295,7 +294,7 @@ fi
 
       
     
-  </div>
+  </article>
 
       </div>
 
@@ -321,21 +320,18 @@ fi
 </a>
 
       <div class="copyright">
-        <span
-          >© 2022 Powered by
-          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
-        >
-        <span
-          >Theme created by
-          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
-        >
+        <span>© 2023 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span><a href="https://github.com/panr/hugo-theme-hello-friend" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
     
   </div>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
 
 
       

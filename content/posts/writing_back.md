@@ -1,6 +1,11 @@
 ---
 title: "Writing Back"
 date: 2023-01-18
+author: Linux-Bytes
+tags:
+    - writing
+    - projects
+    - updates
 ---
 
 # Writing Back

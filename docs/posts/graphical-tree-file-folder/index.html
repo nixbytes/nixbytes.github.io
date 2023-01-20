@@ -24,25 +24,23 @@
 
 
 
-<link rel="stylesheet" href="/assets/style.css" />
+
+
+<link rel="stylesheet" href="/css/style.css" />
 
 <link rel="stylesheet" href="/style.css" />
 
 
-<link
-  rel="apple-touch-icon-precomposed"
-  sizes="144x144"
-  href="/img/apple-touch-icon-144-precomposed.png"
-/>
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png" />
 <link rel="shortcut icon" href="/img/favicon.png" />
 
 
-<link href="/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
 
 
 <meta name="twitter:card" content="summary"/>
@@ -54,9 +52,10 @@
 <meta property="og:title" content="Graphical Tree File Folder" />
 <meta property="og:description" content="Graphical tree of sub-directories #  This oneliner command is for a graphical tree of sub-directories, this is an excellent oneliner when you&rsquo;re in need to view the directories in a graphical format. The tree is a recursive directory listing command or program that produces a depth indented listing of files which not generally found on all Linux or Unix systems. The first Tree Unix utility was developed by Steve Baker which includes a verbose of feature and flag option." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/graphical-tree-file-folder/" />
+<meta property="og:url" content="/posts/graphical-tree-file-folder/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2018-12-26T00:00:00+00:00" />
 <meta property="article:modified_time" content="2018-12-26T00:00:00+00:00" /><meta property="og:site_name" content="NixBytes" />
+
 
 
 
@@ -150,13 +149,13 @@
   
   
 
-  <div class="post">
+  <article class="post">
     <h1 class="post-title">Graphical Tree File Folder</h1>
     <div class="post-meta">
       
-        <span class="post-date">
+        <time class="post-date">
           2018-12-26
-        </span>
+        </time>
 
         
           
@@ -201,7 +200,7 @@ being used.</p>
 </h3>
 <p>using <code>ls -R</code> does recursively list subdirectories encountered. this will give
 every thing in directory by level of current one</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 root@19472dcaa9be:/var/log# ls -R
 .:
 alternatives.log  apt  bootstrap.log  btmp  dpkg.log  faillog  lastlog  tallylog  wtmp
@@ -214,7 +213,7 @@ eipp.log.xz  history.log
 </h3>
 <p>Now with the grep command, we grep all line that end with <code>:</code>. using the <code>$</code>we
 grabbing all line with <code>:</code>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 root@19472dcaa9be:/var/log# ls -R | grep <span style="color:#e6db74">&#39;:$&#39;</span>
 .:
 ./apt:
@@ -227,7 +226,7 @@ directories and add |- and additional - for each level of the directories it
 sitting in. with <code>sed</code> the flag <code>-e</code> will append the editing commands specified
 by the command argument to the list of commands.</p>
 <p>First let remove the <code>:</code> from the list directories.</p>
-<pre><code>root@80edb8b49c29:/var#  ls -R | grep &quot;:$&quot; | sed -e 's/:$//'
+<pre tabindex="0"><code>root@80edb8b49c29:/var#  ls -R | grep &quot;:$&quot; | sed -e 's/:$//'
 .
 ./backups
 ./cache
@@ -263,7 +262,7 @@ by the command argument to the list of commands.</p>
 </code></pre><p>now let with the regex <code>s/[^-][^\/]*\//--/g</code> from sed, replace all <code>.</code> and <code>/</code>
 and stop with last <code>/</code> with a <code>--</code> when in case with add additionalm base on
 how many dirctory each lines has.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">root@80edb8b49c29:/var# ls -R | grep <span style="color:#e6db74">&#34;:</span>$<span style="color:#e6db74">&#34;</span> | sed -e <span style="color:#e6db74">&#39;s/:$//&#39;</span> -e <span style="color:#e6db74">&#39;s/[^-][^\/]*\//--/g&#39;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">root@80edb8b49c29:/var# ls -R | grep <span style="color:#e6db74">&#34;:</span>$<span style="color:#e6db74">&#34;</span> | sed -e <span style="color:#e6db74">&#39;s/:$//&#39;</span> -e <span style="color:#e6db74">&#39;s/[^-][^\/]*\//--/g&#39;</span>
 .
 --backups
 --cache
@@ -300,7 +299,7 @@ how many dirctory each lines has.</p>
 </code></pre></div><p>finally we use this two sed regex <code>-e 's/^/ /' -e 's/-/|/'</code> and add spacing and
 <code>|</code> to the begining of the list. thier you go we have a quick tree of the
 directories with <code>--</code> as levels.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
 root@19472dcaa9be:/var# ls -R | grep <span style="color:#e6db74">&#34;:</span>$<span style="color:#e6db74">&#34;</span> | sed -e <span style="color:#e6db74">&#39;s/:$//&#39;</span> -e <span style="color:#e6db74">&#39;s/[^-][^\/]*\//--/g&#39;</span> -e <span style="color:#e6db74">&#39;s/^/ /&#39;</span> -e <span style="color:#e6db74">&#39;s/-/|/&#39;</span>
  .
  |-backups
@@ -375,7 +374,7 @@ root@19472dcaa9be:/var# ls -R | grep <span style="color:#e6db74">&#34;:</span>$<
 
       
     
-  </div>
+  </article>
 
       </div>
 
@@ -401,21 +400,18 @@ root@19472dcaa9be:/var# ls -R | grep <span style="color:#e6db74">&#34;:</span>$<
 </a>
 
       <div class="copyright">
-        <span
-          >© 2022 Powered by
-          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
-        >
-        <span
-          >Theme created by
-          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
-        >
+        <span>© 2023 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span><a href="https://github.com/panr/hugo-theme-hello-friend" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
     
   </div>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
 
 
       

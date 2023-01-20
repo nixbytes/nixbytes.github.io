@@ -1,6 +1,10 @@
 ---
 title: "What Is programming Really?"
 date: 2020-11-01
+author: Linux-Bytes
+tags:
+    - programming
+    - scripting
 ---
 
 # What is Programming
