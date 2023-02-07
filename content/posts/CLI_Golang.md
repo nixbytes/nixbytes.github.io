@@ -1,7 +1,6 @@
 ---
-title: "CLI_Golang"
+title: "CLI Golang"
 date: 2022-03-18
-draft: true
 ---
 # CLI and Golang
 
