@@ -1,7 +1,6 @@
 ---
 title: 'Freq Digits'
 date: 2020-07-07
-draft: true
 ---
 
 Given an integer number, find the most frequent digit in it.
