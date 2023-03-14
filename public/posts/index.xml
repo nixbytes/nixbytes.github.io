@@ -115,6 +115,31 @@
     </item>
     
     <item>
+      <title>Freq Digits</title>
+      <link>/posts/freq_numbers/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/freq_numbers/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Given an integer number, find the most frequent digit in it.
+  how to count things efficiently?
+  keep calm and code in Python!
+  Let use the statistics that comes with python stand library
+Statistic Module #  This module provides functions for calculating mathematical statistics of numeric (Real-valued) data.
+import statistics from statistics import mode This module statistics offers a Single mode (most common value) of discrete or nominal data.
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Docker Update Images</title>
       <link>/posts/docker-update-images/</link>
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>

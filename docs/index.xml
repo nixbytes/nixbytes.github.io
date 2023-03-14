@@ -9,10 +9,50 @@
     <description>Recent content on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HellEsc</title>
+      <link>/posts/hellesc/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hellesc/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Life is complicated, and the tech world is full of choices. To learn better, I code in low-level languages and work my way. RabbitHoleCoding, I will call it HellEsc since I will be coming from the pit of hell of bits ;). Let&amp;rsquo;s start with the basics, and I will need to start with hardware which will be virtual for now. Virtualization will make things portable and less worried about me breaking things.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Hello Assembly</title>
+      <link>/posts/hello_assembly/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hello_assembly/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          The symbols and incantations that make up the assembly-like code. Interestingly, this language for the CPU is closer to the machine code that a computer can understand, providing greater control over the hardware. Reading and writing are more challenging than high-level programming languages like Javascript or Python. The main is using a basic concept of hello world and memory stack. With Today&amp;rsquo;s AI, Cloud, and other buzz words technology stack, it&amp;rsquo;s nice to come back to the roots sometimes and see how things work on a simple level
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Writing Back</title>
@@ -35,6 +75,26 @@
     </item>
     
     <item>
+      <title>CLI Golang</title>
+      <link>/posts/cli_golang/</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/cli_golang/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          CLI and Golang #  For some time, have wanted to dabble a little more on Golang. After working on an intro course at ACG (A Cloud Guru) and learning Golang, I got to say it is a straightforward language with some powerful features. Creating a CLI tool with Golang has been a good experience. The language has some unique character and made with some legendary programmers in our time:
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>What Is programming Really?</title>
       <link>/posts/what_is_programming/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
@@ -49,6 +109,31 @@
         
         
           What is Programming #  This a question for anyone now in days in today&amp;rsquo;s world, is scripting or compiling the true nature? What is programming, really? I mean their many languages. Some argue scripting is false and compiling machine code is best, but not too low or high is the battle for many developers, engineers, and coders. This paradigm is better than others etc. If you can type it and run it, it is programming as long it turns complete.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Freq Digits</title>
+      <link>/posts/freq_numbers/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/freq_numbers/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Given an integer number, find the most frequent digit in it.
+  how to count things efficiently?
+  keep calm and code in Python!
+  Let use the statistics that comes with python stand library
+Statistic Module #  This module provides functions for calculating mathematical statistics of numeric (Real-valued) data.
+import statistics from statistics import mode This module statistics offers a Single mode (most common value) of discrete or nominal data.
           
         
         </description>

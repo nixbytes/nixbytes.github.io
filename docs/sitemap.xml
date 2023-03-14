@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/hellesc/</loc>
+    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
-    <lastmod>2023-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2023-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/hello_assembly/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/projects/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
@@ -23,6 +29,9 @@
     <loc>/posts/writing_back/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/posts/cli_golang/</loc>
+    <lastmod>2022-03-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/programming/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -31,6 +40,9 @@
   </url><url>
     <loc>/posts/what_is_programming/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/freq_numbers/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/command-line/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
