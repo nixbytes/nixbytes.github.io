@@ -9,10 +9,13 @@ tags:
 ---
 
 
-In the shell piping, the stdout of a command into the stdin is a powerful technique in the terminal. But, what happens if you need to pipe the stdout of multiple commands, for example comparing and sort text data? Let use an example of where process substitution can be used.
+In the world of shell piping, there's a powerful technique that involves piping the standard output (stdout) of one command into the standard input (stdin) of another. However, what happens when you need to pipe the output of multiple commands? This is where process substitution comes in handy.
 
+Process substitution is a shell technique that allows you to use the output of a command as a file argument to another command, without the need to create temporary files or named pipes. Instead, process substitution provides a more streamlined and efficient approach to managing shell pipelines.
 
-example:
+Let's take a look at an example to illustrate the benefits of process substitution. Suppose you have two unsorted files that you want to compare and find the unique lines in each file. Traditionally, you would need to create temporary files to store the sorted and unique lines, and then use the 'comm' command to compare the files. However, with process substitution, you can do all of this in one line without the need for temporary files.
+
+Here's an example:
 
 ```bash
 
@@ -20,40 +23,13 @@ example:
 or
   >(list)
 
+comm -3 <(sort file1 | uniq) <(sort file2 | uniq)
 ```
 
-Now let try view the lines unique to each of these two unsorted files with using process substitution.
+In this example, we're using process substitution to sort and find the unique lines in each file and then compare them using the 'comm' command. As you can see, the output is the same as the traditional method, but with a more efficient and streamlined approach.
 
-```bash
+One of the main benefits of process substitution is that it enables reading directly from another process, which can often be faster than having to write a temporary file and then read it back in. This not only saves time but also avoids the need for disk space. Additionally, the substituted process can run concurrently, which means that shell scripts can take advantage of multiprocessing to reduce the total time for computation.
 
-> sort file1 | uniq >ex1
-> sort file2 | uniq >ex2
-> comm -3 tmp1 tmp2
-        c
-        d
-        f
-> rm ex1 ex2
+It's worth noting that process substitution has been available as a compile-time option for the Korn shell (ksh88) since 1988. The Bash shell also provided process substitution no later than version 1.14, released in 1994. This means that process substitution has been available for quite some time and is a well-established technique in the shell scripting world.
 
-```
-
-as you can see both files needed to be created in order to compare, with process substitution we can do all this with one line
-
-```bash
-
-> comm -3 <(sort a | uniq) <(sort b | uniq)
-
-         c
-         d
-         f
-
-```
-Let's point what makes process substitution a great shell technique. First, there is no need to save temporary files or create named pipes first. Secondary Reading directly from another process is often faster than having to write a temporary file to this k, then read it back in. Which make this not tie to the IO and won't require disk space. The substituted process can be running concurrently, which can make shell scripts to taking advantage of multiprocessing to reduce the total time for the computation.
-
-#### Wiki History
-
-Process substitution was available as a compile-time option for ksh88, the 1988 version of the Korn shell from Bell Labs.[1] The Bash shell provided process substitution no later than version 1.14, released in 1994
-
-
-
-![wiki source](https://en.wikipedia.org/wiki/Process_substitution)
-
+In conclusion, process substitution is a powerful and efficient technique that provides a streamlined approach to managing shell pipelines. By avoiding the need for temporary files and enabling direct reading from another process, process substitution can save time and reduce the complexity of shell scripts.
