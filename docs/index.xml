@@ -9,10 +9,30 @@
     <description>Recent content on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Wizard&#39;s Command Line Incantations for Enchanting C Code in Vim</title>
+      <link>/posts/vimscript_c_format/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/vimscript_c_format/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          A Wizard&amp;rsquo;s Command Line Incantations for Enchanting C Code in Vim # A Wizard&amp;rsquo;s Command Line Incantations for Enchanting C Code in Vim Greetings, fellow practitioners of the command line arts! Today, we delve into the mystical world of Vim, where keystrokes become spells, and code transforms at our whim. Join me as we explore a spellbinding Vim script, an incantation designed to transmute chaotic C code into a tapestry of elegance and order.
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>HellEsc</title>
@@ -28,7 +48,8 @@
         
         
         
-          Life is complicated, and the tech world is full of choices. To learn better, I code in low-level languages and work my way. RabbitHoleCoding, I will call it HellEsc since I will be coming from the pit of hell of bits ;). Let&amp;rsquo;s start with the basics, and I will need to start with hardware which will be virtual for now. Virtualization will make things portable and less worried about me breaking things.
+          Journey into RabbitHoleCoding: A Wizard&amp;rsquo;s Tale in the Realm of the Command Line # In the mystical realm of technology, where choices abound like stars in the night sky, embarks a brave soul on a quest named RabbitHoleCoding, or as I prefer, HellEsc. Picture this journey as a descent into the very core of the digital netherworld, delving into the abyss of bits and bytes.
+The Art of Command-Line Wizardry # Just as a wizard begins with the fundamentals of magic, so shall this journey commence with the rudimentary elements of computing.
           
         
         </description>
