@@ -8,7 +8,7 @@
     <link>/tags/grep/</link>
     <description>Recent content in grep on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/grep/index.xml" rel="self" type="application/rss+xml" />
@@ -29,7 +29,7 @@
         
         
           A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
-docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull 
+docker images |grep -v REPOSITORY|awk &amp;#39;{print $1}&amp;#39;|xargs -L1 docker pull 
           
         
         </description>
@@ -49,7 +49,7 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
         
         
         
-          Graphical tree of sub-directories #  This oneliner command is for a graphical tree of sub-directories, this is an excellent oneliner when you&amp;rsquo;re in need to view the directories in a graphical format. The tree is a recursive directory listing command or program that produces a depth indented listing of files which not generally found on all Linux or Unix systems. The first Tree Unix utility was developed by Steve Baker which includes a verbose of feature and flag option.
+          Graphical tree of sub-directories # This oneliner command is for a graphical tree of sub-directories, this is an excellent oneliner when you&amp;rsquo;re in need to view the directories in a graphical format. The tree is a recursive directory listing command or program that produces a depth indented listing of files which not generally found on all Linux or Unix systems. The first Tree Unix utility was developed by Steve Baker which includes a verbose of feature and flag option.
           
         
         </description>

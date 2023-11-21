@@ -54,7 +54,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/cat-command/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2018-12-16T00:00:00+00:00" />
-<meta property="article:modified_time" content="2018-12-16T00:00:00+00:00" /><meta property="og:site_name" content="NixBytes" />
+<meta property="article:modified_time" content="2018-12-16T00:00:00+00:00" />
 
 
 
@@ -215,9 +215,8 @@ consist of lines of text, but works with any sort of data.</p>
      6	# be assumed.  All other items are optional - if not specified then
      7	# the described action or option will be inhibited.
      8	#
-     9	# Comment lines (lines beginning with &quot;#&quot;) and blank lines are ignored.
+     9	# Comment lines (lines beginning with &#34;#&#34;) and blank lines are ignored.
     10	#
-
 </code></pre><p>now let check the end of line character with the <code>cat -e</code></p>
 <pre tabindex="0"><code>root@0868755f0791:/# cat -e etc/login.defs | head
 #$
@@ -228,17 +227,16 @@ consist of lines of text, but works with any sort of data.</p>
 # be assumed.  All other items are optional - if not specified then$
 # the described action or option will be inhibited.$
 #$
-# Comment lines (lines beginning with &quot;#&quot;) and blank lines are ignored.$
+# Comment lines (lines beginning with &#34;#&#34;) and blank lines are ignored.$
 #$
-
 </code></pre><p>with the <code>cat -T</code> command flag we can see all the tab characters</p>
 <pre tabindex="0"><code>root@0868755f0791:/# cat -T etc/bash.bashrc | tail
                    return $?
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
-^I^I   /usr/share/command-not-found/command-not-found -- &quot;$1&quot;
+^I^I   /usr/share/command-not-found/command-not-found -- &#34;$1&#34;
                    return $?
 ^I^Ielse
-^I^I   printf &quot;%s: command not found\n&quot; &quot;$1&quot; &gt;&amp;2
+^I^I   printf &#34;%s: command not found\n&#34; &#34;$1&#34; &gt;&amp;2
 ^I^I   return 127
 ^I^Ifi
 ^I}
@@ -247,10 +245,10 @@ fi
 <pre tabindex="0"><code>root@0868755f0791:/# cat -Ten etc/bash.bashrc | tail
     62	                   return $?$
     63	                elif [ -x /usr/share/command-not-found/command-not-found ]; then$
-    64	^I^I   /usr/share/command-not-found/command-not-found -- &quot;$1&quot;$
+    64	^I^I   /usr/share/command-not-found/command-not-found -- &#34;$1&#34;$
     65	                   return $?$
     66	^I^Ielse$
-    67	^I^I   printf &quot;%s: command not found\n&quot; &quot;$1&quot; &gt;&amp;2$
+    67	^I^I   printf &#34;%s: command not found\n&#34; &#34;$1&#34; &gt;&amp;2$
     68	^I^I   return 127$
     69	^I^Ifi$
     70	^I}$

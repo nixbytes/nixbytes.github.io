@@ -8,7 +8,7 @@
     <link>/tags/regex/</link>
     <description>Recent content in regex on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/regex/index.xml" rel="self" type="application/rss+xml" />
@@ -30,7 +30,7 @@
         
           Regex&amp;rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&amp;rsquo;t have to.
 so let do some exercises on regex like emails and IP for your everyday technical needs
-Finding Mailing data #  extract email adresses from some file
+Finding Mailing data # extract email adresses from some file
           
         
         </description>

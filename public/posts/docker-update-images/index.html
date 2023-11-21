@@ -12,7 +12,7 @@
 <meta
   name="description"
   content="A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull command. This simple one-liner can help you update all images at once.
-docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull "
+docker images |grep -v REPOSITORY|awk &amp;#39;{print $1}&amp;#39;|xargs -L1 docker pull "
 />
 <meta
   name="keywords"
@@ -57,7 +57,7 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/docker-update-images/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2019-11-27T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-11-27T00:00:00+00:00" /><meta property="og:site_name" content="NixBytes" />
+<meta property="article:modified_time" content="2019-11-27T00:00:00+00:00" />
 
 
 
@@ -195,7 +195,7 @@ docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
     <div class="post-content">
       
       <p>A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull <!-- raw HTML omitted --> command. This simple one-liner can help you update all images at once.</p>
-<pre tabindex="0"><code>docker images |grep -v REPOSITORY|awk '{print $1}'|xargs -L1 docker pull
+<pre tabindex="0"><code>docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
 </code></pre>
     </div>
     

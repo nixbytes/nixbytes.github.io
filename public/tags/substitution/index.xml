@@ -8,7 +8,7 @@
     <link>/tags/substitution/</link>
     <description>Recent content in substitution on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/substitution/index.xml" rel="self" type="application/rss+xml" />
@@ -28,9 +28,8 @@
         
         
         
-          In the shell piping, the stdout of a command into the stdin is a powerful technique in the terminal. But, what happens if you need to pipe the stdout of multiple commands, for example comparing and sort text data? Let use an example of where process substitution can be used.
-example:
-&amp;lt;(list) or &amp;gt;(list) Now let try view the lines unique to each of these two unsorted files with using process substitution.
+          In the world of shell piping, there&amp;rsquo;s a powerful technique that involves piping the standard output (stdout) of one command into the standard input (stdin) of another. However, what happens when you need to pipe the output of multiple commands? This is where process substitution comes in handy.
+Process substitution is a shell technique that allows you to use the output of a command as a file argument to another command, without the need to create temporary files or named pipes.
           
         
         </description>

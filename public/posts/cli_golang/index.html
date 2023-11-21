@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="CLI and Golang #  For some time, have wanted to dabble a little more on Golang. After working on an intro course at ACG (A Cloud Guru) and learning Golang, I got to say it is a straightforward language with some powerful features. Creating a CLI tool with Golang has been a good experience. The language has some unique character and made with some legendary programmers in our time:"
+  content="CLI and Golang # For some time, have wanted to dabble a little more on Golang. After working on an intro course at ACG (A Cloud Guru) and learning Golang, I got to say it is a straightforward language with some powerful features. Creating a CLI tool with Golang has been a good experience. The language has some unique character and made with some legendary programmers in our time:"
 />
 <meta
   name="keywords"
@@ -45,16 +45,16 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="CLI Golang"/>
-<meta name="twitter:description" content="CLI and Golang #  For some time, have wanted to dabble a little more on Golang. After working on an intro course at ACG (A Cloud Guru) and learning Golang, I got to say it is a straightforward language with some powerful features. Creating a CLI tool with Golang has been a good experience. The language has some unique character and made with some legendary programmers in our time:"/>
+<meta name="twitter:description" content="CLI and Golang # For some time, have wanted to dabble a little more on Golang. After working on an intro course at ACG (A Cloud Guru) and learning Golang, I got to say it is a straightforward language with some powerful features. Creating a CLI tool with Golang has been a good experience. The language has some unique character and made with some legendary programmers in our time:"/>
 
 
 
 <meta property="og:title" content="CLI Golang" />
-<meta property="og:description" content="CLI and Golang #  For some time, have wanted to dabble a little more on Golang. After working on an intro course at ACG (A Cloud Guru) and learning Golang, I got to say it is a straightforward language with some powerful features. Creating a CLI tool with Golang has been a good experience. The language has some unique character and made with some legendary programmers in our time:" />
+<meta property="og:description" content="CLI and Golang # For some time, have wanted to dabble a little more on Golang. After working on an intro course at ACG (A Cloud Guru) and learning Golang, I got to say it is a straightforward language with some powerful features. Creating a CLI tool with Golang has been a good experience. The language has some unique character and made with some legendary programmers in our time:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/cli_golang/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-03-18T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-03-18T00:00:00+00:00" /><meta property="og:site_name" content="NixBytes" />
+<meta property="article:modified_time" content="2022-03-18T00:00:00+00:00" />
 
 
 
@@ -189,28 +189,28 @@
   <a href="#basic-password-cli-tool-in-golang" class="h-anchor" aria-hidden="true">#</a>
 </h1>
 <p>The command will be able to export user names, IDs, home directories, and shells as either JSON or CSV. This command will not include information about system users (users with IDs under 1000). By default, the command will display the information as JSON to stdout, but the -format flag will allow a person to specify csv as the export type. Additionally, a file can be specified by using the -path flag. Here are the various ways the tools can be used:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ hr -format<span style="color:#f92672">=</span>csv -path<span style="color:#f92672">=</span>path/to/users.csv
-$ hr -path<span style="color:#f92672">=</span>path/to/users.json
-$ hr
-<span style="color:#f92672">[</span>
-  <span style="color:#f92672">{</span>
-    <span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;cloud_user&#34;</span>,
-    <span style="color:#e6db74">&#34;id&#34;</span>: 1002,
-    <span style="color:#e6db74">&#34;home&#34;</span>: <span style="color:#e6db74">&#34;/home/cloud_user&#34;</span>,
-    <span style="color:#e6db74">&#34;shell&#34;</span>: <span style="color:#e6db74">&#34;/bin/bash&#34;</span>
-  <span style="color:#f92672">}</span>,
-  <span style="color:#f92672">{</span>
-    <span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;kevin&#34;</span>,
-    <span style="color:#e6db74">&#34;id&#34;</span>: 1003,
-    <span style="color:#e6db74">&#34;home&#34;</span>: <span style="color:#e6db74">&#34;/home/kevin&#34;</span>,
-    <span style="color:#e6db74">&#34;shell&#34;</span>: <span style="color:#e6db74">&#34;/bin/zsh&#34;</span>
-  <span style="color:#f92672">}</span>,
-<span style="color:#f92672">]</span>
-$ hr -format<span style="color:#f92672">=</span>csv
-name,id,home,shell
-cloud_user,1002,/home/cloud_user,/bin/bash
-kevin,1003,/home/kevin,/bin/zsh
-</code></pre></div><p>The information we want can be found in the /etc/passwd file.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ hr -format<span style="color:#f92672">=</span>csv -path<span style="color:#f92672">=</span>path/to/users.csv
+</span></span><span style="display:flex;"><span>$ hr -path<span style="color:#f92672">=</span>path/to/users.json
+</span></span><span style="display:flex;"><span>$ hr
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;cloud_user&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;id&#34;</span>: 1002,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;home&#34;</span>: <span style="color:#e6db74">&#34;/home/cloud_user&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;shell&#34;</span>: <span style="color:#e6db74">&#34;/bin/bash&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;kevin&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;id&#34;</span>: 1003,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;home&#34;</span>: <span style="color:#e6db74">&#34;/home/kevin&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;shell&#34;</span>: <span style="color:#e6db74">&#34;/bin/zsh&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>$ hr -format<span style="color:#f92672">=</span>csv
+</span></span><span style="display:flex;"><span>name,id,home,shell
+</span></span><span style="display:flex;"><span>cloud_user,1002,/home/cloud_user,/bin/bash
+</span></span><span style="display:flex;"><span>kevin,1003,/home/kevin,/bin/zsh
+</span></span></code></pre></div><p>The information we want can be found in the /etc/passwd file.</p>
 <p>This code is from <strong>Building a Go Command Line Tool</strong> from <a href="https://acloudguru.com/">A Cloud Guru</a></p>
 <p><a href="https://github.com/nixbytes/acg-hr">source code</a></p>
 

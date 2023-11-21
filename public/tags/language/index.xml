@@ -8,7 +8,7 @@
     <link>/tags/language/</link>
     <description>Recent content in language on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/language/index.xml" rel="self" type="application/rss+xml" />
@@ -29,7 +29,7 @@
         
         
           After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.
-First The Community #  The language itself has many followers, and many business use C++ for varies of reason.
+First The Community # The language itself has many followers, and many business use C++ for varies of reason.
           
         
         </description>
