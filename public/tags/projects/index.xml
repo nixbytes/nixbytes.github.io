@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>projects on NixBytes</title>
+    
+    
+    
+    <link>/tags/projects/</link>
+    <description>Recent content in projects on NixBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Writing Back</title>
+      <link>/posts/writing_back/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/writing_back/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Writing Back # New Year to start exploring new tech and focus on a few things. AI, Machine learning, cyber security, Lower level programming languages, to name a few.Hope I will wonder what the future will bring in these trying times. The next focus or project is to write more rust programming language and a little blog or community surrounding it. The command line world and its related tools. This is a footnote for myself, and see what I can document as I don&amp;rsquo;t have a good memory, so tech will help me in that area.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

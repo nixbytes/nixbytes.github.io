@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>updates on NixBytes</title>
+    
+    
+    
+    <link>/tags/updates/</link>
+    <description>Recent content in updates on NixBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Writing Back</title>
+      <link>/posts/writing_back/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/writing_back/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Writing Back # New Year to start exploring new tech and focus on a few things. AI, Machine learning, cyber security, Lower level programming languages, to name a few.Hope I will wonder what the future will bring in these trying times. The next focus or project is to write more rust programming language and a little blog or community surrounding it. The command line world and its related tools. This is a footnote for myself, and see what I can document as I don&amp;rsquo;t have a good memory, so tech will help me in that area.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Bash 5.0 Release</title>
+      <link>/posts/bash-5.0/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/bash-5.0/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
+comments from the mailing list
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

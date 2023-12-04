@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scripting on NixBytes</title>
+    
+    
+    
+    <link>/tags/scripting/</link>
+    <description>Recent content in scripting on NixBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/scripting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What Is programming Really?</title>
+      <link>/posts/what_is_programming/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/what_is_programming/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          What is Programming # This a question for anyone now in days in today&amp;rsquo;s world, is scripting or compiling the true nature? What is programming, really? I mean their many languages. Some argue scripting is false and compiling machine code is best, but not too low or high is the battle for many developers, engineers, and coders. This paradigm is better than others etc. If you can type it and run it, it is programming as long it turns complete.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
