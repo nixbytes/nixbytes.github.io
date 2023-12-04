@@ -23,8 +23,9 @@ git push origin main
 # Come Back up to the Project Root
 cd ..
 # Clean old docs
+rm -rf ./docs/
 
-#rm -rf ./docs/
+mv ./public/ ./docs/
 
 # Copy Public to Docs
 #cp -vr public docs
