@@ -9,10 +9,31 @@
     <description>Recent content in Posts on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Dec 2023 18:36:03 -0500</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Leaving linux for BSD</title>
+      <link>/posts/leaving_linux_for_bsd/</link>
+      <pubDate>Sun, 03 Dec 2023 18:36:03 -0500</pubDate>
+      
+      <guid>/posts/leaving_linux_for_bsd/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Embracing BSD: A Journey Through Linux Distros to FreeBSD # Introduction # In the world of operating systems, finding the right fit is akin to a personal quest. My journey through various Linux distributions led me to FreeBSD, a choice that aligns perfectly with my needs. Let me take you through my experiences with different Linux distros and why ultimately, BSD made the most sense for me.
+Starting with Slackware: Laying the Foundation # Slackware was my initiation into the world of Linux.
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>A Wizard&#39;s Command Line Incantations for Enchanting C Code in Vim</title>
