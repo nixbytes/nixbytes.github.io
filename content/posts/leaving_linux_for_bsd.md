@@ -1,7 +1,6 @@
 ---
 title: "Leaving linux for BSD"
 date: 2023-12-03T18:36:03-05:00
-draft: true
 ---
 
 
