@@ -9,10 +9,31 @@
     <description>Recent content on NixBytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Dec 2023 18:36:03 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exploring Sysinternals Tools</title>
+      <link>/posts/exploringsysinternalstools/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/exploringsysinternalstools/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Exploring Sysinternals Tools: Sigcheck, Streams, and SDelete # Introduction to Sysinternals Tools # Sysinternals provides a suite of tools for Windows system administration and troubleshooting. We&amp;rsquo;ll focus on three notable tools: Sigcheck, Streams, and SDelete, highlighting their importance in cybersecurity.
+The Significance of Windows in Cybersecurity # Despite various opinions about Windows as a platform, its widespread use makes it a critical focus in cybersecurity. Understanding Windows is essential because:
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Leaving linux for BSD</title>
@@ -444,7 +465,7 @@ Why Alpine Linux you say?
         
         
         
-          I am a Linux engineer by day and a coder by night. I am an ambitious problem solver with a passion for Linux (Slackware, Redhat, Ubuntu, Centos)/Unix (Solaris, AIX, OSX), development, coding and technology as a whole. I am continually evaluating and upgrading my skills so that I can stay at the cutting edge of IT by studying and taking online courses. I started to create this blog to share my passion with technology.
+          Unveiling the Mysteries of Technology: A Security Engineer&amp;rsquo;s Tale # Welcome to the Realm of Technological Wonders! # Hello, fellow tech adventurers! I&amp;rsquo;m excited to take you on a journey through the depths of technology, where I wear the dual hats of a Security Engineer by day and a passionate coder by night. This blog is my sanctum, a place where I unravel the dark mysteries and hidden powers of Linux/Unix systems, coding, and cybersecurity.
           
         
         </description>
