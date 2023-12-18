@@ -1,7 +1,12 @@
 ---
 title: "Exploring Sysinternals Tools"
 date: 2023-12-17
-draft: true
+tags:
+    - windows
+    - sigcheck
+    - virustotal
+    - sysinternals
+
 ---
 
 # Exploring Sysinternals Tools: Sigcheck, Streams, and SDelete

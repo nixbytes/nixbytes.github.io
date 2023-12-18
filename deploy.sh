@@ -21,7 +21,7 @@ git commit -m "$msg"
 # Come Back up to the Project Root
 cd ..
 
-echo "Clean old docs...."
+echo "Cleanng old docs...."
 
 rm -rf ./docs/
 

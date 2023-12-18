@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Bash 5.0 Release ::
+        NixBytes — Linux Admin by day and a Coder by night
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
+comments from the mailing list"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/posts/bash-5.0/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Bash 5.0 Release"/>
+<meta name="twitter:description" content="Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
+comments from the mailing list"/>
+
+
+
+<meta property="og:title" content="Bash 5.0 Release" />
+<meta property="og:description" content="Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
+comments from the mailing list" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/bash-5.0/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-01-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-01-22T00:00:00+00:00" />
+
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >NixBytes</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/posts">Blog</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/posts">Blog</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title">Bash 5.0 Release</h1>
+    <div class="post-meta">
+      
+        <time class="post-date">
+          2019-01-22
+        </time>
+
+        
+          
+        
+      
+
+      
+        <span class="post-author"
+          >— Written by Linux-Bytes</span
+        >
+
+
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          <a href="/tags/bash/">#bash</a>&nbsp;
+        
+          <a href="/tags/shell/">#shell</a>&nbsp;
+        
+          <a href="/tags/updates/">#updates</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      
+      <p>Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also  The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it</p>
+<p>comments from the mailing list</p>
+<blockquote>
+<p>This release fixes several outstanding bugs in bash-4.4 and introduces several new features. The most significant bug fixes are an overhaul of how nameref variables resolve and a number of potential out-of-bounds memory errors discovered via fuzzing. There are a number of changes to the expansion of <code>$@</code> and <code>$*</code> in various contexts where word splitting is not performed to conform to a Posix standard interpretation, and additional changes to resolve corner cases for Posix conformance.</p>
+</blockquote>
+<p>Here are the large amount cool feature added to powerful shell</p>
+<h3 id="directly-from-the-mailing-list">
+  Directly from the mailing list
+  <a href="#directly-from-the-mailing-list" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<ol>
+<li>New Features in Bash</li>
+</ol>
+<p>a. The <code>wait</code> builtin can now wait for the last process substitution created.</p>
+<p>b. There is an EPOCHSECONDS variable, which expands to the time in seconds
+since the Unix epoch.</p>
+<p>c. There is an EPOCHREALTIME variable, which expands to the time in seconds
+since the Unix epoch with microsecond granularity.</p>
+<p>d. New loadable builtins: rm, stat, fdflags.</p>
+<p>e. <code>BASH_ARGV0</code>: a new variable that expands to $0 and sets $0 on assignment.</p>
+<p>f. When supplied a numeric argument, the shell-expand-line bindable readline
+command does not perform quote removal and suppresses command and process
+substitution.</p>
+<p>g. <code>history -d</code> understands negative arguments: negative arguments offset from
+the end of the history list.</p>
+<p>h. The <code>name</code> argument to the <code>coproc</code> reserved word now undergoes word
+expansion, so unique coprocs can be created in loops.</p>
+<p>i. A nameref name resolution loop in a function now resolves to a variable by
+that name in the global scope.</p>
+<p>j. The <code>wait</code> builtin now has a <code>-f</code> option, which signfies to wait until the
+specified job or process terminates, instead of waiting until it changes
+state.</p>
+<p>k. There is a define in config-top.h that allows the shell to use a static
+value for <code>$PATH</code>, overriding whatever is in the environment at startup, for
+use by the restricted shell.</p>
+<p>l. Process substitution does not inherit the <code>v</code> option, like command
+substitution.</p>
+<p>m. If a non-interactive shell with job control enabled detects that a foreground
+job died due to <code>SIGINT</code>, it acts as if it received the <code>SIGINT</code>.</p>
+<p>n. The <code>SIGCHLD</code> trap is run once for each exiting child process even if job
+control is not enabled when the shell is in Posix mode.</p>
+<p>o. A new shopt option: <code>localvar_inherit</code>; if set, a local variable inherits the
+value of a variable with the same name at the nearest preceding scope.</p>
+<p>p. <code>bind -r</code> now checks whether a key sequence is bound before binding it to
+NULL, to avoid creating keymaps for a multi-key sequence.</p>
+<p>q. A numeric argument to the line editing <code>operate-and-get-next</code> command
+specifies which history entry to use.</p>
+<p>r. The positional parameters are now assigned before running the shell startup
+files, so startup files can use address@hidden</p>
+<p>s. There is a compile-time option that forces the shell to disable the check
+for an inherited OLDPWD being a directory.</p>
+<p>t. The <code>history</code> builtin can now delete ranges of history entries using
+<code>-d start-end</code>.</p>
+<p>u. The <code>vi-edit-and-execute-command</code> bindable readline command now puts readline
+back in vi insertion mode after executing commands from the edited file.</p>
+<p>v. The command completion code now matches aliases and shell function names
+case-insensitively if the readline completion-ignore-case variable is set.</p>
+<p>w. There is a new <code>assoc_expand_once</code> shell option that attempts to expand
+associative array subscripts only once.</p>
+<p>x. The shell only sets up <code>BASH_ARGV</code> and <code>BASH_ARGC</code> at startup if extended
+debugging mode is active. The old behavior of unconditionally setting them
+is available as part of the shell compatibility options.</p>
+<p>y. The <code>umask</code> builtin now allows modes and masks greater than octal 777.</p>
+<p>z. The <code>times</code> builtin now honors the current locale when printing a decimal
+point.</p>
+<p>aa. There is a new (disabled by default, undocumented) shell option to enable and disable sending history to syslog at runtime.</p>
+<p>bb. Bash no longer allows variable assignments preceding a special builtin that changes variable attributes to propagate back to the calling environment unless the compatibility level is 44 or lower.</p>
+<p>cc. You can set the default value for $HISTSIZE at build time in config-top.h.</p>
+<p>dd. The <code>complete</code> builtin now accepts a <code>-I</code> option that applies the completion to the initial word on the line.</p>
+<p>ee.  The internal bash malloc now uses mmap (if available) to satisfy requests greater than 128K bytes, so free can use mfree to return the pages to the kernel.</p>
+<p>ff. The shell doesn&rsquo;t automatically set <code>BASH_ARGC</code> and <code>BASH_ARGV</code> at startup unless it&rsquo;s in debugging mode, as the documentation has always said, but will dynamically create them if a script references them at the top level without having enabled debugging mode.</p>
+<p>gg. The <code>localvar_inherit</code> option will not attempt to inherit a value from a variable of an incompatible type (indexed vs. associative arrays, for example).</p>
+<p>hh. The <code>globasciiranges</code> option is now enabled by default; it can be set to off by default at configuration time.</p>
+<p>ii. Associative and indexed arrays now allow subscripts consisting solely of whitespace.</p>
+<p>jj. <code>checkwinsize</code> is now enabled by default.</p>
+<p>kk. The <code>localvar_unset</code> shopt option is now visible and documented.</p>
+<p>ll. The <code>progcomp_alias</code> shopt option is now visible and documented.</p>
+<p>mm. The signal name processing code now understands <code>SIGRTMIN+n</code>call the way up to SIGRTMAX.</p>
+<p>nn. There is a new <code>seq</code> loadable builtin.</p>
+<p>oo. Trap execution now honors the (internal) max invocations of <code>eval</code>, since traps are supposed to be executed as if using <code>eval</code>.</p>
+<p>pp. The <code>$_</code> variable doesn&rsquo;t change when the shell executes a command that forks.</p>
+<p>qq. The <code>kill</code> builtin now supports <code>-sSIGNAME</code> and <code>-nSIGNUM</code>, even though conforming applications aren&rsquo;t supposed to use them.</p>
+<p>rr. POSIX mode now enables the <code>shift_verbose</code> option.</p>
+<ol start="2">
+<li>New Features in Readline</li>
+</ol>
+<p>a. Non-incremental vi-mode search (<code>N</code>, <code>n</code>) can search for a shell pattern, as
+Posix specifies (uses fnmatch(3) if available).</p>
+<p>b. There are new <code>next-screen-line</code> and <code>previous-screen-line</code> bindable commands, which move the cursor to the same column in the next, or previous, physical line, respectively.</p>
+<p>c. There are default key bindings for control-arrow-key key combinations.</p>
+<p>d. A negative argument (-N) to <code>quoted-insert</code>  means to insert the next N characters using quoted-insert.</p>
+<p>e. New public function: <code>rl_check_signals()</code>, which allows applications to respond to signals that readline catches while waiting for input using a custom read function.</p>
+<p>f. There is new support for conditionally testing the readline version in an inputrc file, with a full set of arithmetic comparison operators available.</p>
+<p>g. There is a simple variable comparison facility available for use within an inputrc file. Allowable operators are equality and inequality; string variables may be compared to a value; boolean variables must be compared to either <code>on</code> or <code>off</code>; variable names are separated from the operator by whitespace.</p>
+<p>h. The history expansion library now understands command and process substitution and extended globbing and allows them to appear anywhere in a word.</p>
+<p>i. The history library has a new variable that allows applications to set the initial quoting state, so quoting state can be inherited from a previous line.</p>
+<p>j. Readline now allows application-defined keymap names; there is a new public function, <code>rl_set_keymap_name()</code>, to do that.</p>
+<p>k. The &ldquo;Insert&rdquo; keypad key, if available, now puts readline into overwrite mode.</p>
+<p>with a bundle of new improvement, fixes and feature it&rsquo;s a lot to cover on one news post, we will post a tutorial, use cases, and features soon.</p>
+<p><img src="https://lists.gnu.org/archive/html/bug-bash/2019-01/msg00063.html" alt="Bash mailing source">
+<img src="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" alt="Bash Wiki">
+<img src="https://linux.pictures/" alt="Bash Image Source"></p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/jumpstart-python/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Jumpstart Python</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/regex_use_cases/">
+                  <span class="button__text">Regex Use Cases</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >NixBytes</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2023 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span><a href="https://github.com/panr/hugo-theme-hello-friend" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
