@@ -1,3 +1,14 @@
+---
+title: "Machine Spirits & Malicious Queries: A SQL Injection Lab Chronicle"
+date: 2026-03-18
+author: NixBytes
+tags:
+  - Exploits
+  - Injection
+  - SQL
+  - Queries
+  - UNION
+---
 ##  Machine Spirits & Malicious Queries: A SQL Injection Lab Chronicle
 
 In the grim darkness of the modern internet, there is only… vulnerable input fields.
