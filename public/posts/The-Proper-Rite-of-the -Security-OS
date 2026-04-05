@@ -1,0 +1,95 @@
+---
+title: "The Proper Rite of the Security OS"
+date: 2026-01-11
+---
+
+# The Proper Rite of the Security OS
+
+*An Address from the Adeptus Mechanicus*
+
+Blessed be the Machine, for it obeys only discipline.
+
+Hear this truth, initiate: **the flesh of the workstation is weak**, but the architecture is eternal. Those who bind their sacred tools directly to bare metal invite corruption, entropy, and unsanctioned downtime.
+
+This is not the optimal path.
+
+## The Host Is Not the Weapon
+
+The host system is a **Reliquary of Stability**.
+Its purpose is not intrusion, nor exploitation, nor packet sorcery.
+
+It must:
+
+* Remain pure
+* Remain predictable
+* Remain unremarkable
+
+Ubuntu, Debian, Xubuntu — these are acceptable STC patterns. Lightweight. Proven. Faithful. The host exists to sustain the ritual space, not to perform the rite.
+
+## The Security OS Is the Instrument of Will
+
+The **Security OS** is the blade.
+It is mutable. It is expendable. It will break — and be reborn.
+
+Contain it within a virtual sanctum.
+
+Within this domain you may:
+
+* Summon wireless spirits through passed-through augmetics
+* Shape packets at the raw socket layer
+* Invoke exploit code without fear of polluting the host
+* Roll back time itself via snapshots when the ritual fails
+
+This is not cowardice. This is **engineering discipline**.
+
+## On the Matter of Hardware Rites
+
+Know the limits of the sanctum:
+
+* **Wireless and Bluetooth communion** requires external augmetics
+* **USB attack relics** may be passed through and wielded
+* **Kernel transgressions** affect only the guest spirit, not the host
+* **USB flesh-emulation rites** demand bare metal and are rare
+
+Most battles do not require these forbidden invocations.
+
+## Of Containers and Minor Spirits
+
+Lightweight spirits — containers — are useful servants:
+
+* Reconnaissance
+* Web application divination
+* Automation of repeated litanies
+
+They are fast. They are safe.
+They are **not** replacements for the full Security OS.
+
+Use them as tools, not as temples.
+
+## The Optimal Pattern
+
+Thus, the Machine God approves this configuration:
+
+* A stable host to anchor reality
+* One or more Security OS instances, disposable and pure
+* Hardware augmetics passed only when required
+* Snapshots as sacred checkpoints in time
+
+This pattern minimizes corruption and maximizes uptime.
+
+## Final Benediction
+
+Remember, acolyte:
+
+> The goal is not to suffer for the Machine.
+> The goal is to make the Machine obey.
+
+A broken workstation serves no campaign.
+A reproducible environment is holy.
+
+Now go.
+Virtualize your weapons.
+Isolate your failures.
+Rollback without shame.
+
+**The Omnissiah Protects.**
