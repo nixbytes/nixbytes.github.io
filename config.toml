@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "hello-friend"
+theme = "hello-friend-ng"
 #theme = "Niello"
 #disableKinds = ["sitemap"]
 #disableRSS = true
