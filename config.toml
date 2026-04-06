@@ -22,7 +22,7 @@ paginate = 5
 [languages]
   [languages.en]
     title = "NixBytes"
-    subtitle = "Linux Admin by day and a Coder by night"
+    subtitle = "Security Engineer by day and a Coder by night"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -50,9 +50,9 @@ paginate = 5
     [[params.social]]
       name = "email"
       url  = "mailto:real8686@gmail.com"
-    [[params.social]]
-      name = "twitter"   
-      url  = "https://twitter.com/nixbyte3"
+#    [[params.social]]
+#      name = "twitter"   
+#      url  = "https://twitter.com/nixbyte3"
 
     [[languages.en.menu.main]]
       identifier = "blog"
