@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on NixBytes</title>
+    <link>/tags/sql/</link>
+    <description>Recent content in SQL on NixBytes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neon Exploits: Breaching the Data Veil with a UNION Injection</title>
+      <link>/posts/neon-exploits-breaching-the-data-veil-with-a-union-injection/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/neon-exploits-breaching-the-data-veil-with-a-union-injection/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Neon Exploits: Breaching the Data Veil with a UNION Injection&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The city never sleeps—but neither do its systems. Beneath the glow of holographic ads and the hum of server racks, applications whisper secrets to anyone who knows how to listen. In this lab, we step into the role of a digital ghost, slipping through a vulnerable product category filter and bending SQL queries to our will.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-entry-point-a-flawed-filter&#34;&gt;The Entry Point: A Flawed Filter&lt;/h3&gt;&#xA;&lt;p&gt;Every system has a weakness. Here, it’s the product category filter—a seemingly harmless feature that lets users browse inventory. But under the hood, it’s wired directly into a SQL query without proper sanitization. That’s where the crack in the armor lies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Machine Spirits &amp; Malicious Queries: A SQL Injection Lab Chronicle</title>
+      <link>/posts/machine-spirits--malicious-queries-a-sql-injection-lab-chronicle/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/posts/machine-spirits--malicious-queries-a-sql-injection-lab-chronicle/</guid>
+      <description>&lt;h2 id=&#34;machine-spirits--malicious-queries-a-sql-injection-lab-chronicle&#34;&gt;Machine Spirits &amp;amp; Malicious Queries: A SQL Injection Lab Chronicle&lt;/h2&gt;&#xA;&lt;p&gt;In the grim darkness of the modern internet, there is only… vulnerable input fields.&lt;/p&gt;&#xA;&lt;p&gt;Recently, I completed a hands-on cybersecurity lab from portswigger focused on identifying the number of columns returned by a database query using a &lt;strong&gt;UNION-based SQL Injection technique&lt;/strong&gt;. While performing the exercise, I couldn’t help but imagine the process through the lens of the techno-mystic engineers of the Adeptus Mechanicus from the universe of Warhammer 40,000.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
