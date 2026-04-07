@@ -6,20 +6,27 @@
     <description>Recent content in Tags on NixBytes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploits</title>
       <link>/tags/exploits/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/tags/exploits/</guid>
       <description></description>
     </item>
     <item>
       <title>Injection</title>
       <link>/tags/injection/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/tags/injection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>/tags/sql/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/sql/</guid>
       <description></description>
     </item>
     <item>
@@ -27,13 +34,6 @@
       <link>/tags/queries/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
       <guid>/tags/queries/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SQL</title>
-      <link>/tags/sql/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>/tags/sql/</guid>
       <description></description>
     </item>
     <item>
