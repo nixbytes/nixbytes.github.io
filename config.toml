@@ -17,12 +17,12 @@ paginate = 5
   # Show reading time in minutes for posts
   showReadingTime = false
   # Add Home tile
-  homeSubtitle = "Linux Admin by day and a Coder by night"
+  homeSubtitle = " Security Engineer By Day and Night Open-Source Hacker."
 
 [languages]
   [languages.en]
     title = "NixBytes"
-    subtitle = "Security Engineer by day and a Coder by night"
+    subtitle = "Security Engineer by Day and a Coder by Night"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
