@@ -1,10 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
-#theme = "Niello"
-#disableKinds = ["sitemap"]
-#disableRSS = true
-#theme = "terminal"
+
 paginate = 5
 
 [params]
@@ -17,14 +14,14 @@ paginate = 5
   # Show reading time in minutes for posts
   showReadingTime = false
   # Add Home tile
-  homeSubtitle = " Security Engineer By Day and Night Open-Source Hacker."
+  homeSubtitle = "Security Engineer By Day and Open-Source Hacker by Night."
 
 [languages]
   [languages.en]
     title = "NixBytes"
-    subtitle = "Security Engineer by Day and a Coder by Night"
-    keywords = ""
-    copyright = ""
+    subtitle = "Security Engineer By Day and Open-Source Hacker by Night."
+    keywords = "Security Open-Source"
+    copyright = "MIT"
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -38,11 +35,7 @@ paginate = 5
     [languages.en.params.logo]
       logoText = "NixBytes"
       logoHomeLink = "/"
-    # or
-    #
-    #  path = "/img/glitch-logo.GIF"
-     alt = "Linux Admin by day and a Coder by night"
-    # alt = "Your example logo alt text"
+     alt = "Security Engineer By Day and Open-Source Hacker by Night."
 
     [[params.social]]
       name = "github"
@@ -50,9 +43,6 @@ paginate = 5
     [[params.social]]
       name = "email"
       url  = "mailto:real8686@gmail.com"
-#    [[params.social]]
-#      name = "twitter"   
-#      url  = "https://twitter.com/nixbyte3"
 
     [[languages.en.menu.main]]
       identifier = "blog"
@@ -62,20 +52,7 @@ paginate = 5
       identifier = "about"
       name = "About"
       url = "/about"
-      # [[languages.en.menu.main]]
-      #   identifier = "projects"
-      #   name = "Projects"
-      #   url = "/projects"
 
-
-#[taxonomies]
-#    category = "blog"
-#    tag      = "tags"
-#    series   = "series"
-
-#[taxonomies]
-#  tag      = "tags"
-#  category = "categories"
 [taxonomies]
   tag      = "tags"
   category = "categories"
