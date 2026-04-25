@@ -13,18 +13,18 @@ tags:
 
 In the grim darkness of the modern internet, there is only… vulnerable input fields.
 
-Recently, I completed a hands-on cybersecurity lab from portswigger focused on identifying the number of columns returned by a database query using a **UNION-based SQL Injection technique**. While performing the exercise, I couldn’t help but imagine the process through the lens of the techno-mystic engineers of the Adeptus Mechanicus from the universe of Warhammer 40,000.
+Recently, I completed a hands-on cybersecurity lab from portswigger focused on identifying the number of columns returned by a database query using a UNION-based SQL Injection technique. While performing the exercise, I couldn’t help but imagine the process through the lens of the techno-mystic engineers of the Adeptus Mechanicus from the universe of Warhammer 40,000.
 
 To them, machines possess spirits. To a security tester, applications behave in similarly mysterious ways—responding to carefully crafted inputs like ancient systems awaiting the correct command rites.
 
 
 ## The Lab Objective: Decoding the Machine
 
-The application in the lab contained a **SQL injection vulnerability in a product category filter**. Because the query results were reflected in the application response, it allowed the use of a **UNION-based attack** to retrieve data from other tables.
+The application in the lab contained a **SQL injection vulnerability in a product category filter**. Because the query results were reflected in the application response, it allowed the use of a UNION-based attack to retrieve data from other tables.
 
 But before extracting any hidden knowledge from the database, the first ritual must be performed:
 
-**Determine the number of columns returned by the original query.**
+Determine the number of columns returned by the original query.
 
 Without this knowledge, a UNION attack will fail—much like a Tech-Priest attempting to interface with a sacred machine without first understanding its ports and conduits.
 
@@ -45,7 +45,7 @@ If the number of columns in the injected query **does not match** the original q
 
 > “All queries combined using a UNION, INTERSECT or EXCEPT operator must have an equal number of expressions in their target lists.”
 
-In other words: *the rite was performed incorrectly.*
+In other words: the rite was performed incorrectly.
 
 
 ## Why NULL is the Sacred Offering
