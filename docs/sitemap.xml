@@ -1,7 +1,17 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/</loc>
+    <lastmod>2026-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/the-entropy-of-fragmented-logic/</loc>
+    <lastmod>2026-06-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/exploits/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,12 +19,6 @@
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/neon-exploits-breaching-the-data-veil-with-a-union-injection/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/sql/</loc>
