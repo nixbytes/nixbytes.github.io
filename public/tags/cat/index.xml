@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Cat on NixBytes</title>
-		<link>//localhost:1313/tags/cat/</link>
+		<link>/tags/cat/</link>
 		<description>Recent content in Cat on NixBytes</description>
 		<generator>Hugo -- 0.162.1</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
 		<lastBuildDate>Sun, 16 Dec 2018 00:00:00 +0000</lastBuildDate>
-		<atom:link href="//localhost:1313/tags/cat/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/tags/cat/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>Cat Command</title>
-			<link>//localhost:1313/posts/cat-command/</link>
-			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/cat-command/</guid>
+			<link>/posts/cat-command/</link>
+			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/cat-command/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>The cat is known for reading files sequentially and display its output. it
 maybe be a simple command line tool, but it has many uses. cat is know a known
 tool throght the unix history and has been port over into GNU coreutils. One

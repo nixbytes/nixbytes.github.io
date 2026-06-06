@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Posts on NixBytes</title>
-		<link>//localhost:1313/posts/</link>
+		<link>/posts/</link>
 		<description>Recent content in Posts on NixBytes</description>
 		<generator>Hugo -- 0.162.1</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
 		<lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate>
-		<atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>The Entropy of Fragmented Logic</title>
-			<link>//localhost:1313/posts/the-entropy-of-fragmented-logic/</link>
-			<pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/the-entropy-of-fragmented-logic/</guid>
+			<link>/posts/the-entropy-of-fragmented-logic/</link>
+			<pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>/posts/the-entropy-of-fragmented-logic/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p><strong>LOG-ENTRY: [ERROR_CODE: SUPPLY_CHAIN_CORRUPTION]</strong></p>
 <p><strong>STATUS: URGENT // THREAT LEVEL: EXTREMIS</strong></p>
 <p>To execute a simple &ldquo;Hello World&rdquo; protocol is to perform an invocation upon four hundred unvetted spirits. When the <code>npm install</code> ritual is performed, the machine-spirit accepts hundreds of sub-routines, each inscribed by unknown biological entities, each executing with full permissions. Most Enginseers ignore this expansion of surface area. They are fools.</p>
@@ -31,8 +31,8 @@
 		
 		<item>
 			<title>Neon Exploits: Breaching the Data Veil with a UNION Injection</title>
-			<link>//localhost:1313/posts/neon-exploits-breaching-the-data-veil-with-a-union-injection/</link>
-			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><author>NixBytes</author><guid>//localhost:1313/posts/neon-exploits-breaching-the-data-veil-with-a-union-injection/</guid>
+			<link>/posts/neon-exploits-breaching-the-data-veil-with-a-union-injection/</link>
+			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><author>NixBytes</author><guid>/posts/neon-exploits-breaching-the-data-veil-with-a-union-injection/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p><strong>Neon Exploits: Breaching the Data Veil with a UNION Injection</strong></p>
 <p>The city never sleeps—but neither do its systems. Beneath the glow of holographic ads and the hum of server racks, applications whisper secrets to anyone who knows how to listen. In this lab, we step into the role of a digital ghost, slipping through a vulnerable product category filter and bending SQL queries to our will.</p>
 <h3 id="the-entry-point-a-flawed-filter">The Entry Point: A Flawed Filter<a href="#the-entry-point-a-flawed-filter" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -90,8 +90,8 @@
 		
 		<item>
 			<title>Machine Spirits &amp; Malicious Queries: A SQL Injection Lab Chronicle</title>
-			<link>//localhost:1313/posts/machine-spirits--malicious-queries-a-sql-injection-lab-chronicle/</link>
-			<pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><author>NixBytes</author><guid>//localhost:1313/posts/machine-spirits--malicious-queries-a-sql-injection-lab-chronicle/</guid>
+			<link>/posts/machine-spirits--malicious-queries-a-sql-injection-lab-chronicle/</link>
+			<pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><author>NixBytes</author><guid>/posts/machine-spirits--malicious-queries-a-sql-injection-lab-chronicle/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h2 id="machine-spirits--malicious-queries-a-sql-injection-lab-chronicle">Machine Spirits &amp; Malicious Queries: A SQL Injection Lab Chronicle<a href="#machine-spirits--malicious-queries-a-sql-injection-lab-chronicle" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -180,8 +180,8 @@
 		
 		<item>
 			<title>Exploring Sysinternals Tools</title>
-			<link>//localhost:1313/posts/exploringsysinternalstools/</link>
-			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/exploringsysinternalstools/</guid>
+			<link>/posts/exploringsysinternalstools/</link>
+			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>/posts/exploringsysinternalstools/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="exploring-sysinternals-tools-sigcheck-streams-and-sdelete">Exploring Sysinternals Tools: Sigcheck, Streams, and SDelete<a href="#exploring-sysinternals-tools-sigcheck-streams-and-sdelete" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -265,8 +265,8 @@
 		
 		<item>
 			<title>Leaving linux for BSD</title>
-			<link>//localhost:1313/posts/leaving_linux_for_bsd/</link>
-			<pubDate>Sun, 03 Dec 2023 18:36:03 -0500</pubDate><guid>//localhost:1313/posts/leaving_linux_for_bsd/</guid>
+			<link>/posts/leaving_linux_for_bsd/</link>
+			<pubDate>Sun, 03 Dec 2023 18:36:03 -0500</pubDate><guid>/posts/leaving_linux_for_bsd/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h3 id="embracing-bsd-a-journey-through-linux-distros-to-freebsd">Embracing BSD: A Journey Through Linux Distros to FreeBSD<a href="#embracing-bsd-a-journey-through-linux-distros-to-freebsd" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -333,8 +333,8 @@
 		
 		<item>
 			<title>A Wizard&#39;s Command Line Incantations for Enchanting C Code in Vim</title>
-			<link>//localhost:1313/posts/vimscript_c_format/</link>
-			<pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/vimscript_c_format/</guid>
+			<link>/posts/vimscript_c_format/</link>
+			<pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><guid>/posts/vimscript_c_format/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="a-wizards-command-line-incantations-for-enchanting-c-code-in-vim">A Wizard&rsquo;s Command Line Incantations for Enchanting C Code in Vim<a href="#a-wizards-command-line-incantations-for-enchanting-c-code-in-vim" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -413,8 +413,8 @@ In the end, remember, fellow command line wizards, this Vim script is a tool in 
 		
 		<item>
 			<title>HellEsc</title>
-			<link>//localhost:1313/posts/hellesc/</link>
-			<pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/hellesc/</guid>
+			<link>/posts/hellesc/</link>
+			<pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>/posts/hellesc/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="journey-into-rabbitholecoding-a-wizards-tale-in-the-realm-of-the-command-line">Journey into RabbitHoleCoding: A Wizard&rsquo;s Tale in the Realm of the Command Line<a href="#journey-into-rabbitholecoding-a-wizards-tale-in-the-realm-of-the-command-line" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -455,8 +455,8 @@ Remember, fellow command-line sorcerers, the path of RabbitHoleCoding, or HellEs
 		
 		<item>
 			<title>Hello Assembly</title>
-			<link>//localhost:1313/posts/hello_assembly/</link>
-			<pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/hello_assembly/</guid>
+			<link>/posts/hello_assembly/</link>
+			<pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>/posts/hello_assembly/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>The symbols and incantations that make up the assembly-like code. Interestingly, this language for the CPU is closer to the machine code that a computer can understand, providing greater control over the hardware. Reading and writing are more challenging than high-level programming languages like Javascript or Python. The main is using a basic concept of hello world and memory stack. With Today&rsquo;s AI, Cloud, and other buzz words technology stack, it&rsquo;s nice to come back to the roots sometimes and see how things work on a simple level</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-asm" data-lang="asm"><span style="display:flex;"><span><span style="color:#75715e"># x86 Assembly Basics
 </span></span></span><span style="display:flex;"><span>
@@ -487,22 +487,9 @@ Remember, fellow command-line sorcerers, the path of RabbitHoleCoding, or HellEs
 		</item>
 		
 		<item>
-			<title>The garbage collector</title>
-			<link>//localhost:1313/posts/the_garbage_collector/</link>
-			<pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/the_garbage_collector/</guid>
-			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="the-garbage-collector">The garbage collector<a href="#the-garbage-collector" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round" class="feather">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h1>
-<p>Since early programming, many languages have used the known garbage collector to manage memory resources. Now, the variation of garbage collection has improved or helped programmers to focus on other tasks like feature requests or bug fixes. A newer language called rust uses a different approach called borrowing and ownership. Each part of your program needs to be aware of and manage these resources, or the wizard complier Gandalf will cast you shall not pass.</p>
-]]></content>
-		</item>
-		
-		<item>
 			<title>Writing Back</title>
-			<link>//localhost:1313/posts/writing_back/</link>
-			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/writing_back/</guid>
+			<link>/posts/writing_back/</link>
+			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/writing_back/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="writing-back">Writing Back<a href="#writing-back" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -514,8 +501,8 @@ Remember, fellow command-line sorcerers, the path of RabbitHoleCoding, or HellEs
 		
 		<item>
 			<title>CLI Golang</title>
-			<link>//localhost:1313/posts/cli_golang/</link>
-			<pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/cli_golang/</guid>
+			<link>/posts/cli_golang/</link>
+			<pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate><guid>/posts/cli_golang/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="cli-and-golang">CLI and Golang<a href="#cli-and-golang" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -562,8 +549,8 @@ Remember, fellow command-line sorcerers, the path of RabbitHoleCoding, or HellEs
 		
 		<item>
 			<title>What Is programming Really?</title>
-			<link>//localhost:1313/posts/what_is_programming/</link>
-			<pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/what_is_programming/</guid>
+			<link>/posts/what_is_programming/</link>
+			<pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/what_is_programming/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="what-is-programming">What is Programming<a href="#what-is-programming" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -576,8 +563,8 @@ Remember, fellow command-line sorcerers, the path of RabbitHoleCoding, or HellEs
 		
 		<item>
 			<title>Freq Digits</title>
-			<link>//localhost:1313/posts/freq_numbers/</link>
-			<pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/freq_numbers/</guid>
+			<link>/posts/freq_numbers/</link>
+			<pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate><guid>/posts/freq_numbers/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Given an integer number, find the most frequent digit in it.</p>
 <ul>
 <li>
@@ -632,32 +619,17 @@ found</p>
 		
 		<item>
 			<title>Docker Update Images</title>
-			<link>//localhost:1313/posts/docker-update-images/</link>
-			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/docker-update-images/</guid>
+			<link>/posts/docker-update-images/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/docker-update-images/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull <!-- raw HTML omitted --> command. This simple one-liner can help you update all images at once.</p>
 <pre tabindex="0"><code>docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
 </code></pre>]]></content>
 		</item>
 		
 		<item>
-			<title>IW CLI Basic</title>
-			<link>//localhost:1313/posts/iw-basic/</link>
-			<pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/iw-basic/</guid>
-			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p><code>iw</code> basic will cover some of the basic uses of the commands. hopefully this will help other use the command for their own use cases
-~
-~
-~
-~
-~
-~
-~</p>
-]]></content>
-		</item>
-		
-		<item>
 			<title>ssacli on Linux</title>
-			<link>//localhost:1313/posts/ssacli/</link>
-			<pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/ssacli/</guid>
+			<link>/posts/ssacli/</link>
+			<pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate><guid>/posts/ssacli/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="ssacli-tool">SSACLI TOOL<a href="#ssacli-tool" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -703,8 +675,8 @@ found</p>
 		
 		<item>
 			<title>Learning C&#43;&#43;</title>
-			<link>//localhost:1313/posts/learning-c&#43;&#43;/</link>
-			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/learning-c&#43;&#43;/</guid>
+			<link>/posts/learning-c&#43;&#43;/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/learning-c&#43;&#43;/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.</p>
 <h3 id="first-the-community">First The Community<a href="#first-the-community" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
@@ -735,8 +707,8 @@ found</p>
 		
 		<item>
 			<title>Aws Cloud Tools</title>
-			<link>//localhost:1313/posts/aws-cloud/</link>
-			<pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/aws-cloud/</guid>
+			<link>/posts/aws-cloud/</link>
+			<pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate><guid>/posts/aws-cloud/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="aws-cloud">AWS Cloud<a href="#aws-cloud" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -765,8 +737,8 @@ found</p>
 		
 		<item>
 			<title>Process Substitution</title>
-			<link>//localhost:1313/posts/process-substitution/</link>
-			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/process-substitution/</guid>
+			<link>/posts/process-substitution/</link>
+			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/process-substitution/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>In the world of shell piping, there&rsquo;s a powerful technique that involves piping the standard output (stdout) of one command into the standard input (stdin) of another. However, what happens when you need to pipe the output of multiple commands? This is where process substitution comes in handy.</p>
 <p>Process substitution is a shell technique that allows you to use the output of a command as a file argument to another command, without the need to create temporary files or named pipes. Instead, process substitution provides a more streamlined and efficient approach to managing shell pipelines.</p>
 <p>Let&rsquo;s take a look at an example to illustrate the benefits of process substitution. Suppose you have two unsorted files that you want to compare and find the unique lines in each file. Traditionally, you would need to create temporary files to store the sorted and unique lines, and then use the &lsquo;comm&rsquo; command to compare the files. However, with process substitution, you can do all of this in one line without the need for temporary files.</p>
@@ -786,8 +758,8 @@ found</p>
 		
 		<item>
 			<title>Jumpstart Python</title>
-			<link>//localhost:1313/posts/jumpstart-python/</link>
-			<pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/jumpstart-python/</guid>
+			<link>/posts/jumpstart-python/</link>
+			<pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/jumpstart-python/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h3 id="python-jumpstart-by-building-10-apps">Python Jumpstart by Building 10 Apps<a href="#python-jumpstart-by-building-10-apps" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -868,8 +840,8 @@ found</p>
 		
 		<item>
 			<title>Bash 5.0 Release</title>
-			<link>//localhost:1313/posts/bash-5.0/</link>
-			<pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/bash-5.0/</guid>
+			<link>/posts/bash-5.0/</link>
+			<pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/bash-5.0/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also  The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it</p>
 <p>comments from the mailing list</p>
 <blockquote>
@@ -978,8 +950,8 @@ Posix specifies (uses fnmatch(3) if available).</p>
 		
 		<item>
 			<title>Regex Use Cases</title>
-			<link>//localhost:1313/posts/regex_use_cases/</link>
-			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/regex_use_cases/</guid>
+			<link>/posts/regex_use_cases/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/regex_use_cases/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Regex&rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&rsquo;t have to.</p>
 <p>so let do some exercises on regex like emails and IP for your everyday technical needs</p>
 <h3 id="finding-mailing-data">Finding Mailing data<a href="#finding-mailing-data" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1033,8 +1005,8 @@ these characters <code>_.+</code></p>
 		
 		<item>
 			<title>Linux Shell on IPad or IPhone</title>
-			<link>//localhost:1313/posts/linux-shell-on-ipad-or-iphone/</link>
-			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/linux-shell-on-ipad-or-iphone/</guid>
+			<link>/posts/linux-shell-on-ipad-or-iphone/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/linux-shell-on-ipad-or-iphone/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p><img src="https://ish.app/assets/github-readme.png" alt="IOS"></p>
 <p>Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices.
 The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.</p>
@@ -1056,8 +1028,8 @@ The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux 
 		
 		<item>
 			<title>Mastering Regular Expressions</title>
-			<link>//localhost:1313/posts/mastering-regular-expressions/</link>
-			<pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/mastering-regular-expressions/</guid>
+			<link>/posts/mastering-regular-expressions/</link>
+			<pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/mastering-regular-expressions/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</p>
 <p>Regex is serving a fundamental tool for the filter, searches analyze and summarize data. In today programming languages its extremely rare for a language to not a regex engine of any kind. Let go back in history a bit, and regular expressions were also known as rational expression, which in the 1950s a man named  Stephen Cole Kleene formalized the description the logical expression as a regular language.</p>
 <p>It was a common use with Unix, Linux and Unix-like text-processing utilities such as POSIX tools, sed, awk, Perl and many others. Here is a diagram of the Translating from Thompson Kleene show as regex processor translates a regular expression</p>
@@ -1077,8 +1049,8 @@ The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux 
 		
 		<item>
 			<title>Graphical Tree File Folder</title>
-			<link>//localhost:1313/posts/graphical-tree-file-folder/</link>
-			<pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/graphical-tree-file-folder/</guid>
+			<link>/posts/graphical-tree-file-folder/</link>
+			<pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/graphical-tree-file-folder/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h2 id="graphical-tree-of-sub-directories">Graphical tree of sub-directories<a href="#graphical-tree-of-sub-directories" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -1234,8 +1206,8 @@ directories with <code>--</code> as levels.</p>
 		
 		<item>
 			<title>Cat Command</title>
-			<link>//localhost:1313/posts/cat-command/</link>
-			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/cat-command/</guid>
+			<link>/posts/cat-command/</link>
+			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/cat-command/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>The cat is known for reading files sequentially and display its output. it
 maybe be a simple command line tool, but it has many uses. cat is know a known
 tool throght the unix history and has been port over into GNU coreutils. One
@@ -1305,8 +1277,8 @@ fi
 		
 		<item>
 			<title>First Steps</title>
-			<link>//localhost:1313/posts/first-step/</link>
-			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/first-step/</guid>
+			<link>/posts/first-step/</link>
+			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/first-step/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Hello, in shell <code>echo &quot;Hello World,&quot;</code>. Hello, fellow command line users. First I want to say thank you for visiting this site. This site is for anyone who enjoys working and using the command line aka shell. Soon we are going to add tutorials, talks, news, and man others thing about the command line for any who lives or loves using the command line. Gui is a great interface, but as we know the command line offers more precision and power than any other interface known to humans as this current state. As many say or as you see on the internet &ldquo;Where there is a shell there is a way.&rdquo; Let&rsquo;s explore why this the case, many have argued about GUI and having graphics interface to interact, but there is a reason why we, as a power user, developer, admin or as many walks of life return to the command line. Let discussion quickly a few reasons why, well let&rsquo;s talk why many shy always from this interface.</p>
 <ul>
 <li>
@@ -1336,8 +1308,8 @@ fi
 		
 		<item>
 			<title>My First Post</title>
-			<link>//localhost:1313/posts/my-first-post/</link>
-			<pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/my-first-post/</guid>
+			<link>/posts/my-first-post/</link>
+			<pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/my-first-post/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Hello, This is my first Post for discussing technology, and its uses started to blog to speak about the passion I have for Linux/Unix, Python and Open Source technology. I will Post my thought with no scheduled time frame, and I am thinking of adding a new post on my twitter account if you wish to follow me feel free to do so. Hope you enjoy my blog post and my thought on tech.</p>
 ]]></content>
 		</item>

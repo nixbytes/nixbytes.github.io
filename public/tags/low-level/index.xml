@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Low Level on NixBytes</title>
-		<link>//localhost:1313/tags/low-level/</link>
+		<link>/tags/low-level/</link>
 		<description>Recent content in Low Level on NixBytes</description>
 		<generator>Hugo -- 0.162.1</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
 		<lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
-		<atom:link href="//localhost:1313/tags/low-level/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/tags/low-level/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>Learning C&#43;&#43;</title>
-			<link>//localhost:1313/posts/learning-c&#43;&#43;/</link>
-			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/learning-c&#43;&#43;/</guid>
+			<link>/posts/learning-c&#43;&#43;/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/learning-c&#43;&#43;/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.</p>
 <h3 id="first-the-community">First The Community<a href="#first-the-community" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">

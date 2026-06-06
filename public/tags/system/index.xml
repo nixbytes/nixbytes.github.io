@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>System on NixBytes</title>
-		<link>//localhost:1313/tags/system/</link>
+		<link>/tags/system/</link>
 		<description>Recent content in System on NixBytes</description>
 		<generator>Hugo -- 0.162.1</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
 		<lastBuildDate>Tue, 04 Dec 2018 22:02:58 -0500</lastBuildDate>
-		<atom:link href="//localhost:1313/tags/system/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/tags/system/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>About</title>
-			<link>//localhost:1313/about/</link>
-			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>//localhost:1313/about/</guid>
+			<link>/about/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>/about/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="unveiling-the-mysteries-of-technology-a-security-engineers-tale">Unveiling the Mysteries of Technology: A Security Engineer&rsquo;s Tale<a href="#unveiling-the-mysteries-of-technology-a-security-engineers-tale" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>

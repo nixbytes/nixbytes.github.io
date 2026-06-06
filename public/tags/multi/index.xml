@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Multi on NixBytes</title>
-		<link>//localhost:1313/tags/multi/</link>
+		<link>/tags/multi/</link>
 		<description>Recent content in Multi on NixBytes</description>
 		<generator>Hugo -- 0.162.1</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
 		<lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
-		<atom:link href="//localhost:1313/tags/multi/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/tags/multi/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>Process Substitution</title>
-			<link>//localhost:1313/posts/process-substitution/</link>
-			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/process-substitution/</guid>
+			<link>/posts/process-substitution/</link>
+			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/process-substitution/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>In the world of shell piping, there&rsquo;s a powerful technique that involves piping the standard output (stdout) of one command into the standard input (stdin) of another. However, what happens when you need to pipe the output of multiple commands? This is where process substitution comes in handy.</p>
 <p>Process substitution is a shell technique that allows you to use the output of a command as a file argument to another command, without the need to create temporary files or named pipes. Instead, process substitution provides a more streamlined and efficient approach to managing shell pipelines.</p>
 <p>Let&rsquo;s take a look at an example to illustrate the benefits of process substitution. Suppose you have two unsorted files that you want to compare and find the unique lines in each file. Traditionally, you would need to create temporary files to store the sorted and unique lines, and then use the &lsquo;comm&rsquo; command to compare the files. However, with process substitution, you can do all of this in one line without the need for temporary files.</p>

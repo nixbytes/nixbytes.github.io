@@ -2,369 +2,369 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Tags on NixBytes</title>
-		<link>//localhost:1313/tags/</link>
+		<link>/tags/</link>
 		<description>Recent content in Tags on NixBytes</description>
 		<generator>Hugo -- 0.162.1</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
 		<lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
-		<atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>Exploits</title>
-			<link>//localhost:1313/tags/exploits/</link>
-			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/exploits/</guid>
+			<link>/tags/exploits/</link>
+			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>/tags/exploits/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Injection</title>
-			<link>//localhost:1313/tags/injection/</link>
-			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/injection/</guid>
+			<link>/tags/injection/</link>
+			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>/tags/injection/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>SQL</title>
-			<link>//localhost:1313/tags/sql/</link>
-			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/sql/</guid>
+			<link>/tags/sql/</link>
+			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>/tags/sql/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Queries</title>
-			<link>//localhost:1313/tags/queries/</link>
-			<pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/queries/</guid>
+			<link>/tags/queries/</link>
+			<pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>/tags/queries/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>UNION</title>
-			<link>//localhost:1313/tags/union/</link>
-			<pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/union/</guid>
+			<link>/tags/union/</link>
+			<pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>/tags/union/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Sigcheck</title>
-			<link>//localhost:1313/tags/sigcheck/</link>
-			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/sigcheck/</guid>
+			<link>/tags/sigcheck/</link>
+			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>/tags/sigcheck/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Sysinternals</title>
-			<link>//localhost:1313/tags/sysinternals/</link>
-			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/sysinternals/</guid>
+			<link>/tags/sysinternals/</link>
+			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>/tags/sysinternals/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Virustotal</title>
-			<link>//localhost:1313/tags/virustotal/</link>
-			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/virustotal/</guid>
+			<link>/tags/virustotal/</link>
+			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>/tags/virustotal/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Windows</title>
-			<link>//localhost:1313/tags/windows/</link>
-			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/windows/</guid>
+			<link>/tags/windows/</link>
+			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>/tags/windows/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Projects</title>
-			<link>//localhost:1313/tags/projects/</link>
-			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/projects/</guid>
+			<link>/tags/projects/</link>
+			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><guid>/tags/projects/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Updates</title>
-			<link>//localhost:1313/tags/updates/</link>
-			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/updates/</guid>
+			<link>/tags/updates/</link>
+			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><guid>/tags/updates/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Writing</title>
-			<link>//localhost:1313/tags/writing/</link>
-			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/writing/</guid>
+			<link>/tags/writing/</link>
+			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><guid>/tags/writing/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Programming</title>
-			<link>//localhost:1313/tags/programming/</link>
-			<pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/programming/</guid>
+			<link>/tags/programming/</link>
+			<pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><guid>/tags/programming/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Scripting</title>
-			<link>//localhost:1313/tags/scripting/</link>
-			<pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/scripting/</guid>
+			<link>/tags/scripting/</link>
+			<pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><guid>/tags/scripting/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Command Line</title>
-			<link>//localhost:1313/tags/command-line/</link>
-			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/command-line/</guid>
+			<link>/tags/command-line/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>/tags/command-line/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Docker</title>
-			<link>//localhost:1313/tags/docker/</link>
-			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/docker/</guid>
+			<link>/tags/docker/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>/tags/docker/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Grep</title>
-			<link>//localhost:1313/tags/grep/</link>
-			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/grep/</guid>
+			<link>/tags/grep/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>/tags/grep/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>One-Liners</title>
-			<link>//localhost:1313/tags/one-liners/</link>
-			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/one-liners/</guid>
+			<link>/tags/one-liners/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>/tags/one-liners/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Shell</title>
-			<link>//localhost:1313/tags/shell/</link>
-			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/shell/</guid>
+			<link>/tags/shell/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>/tags/shell/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>C&#43;&#43;</title>
-			<link>//localhost:1313/tags/c&#43;&#43;/</link>
-			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/c&#43;&#43;/</guid>
+			<link>/tags/c&#43;&#43;/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>/tags/c&#43;&#43;/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Coding</title>
-			<link>//localhost:1313/tags/coding/</link>
-			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/coding/</guid>
+			<link>/tags/coding/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>/tags/coding/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Language</title>
-			<link>//localhost:1313/tags/language/</link>
-			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/language/</guid>
+			<link>/tags/language/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>/tags/language/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Linux</title>
-			<link>//localhost:1313/tags/linux/</link>
-			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/linux/</guid>
+			<link>/tags/linux/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>/tags/linux/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Low Level</title>
-			<link>//localhost:1313/tags/low-level/</link>
-			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/low-level/</guid>
+			<link>/tags/low-level/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>/tags/low-level/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Aws</title>
-			<link>//localhost:1313/tags/aws/</link>
-			<pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/aws/</guid>
+			<link>/tags/aws/</link>
+			<pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate><guid>/tags/aws/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Multi</title>
-			<link>//localhost:1313/tags/multi/</link>
-			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/multi/</guid>
+			<link>/tags/multi/</link>
+			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>/tags/multi/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Process</title>
-			<link>//localhost:1313/tags/process/</link>
-			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/process/</guid>
+			<link>/tags/process/</link>
+			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>/tags/process/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Substitution</title>
-			<link>//localhost:1313/tags/substitution/</link>
-			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/substitution/</guid>
+			<link>/tags/substitution/</link>
+			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>/tags/substitution/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Bash</title>
-			<link>//localhost:1313/tags/bash/</link>
-			<pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/bash/</guid>
+			<link>/tags/bash/</link>
+			<pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate><guid>/tags/bash/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Emails</title>
-			<link>//localhost:1313/tags/emails/</link>
-			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/emails/</guid>
+			<link>/tags/emails/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>/tags/emails/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>IP</title>
-			<link>//localhost:1313/tags/ip/</link>
-			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/ip/</guid>
+			<link>/tags/ip/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>/tags/ip/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Regex</title>
-			<link>//localhost:1313/tags/regex/</link>
-			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/regex/</guid>
+			<link>/tags/regex/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>/tags/regex/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Search</title>
-			<link>//localhost:1313/tags/search/</link>
-			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/search/</guid>
+			<link>/tags/search/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>/tags/search/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Apline</title>
-			<link>//localhost:1313/tags/apline/</link>
-			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/apline/</guid>
+			<link>/tags/apline/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/apline/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Github</title>
-			<link>//localhost:1313/tags/github/</link>
-			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/github/</guid>
+			<link>/tags/github/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/github/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Ios</title>
-			<link>//localhost:1313/tags/ios/</link>
-			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/ios/</guid>
+			<link>/tags/ios/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/ios/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Mobile</title>
-			<link>//localhost:1313/tags/mobile/</link>
-			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/mobile/</guid>
+			<link>/tags/mobile/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/mobile/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Big Data</title>
-			<link>//localhost:1313/tags/big-data/</link>
-			<pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/big-data/</guid>
+			<link>/tags/big-data/</link>
+			<pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/big-data/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Ls</title>
-			<link>//localhost:1313/tags/ls/</link>
-			<pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/ls/</guid>
+			<link>/tags/ls/</link>
+			<pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/ls/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Sed</title>
-			<link>//localhost:1313/tags/sed/</link>
-			<pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/sed/</guid>
+			<link>/tags/sed/</link>
+			<pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/sed/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Cat</title>
-			<link>//localhost:1313/tags/cat/</link>
-			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/cat/</guid>
+			<link>/tags/cat/</link>
+			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/cat/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Data</title>
-			<link>//localhost:1313/tags/data/</link>
-			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/data/</guid>
+			<link>/tags/data/</link>
+			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/data/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Files</title>
-			<link>//localhost:1313/tags/files/</link>
-			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/files/</guid>
+			<link>/tags/files/</link>
+			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/files/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Simple</title>
-			<link>//localhost:1313/tags/simple/</link>
-			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/simple/</guid>
+			<link>/tags/simple/</link>
+			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>/tags/simple/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Code</title>
-			<link>//localhost:1313/tags/code/</link>
-			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>//localhost:1313/tags/code/</guid>
+			<link>/tags/code/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>/tags/code/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>System</title>
-			<link>//localhost:1313/tags/system/</link>
-			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>//localhost:1313/tags/system/</guid>
+			<link>/tags/system/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>/tags/system/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Technology</title>
-			<link>//localhost:1313/tags/technology/</link>
-			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>//localhost:1313/tags/technology/</guid>
+			<link>/tags/technology/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>/tags/technology/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Web</title>
-			<link>//localhost:1313/tags/web/</link>
-			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>//localhost:1313/tags/web/</guid>
+			<link>/tags/web/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>/tags/web/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>First</title>
-			<link>//localhost:1313/tags/first/</link>
-			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/first/</guid>
+			<link>/tags/first/</link>
+			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>/tags/first/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Linux-Moles</title>
-			<link>//localhost:1313/tags/linux-moles/</link>
-			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/linux-moles/</guid>
+			<link>/tags/linux-moles/</link>
+			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>/tags/linux-moles/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Start</title>
-			<link>//localhost:1313/tags/start/</link>
-			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/start/</guid>
+			<link>/tags/start/</link>
+			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>/tags/start/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
 		</item>
 		

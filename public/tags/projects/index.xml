@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Projects on NixBytes</title>
-		<link>//localhost:1313/tags/projects/</link>
+		<link>/tags/projects/</link>
 		<description>Recent content in Projects on NixBytes</description>
 		<generator>Hugo -- 0.162.1</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
 		<lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate>
-		<atom:link href="//localhost:1313/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/tags/projects/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>Writing Back</title>
-			<link>//localhost:1313/posts/writing_back/</link>
-			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/writing_back/</guid>
+			<link>/posts/writing_back/</link>
+			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/writing_back/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="writing-back">Writing Back<a href="#writing-back" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>

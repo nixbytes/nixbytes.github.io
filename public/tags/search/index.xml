@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Search on NixBytes</title>
-		<link>//localhost:1313/tags/search/</link>
+		<link>/tags/search/</link>
 		<description>Recent content in Search on NixBytes</description>
 		<generator>Hugo -- 0.162.1</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
 		<lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0000</lastBuildDate>
-		<atom:link href="//localhost:1313/tags/search/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/tags/search/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>Regex Use Cases</title>
-			<link>//localhost:1313/posts/regex_use_cases/</link>
-			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/regex_use_cases/</guid>
+			<link>/posts/regex_use_cases/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/regex_use_cases/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Regex&rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&rsquo;t have to.</p>
 <p>so let do some exercises on regex like emails and IP for your everyday technical needs</p>
 <h3 id="finding-mailing-data">Finding Mailing data<a href="#finding-mailing-data" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"

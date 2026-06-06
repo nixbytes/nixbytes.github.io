@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Categories on NixBytes</title>
-		<link>//localhost:1313/categories/</link>
+		<link>/categories/</link>
 		<description>Recent content in Categories on NixBytes</description>
 		<generator>Hugo -- 0.162.1</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
-		<atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 	</channel>

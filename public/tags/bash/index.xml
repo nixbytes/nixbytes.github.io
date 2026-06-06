@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Bash on NixBytes</title>
-		<link>//localhost:1313/tags/bash/</link>
+		<link>/tags/bash/</link>
 		<description>Recent content in Bash on NixBytes</description>
 		<generator>Hugo -- 0.162.1</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
 		<lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate>
-		<atom:link href="//localhost:1313/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="/tags/bash/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>Bash 5.0 Release</title>
-			<link>//localhost:1313/posts/bash-5.0/</link>
-			<pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/bash-5.0/</guid>
+			<link>/posts/bash-5.0/</link>
+			<pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/bash-5.0/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also  The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it</p>
 <p>comments from the mailing list</p>
 <blockquote>
