@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Tags on NixBytes</title>
+		<link>//localhost:1313/tags/</link>
+		<description>Recent content in Tags on NixBytes</description>
+		<generator>Hugo -- 0.162.1</generator>
+		<language>en-us</language>
+		<copyright>MIT</copyright>
+		<lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+		<atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		<item>
+			<title>Exploits</title>
+			<link>//localhost:1313/tags/exploits/</link>
+			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/exploits/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Injection</title>
+			<link>//localhost:1313/tags/injection/</link>
+			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/injection/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>SQL</title>
+			<link>//localhost:1313/tags/sql/</link>
+			<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/sql/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Queries</title>
+			<link>//localhost:1313/tags/queries/</link>
+			<pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/queries/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>UNION</title>
+			<link>//localhost:1313/tags/union/</link>
+			<pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/union/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Sigcheck</title>
+			<link>//localhost:1313/tags/sigcheck/</link>
+			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/sigcheck/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Sysinternals</title>
+			<link>//localhost:1313/tags/sysinternals/</link>
+			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/sysinternals/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Virustotal</title>
+			<link>//localhost:1313/tags/virustotal/</link>
+			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/virustotal/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Windows</title>
+			<link>//localhost:1313/tags/windows/</link>
+			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/windows/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Projects</title>
+			<link>//localhost:1313/tags/projects/</link>
+			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/projects/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Updates</title>
+			<link>//localhost:1313/tags/updates/</link>
+			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/updates/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Writing</title>
+			<link>//localhost:1313/tags/writing/</link>
+			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/writing/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Programming</title>
+			<link>//localhost:1313/tags/programming/</link>
+			<pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/programming/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Scripting</title>
+			<link>//localhost:1313/tags/scripting/</link>
+			<pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/scripting/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Command Line</title>
+			<link>//localhost:1313/tags/command-line/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/command-line/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Docker</title>
+			<link>//localhost:1313/tags/docker/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/docker/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Grep</title>
+			<link>//localhost:1313/tags/grep/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/grep/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>One-Liners</title>
+			<link>//localhost:1313/tags/one-liners/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/one-liners/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Shell</title>
+			<link>//localhost:1313/tags/shell/</link>
+			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/shell/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>C&#43;&#43;</title>
+			<link>//localhost:1313/tags/c&#43;&#43;/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/c&#43;&#43;/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Coding</title>
+			<link>//localhost:1313/tags/coding/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/coding/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Language</title>
+			<link>//localhost:1313/tags/language/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/language/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Linux</title>
+			<link>//localhost:1313/tags/linux/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/linux/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Low Level</title>
+			<link>//localhost:1313/tags/low-level/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/low-level/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Aws</title>
+			<link>//localhost:1313/tags/aws/</link>
+			<pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/aws/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Multi</title>
+			<link>//localhost:1313/tags/multi/</link>
+			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/multi/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Process</title>
+			<link>//localhost:1313/tags/process/</link>
+			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/process/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Substitution</title>
+			<link>//localhost:1313/tags/substitution/</link>
+			<pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/substitution/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Bash</title>
+			<link>//localhost:1313/tags/bash/</link>
+			<pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/bash/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Emails</title>
+			<link>//localhost:1313/tags/emails/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/emails/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>IP</title>
+			<link>//localhost:1313/tags/ip/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/ip/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Regex</title>
+			<link>//localhost:1313/tags/regex/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/regex/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Search</title>
+			<link>//localhost:1313/tags/search/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/search/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Apline</title>
+			<link>//localhost:1313/tags/apline/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/apline/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Github</title>
+			<link>//localhost:1313/tags/github/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/github/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Ios</title>
+			<link>//localhost:1313/tags/ios/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/ios/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Mobile</title>
+			<link>//localhost:1313/tags/mobile/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/mobile/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Big Data</title>
+			<link>//localhost:1313/tags/big-data/</link>
+			<pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/big-data/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Ls</title>
+			<link>//localhost:1313/tags/ls/</link>
+			<pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/ls/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Sed</title>
+			<link>//localhost:1313/tags/sed/</link>
+			<pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/sed/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Cat</title>
+			<link>//localhost:1313/tags/cat/</link>
+			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/cat/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Data</title>
+			<link>//localhost:1313/tags/data/</link>
+			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/data/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Files</title>
+			<link>//localhost:1313/tags/files/</link>
+			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/files/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Simple</title>
+			<link>//localhost:1313/tags/simple/</link>
+			<pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/simple/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Code</title>
+			<link>//localhost:1313/tags/code/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>//localhost:1313/tags/code/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>System</title>
+			<link>//localhost:1313/tags/system/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>//localhost:1313/tags/system/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Technology</title>
+			<link>//localhost:1313/tags/technology/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>//localhost:1313/tags/technology/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Web</title>
+			<link>//localhost:1313/tags/web/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>//localhost:1313/tags/web/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>First</title>
+			<link>//localhost:1313/tags/first/</link>
+			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/first/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Linux-Moles</title>
+			<link>//localhost:1313/tags/linux-moles/</link>
+			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/linux-moles/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+		<item>
+			<title>Start</title>
+			<link>//localhost:1313/tags/start/</link>
+			<pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate><guid>//localhost:1313/tags/start/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+	</channel>
+</rss>

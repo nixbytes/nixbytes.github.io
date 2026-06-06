@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Linux on NixBytes</title>
+		<link>//localhost:1313/tags/linux/</link>
+		<description>Recent content in Linux on NixBytes</description>
+		<generator>Hugo -- 0.162.1</generator>
+		<language>en-us</language>
+		<copyright>MIT</copyright>
+		<lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
+		<atom:link href="//localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		<item>
+			<title>Learning C&#43;&#43;</title>
+			<link>//localhost:1313/posts/learning-c&#43;&#43;/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/learning-c&#43;&#43;/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.</p>
+<h3 id="first-the-community">First The Community<a href="#first-the-community" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>The language itself has many followers, and many business use C++ for varies of reason. Having a great community is one of the primary core foundations that any language should have. With a good community, you can get support, and the more people will be building useful tools to make development in that particular language more accessible. That being said, that language is used a lot in AAA game companies. Also, it doesn&rsquo;t hurt that the language has an overall high answer rate on StackOverflow.</p>
+<h3 id="control">Control<a href="#control" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>This language is very performant in the right hands of a developer. Since it&rsquo;s statically typed language, C++ is generally more performant than dynamically typed languages because the code is type-checked before it is executed.  in which will take up a minimal resource if done correctly.</p>
+<h3 id="scalability">Scalability<a href="#scalability" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>One of its greatest strength it&rsquo;s how it scales, in the CG (computer graphics) the language is used primarily for these areas of programming for its scalability. As mention before in game programming is one of them.</p>
+<h3 id="various-of-styles">Various of Styles<a href="#various-of-styles" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>C++ is a multiparadigm programming language that not only supports OOP paradigm. The language also supports anonymous functions, also known as lambda expressions. It contains generic programming styles, which allow one value to take on different types, or you Free-form the language in which you only have to follow the semantic rules of C++.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Aws Cloud Tools</title>
+			<link>//localhost:1313/posts/aws-cloud/</link>
+			<pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/aws-cloud/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="aws-cloud">AWS Cloud<a href="#aws-cloud" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p>The AWS Command Line Interface (CLI) is a powerful and convenient tool that allows you to manage and control your AWS services with ease. By using a unified interface, you no longer need to switch between multiple tools or dashboards to manage your cloud infrastructure. Instead, you can control all your AWS services from the command line, which provides a streamlined and efficient approach to managing your cloud environment.</p>
+<p>The AWS CLI is designed to make it easy for you to automate your workflows by writing scripts. By using the command line, you can create scripts that interact with multiple AWS services, allowing you to automate complex workflows and eliminate manual processes. This not only saves you time, but it also reduces the potential for human error.</p>
+<p>One of the most significant benefits of using the AWS CLI is that it allows you to use shell scripting to automate your workflows. Shell scripting is a powerful technique that enables you to write scripts using the command line interface, which can be used to automate repetitive tasks or complex workflows. With the AWS CLI, you can automate processes such as deploying and scaling applications, creating and managing cloud resources, and managing user access and permissions.</p>
+<p>In today&rsquo;s fast-paced technology landscape, automation is becoming increasingly important. The ability to automate tasks can improve efficiency, reduce costs, and increase reliability. The AWS CLI is a vital tool for achieving these benefits, as it allows you to automate your AWS workflows with ease. So, if you can type, you can script it, and finally, you can automate it. The AWS CLI is the tool that makes this possible.</p>
+<h4 id="great-reosources-to-use">Great Reosources to use<a href="#great-reosources-to-use" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><a href="https://github.com/awslabs/aws-shell">https://github.com/awslabs/aws-shell</a></li>
+<li><a href="https://github.com/donnemartin/saws">https://github.com/donnemartin/saws</a></li>
+<li><a href="https://github.com/aws/aws-cli">https://github.com/aws/aws-cli</a></li>
+<li><a href="https://github.com/awslabs/awscli-aliases">https://github.com/awslabs/awscli-aliases</a></li>
+<li><a href="https://github.com/aws/amazon-ecs-cli">https://github.com/aws/amazon-ecs-cli</a></li>
+<li><a href="https://github.com/aws/awsmobile-cli">https://github.com/aws/awsmobile-cli</a></li>
+<li><a href="https://github.com/amazon-archives/awscli-cookbook">https://github.com/amazon-archives/awscli-cookbook</a></li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Linux Shell on IPad or IPhone</title>
+			<link>//localhost:1313/posts/linux-shell-on-ipad-or-iphone/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/linux-shell-on-ipad-or-iphone/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p><img src="https://ish.app/assets/github-readme.png" alt="IOS"></p>
+<p>Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices.
+The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.</p>
+<p>Why Alpine Linux you say? Is a Linux distribution based on musl and BusyBox which many power users use, that want a light weight distro. Because of its small size, it&rsquo;s heavily used in containers providing quick a boot-up times, which makes a great choice for small userspace on IOS. To Install the iSH Shell into iOS requires TestFlight, which is a developer tool.</p>
+<p>The beauty of the shell is that is can be used on any device even on mobile. this is a great project called iSH in which you can run a container Linux on IOS is a great example. This is an excellent project that will open the doors for many users. We hope to see more of the shell get implements on more device.</p>
+<p>check it out and give a trie on your IOS device.</p>
+<h4 id="sources">Sources:<a href="#sources" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><a href="https://ish.app/">iSH</a></li>
+<li><a href="http://osxdaily.com/2018/12/11/ish-linux-shell-ios/">osxdaily</a></li>
+<li><a href="https://github.com/tbodt/ish">iSH Github</a></li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Mastering Regular Expressions</title>
+			<link>//localhost:1313/posts/mastering-regular-expressions/</link>
+			<pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>//localhost:1313/posts/mastering-regular-expressions/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</p>
+<p>Regex is serving a fundamental tool for the filter, searches analyze and summarize data. In today programming languages its extremely rare for a language to not a regex engine of any kind. Let go back in history a bit, and regular expressions were also known as rational expression, which in the 1950s a man named  Stephen Cole Kleene formalized the description the logical expression as a regular language.</p>
+<p>It was a common use with Unix, Linux and Unix-like text-processing utilities such as POSIX tools, sed, awk, Perl and many others. Here is a diagram of the Translating from Thompson Kleene show as regex processor translates a regular expression</p>
+<hr>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Thompson-kleene-star.svg/1000px-Thompson-kleene-star.svg.png" alt="Alt Thompson kleene star"></p>
+<p><code>(s* means 'zero or more of s ')</code></p>
+<h4 id="sources">Sources<a href="#sources" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<p><a href="https://en.wikipedia.org/wiki/Regular_expression">Regular Expression</a>
+<a href="https://en.wikipedia.org/wiki/Stephen_Cole_Kleene">Stephen Cole Kleene</a>
+<a href="https://linuxacademy.com/devops/training/course/name/mastering-regular-expressions">linux Academy</a></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>About</title>
+			<link>//localhost:1313/about/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>//localhost:1313/about/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="unveiling-the-mysteries-of-technology-a-security-engineers-tale">Unveiling the Mysteries of Technology: A Security Engineer&rsquo;s Tale<a href="#unveiling-the-mysteries-of-technology-a-security-engineers-tale" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<h2 id="welcome-to-the-realm-of-technological-wonders">Welcome to the Realm of Technological Wonders!<a href="#welcome-to-the-realm-of-technological-wonders" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Hello, fellow tech adventurers! I&rsquo;m excited to take you on a journey through the depths of technology, where I wear the dual hats of a Security Engineer by day and a passionate coder by night. This blog is my sanctum, a place where I unravel the dark mysteries and hidden powers of Linux/Unix systems, coding, and cybersecurity.</p>
+<h3 id="linux-and-unix-systems-exploring-the-unknown">Linux and Unix Systems: Exploring the Unknown<a href="#linux-and-unix-systems-exploring-the-unknown" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>My exploration into Linux and Unix is not just a profession; it&rsquo;s an odyssey into the unknown. These systems, with their complex layers and philosophies, are like ancient ruins waiting to be explored. I&rsquo;ve navigated through the labyrinths of Redhat, Centos, Ubuntu, Debian, and beyond, each distro revealing its own secrets and strengths.</p>
+<h4 id="delving-into-the-depths">Delving into the Depths<a href="#delving-into-the-depths" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><strong>Redhat and Centos</strong>: Here, I unearthed the secrets of enterprise stability and scalability.</li>
+<li><strong>Ubuntu and Debian</strong>: These distros were like uncovering ancient scrolls, teaching me about community and user accessibility.</li>
+</ul>
+<h3 id="coding-deciphering-the-cryptic-scripts">Coding: Deciphering the Cryptic Scripts<a href="#coding-deciphering-the-cryptic-scripts" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>When the sun sets, my coding saga begins. Each line of code is a cryptic script waiting to be deciphered, a puzzle demanding to be solved. My night is spent in this mystical world of algorithms and logic, where I unlock the true potential and power of technology.</p>
+<h4 id="my-nightly-ritual">My Nightly Ritual<a href="#my-nightly-ritual" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><strong>Challenging Projects</strong>: From creating intricate algorithms to contributing to arcane open-source projects, every code is a key to a new mystery.</li>
+<li><strong>Continuous Learning</strong>: Like a sorcerer honing his spells, I continually sharpen my coding skills through online courses and relentless practice.</li>
+</ul>
+<h3 id="web-technology-weaving-magic-in-the-digital-realm">Web Technology: Weaving Magic in the Digital Realm<a href="#web-technology-weaving-magic-in-the-digital-realm" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>In the domain of web technology, I&rsquo;m a wizard weaving spells of creativity and security. Building websites, understanding the enigmas of web protocols, and experimenting with avant-garde frameworks are part of my quest to master this art.</p>
+<h4 id="crafting-and-securing-digital-experiences">Crafting and Securing Digital Experiences<a href="#crafting-and-securing-digital-experiences" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><strong>Secured Creation</strong>: Integrating impenetrable security into web development is my forte.</li>
+<li><strong>Design Alchemy</strong>: Balancing functionality with enchanting design is a magical challenge I thrive on.</li>
+</ul>
+<h3 id="cybersecurity-the-guardian-of-digital-secrets">Cybersecurity: The Guardian of Digital Secrets<a href="#cybersecurity-the-guardian-of-digital-secrets" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>My foray into cybersecurity is a vigil in the shadows, guarding against unseen threats. I delve deep into the systems, unraveling their secrets, ensuring that they stand impervious to the lurking dangers of the digital world.</p>
+<h4 id="my-creed">My Creed<a href="#my-creed" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><strong>Unearthing Vulnerabilities</strong>: Like a detective in the night, I proactively seek out weaknesses before they can be exploited.</li>
+<li><strong>Spreading Wisdom</strong>: Sharing my knowledge of cybersecurity is akin to teaching the art of ancient defense.</li>
+</ul>
+<h3 id="conclusion-join-me-in-this-enigmatic-journey">Conclusion: Join Me in this Enigmatic Journey<a href="#conclusion-join-me-in-this-enigmatic-journey" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>This blog is more than a collection of technological tales; it&rsquo;s a beacon for those who seek to explore the uncharted territories of IT. Whether you&rsquo;re a kindred spirit in coding, a seeker of Linux/Unix knowledge, or a fellow guardian in cybersecurity, I invite you to join me. Together, let&rsquo;s uncover the arcane powers and hidden mysteries of technology. Join me on this spellbinding adventure into the heart of the digital world!</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow"><meta name="author" content="NixBytes">
+<meta name="description" content=""><link rel="manifest" href="/site.webmanifest"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="NixBytes" />
+<meta name="theme-color" content="#494f5c">
+<meta name="msapplication-TileColor" content="#494f5c">
+
+	<meta itemprop="name" content="Machine Spirits & Malicious Queries: A SQL Injection Lab Chronicle">
+	<meta itemprop="description" content="Machine Spirits &amp; Malicious Queries: A SQL Injection Lab Chronicle In the grim darkness of the modern internet, there is only… vulnerable input fields.
+Recently, I completed a hands-on cybersecurity lab from portswigger focused on identifying the number of columns returned by a database query using a UNION-based SQL Injection technique. While performing the exercise, I couldn’t help but imagine the process through the lens of the techno-mystic engineers of the Adeptus Mechanicus from the universe of Warhammer 40,000.">
+	<meta itemprop="datePublished" content="2026-03-18T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-03-18T00:00:00+00:00">
+	<meta itemprop="wordCount" content="629">
+	<meta itemprop="keywords" content="Exploits,Injection,SQL,Queries,UNION"><meta property="og:url" content="//localhost:1313/posts/machine-spirits--malicious-queries-a-sql-injection-lab-chronicle/">
+	<meta property="og:site_name" content="NixBytes">
+	<meta property="og:title" content="Machine Spirits & Malicious Queries: A SQL Injection Lab Chronicle">
+	<meta property="og:description" content="Machine Spirits &amp; Malicious Queries: A SQL Injection Lab Chronicle In the grim darkness of the modern internet, there is only… vulnerable input fields.
+Recently, I completed a hands-on cybersecurity lab from portswigger focused on identifying the number of columns returned by a database query using a UNION-based SQL Injection technique. While performing the exercise, I couldn’t help but imagine the process through the lens of the techno-mystic engineers of the Adeptus Mechanicus from the universe of Warhammer 40,000.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-03-18T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-03-18T00:00:00+00:00">
+		<meta property="article:tag" content="Exploits">
+		<meta property="article:tag" content="Injection">
+		<meta property="article:tag" content="SQL">
+		<meta property="article:tag" content="Queries">
+		<meta property="article:tag" content="UNION">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Machine Spirits & Malicious Queries: A SQL Injection Lab Chronicle">
+	<meta name="twitter:description" content="Machine Spirits &amp; Malicious Queries: A SQL Injection Lab Chronicle In the grim darkness of the modern internet, there is only… vulnerable input fields.
+Recently, I completed a hands-on cybersecurity lab from portswigger focused on identifying the number of columns returned by a database query using a UNION-based SQL Injection technique. While performing the exercise, I couldn’t help but imagine the process through the lens of the techno-mystic engineers of the Adeptus Mechanicus from the universe of Warhammer 40,000.">
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Machine Spirits \u0026 Malicious Queries: A SQL Injection Lab Chronicle",
+    "name": "Machine Spirits \u0026 Malicious Queries: A SQL Injection Lab Chronicle",
+    "description": "Machine Spirits \u0026amp; Malicious Queries: A SQL Injection Lab Chronicle In the grim darkness of the modern internet, there is only… vulnerable input fields.\nRecently, I completed a hands-on cybersecurity lab from portswigger focused on identifying the number of columns returned by a database query using a UNION-based SQL Injection technique. While performing the exercise, I couldn’t help but imagine the process through the lens of the techno-mystic engineers of the Adeptus Mechanicus from the universe of Warhammer 40,000.\n",
+    "keywords": ["Exploits", "Injection", "SQL", "Queries", "UNION"],
+    "articleBody": "Machine Spirits \u0026 Malicious Queries: A SQL Injection Lab Chronicle In the grim darkness of the modern internet, there is only… vulnerable input fields.\nRecently, I completed a hands-on cybersecurity lab from portswigger focused on identifying the number of columns returned by a database query using a UNION-based SQL Injection technique. While performing the exercise, I couldn’t help but imagine the process through the lens of the techno-mystic engineers of the Adeptus Mechanicus from the universe of Warhammer 40,000.\nTo them, machines possess spirits. To a security tester, applications behave in similarly mysterious ways—responding to carefully crafted inputs like ancient systems awaiting the correct command rites.\nThe Lab Objective: Decoding the Machine The application in the lab contained a SQL injection vulnerability in a product category filter. Because the query results were reflected in the application response, it allowed the use of a UNION-based attack to retrieve data from other tables.\nBut before extracting any hidden knowledge from the database, the first ritual must be performed:\nDetermine the number of columns returned by the original query.\nWithout this knowledge, a UNION attack will fail—much like a Tech-Priest attempting to interface with a sacred machine without first understanding its ports and conduits.\nThe Ritual of Incremental UNION Queries The method used involves submitting a sequence of payloads that gradually increase the number of NULL values:\n' UNION SELECT NULL-- ' UNION SELECT NULL,NULL-- ' UNION SELECT NULL,NULL,NULL-- Each attempt is a probe into the machine’s inner structure.\nIf the number of columns in the injected query does not match the original query, the database responds with an error such as:\n“All queries combined using a UNION, INTERSECT or EXCEPT operator must have an equal number of expressions in their target lists.”\nIn other words: the rite was performed incorrectly.\nWhy NULL is the Sacred Offering In this technique, NULL values are used because of their flexibility.\nDatabases require that the data types in both queries be compatible. Since NULL can be converted into most data types, it becomes the perfect placeholder when trying to match the column structure of the original query.\nThink of it as offering a universal key to the machine spirit—one that fits almost any lock.\nObserving the Machine’s Response Once the correct number of NULL values matches the column count, the database accepts the UNION query.\nAt this moment, something interesting happens.\nThe database returns an additional row containing NULL values across all columns.\nDepending on how the application processes the response, this may appear as:\nAn extra row in a table A new error caused by null values Subtle changes in the HTTP response Or sometimes no obvious difference at all Interpreting these signals is part science and part intuition—very much like diagnosing the temperament of a stubborn machine spirit.\nThe Outcome By iterating through these UNION SELECT payloads, I was able to successfully determine the number of columns returned by the query.\nThis step is foundational for more advanced exploitation techniques, such as:\nIdentifying columns that accept text Extracting database information Retrieving sensitive data from other tables Once the structure of the query is known, the path to deeper enumeration opens.\nLessons from the Forge This lab reinforced several key penetration testing principles:\nUnderstand the structure before exploitation Observe subtle application responses carefully Use safe placeholder values like NULL when probing queries Iterative testing reveals hidden system behavior\nIn many ways, penetration testing feels similar to the work of the Adeptus Mechanicus: studying ancient systems, experimenting carefully, and deciphering how hidden mechanisms respond to precise commands.\nThe difference is that instead of incense and sacred oils, we wield payloads and HTTP requests.\nThe machine spirit has spoken—and the query structure has been revealed.\nThe Omnissiah approves of well-structured queries… and properly tested applications. 🔧\n",
+    "wordCount" : "629",
+    "inLanguage": "en",
+    "datePublished": "2026-03-18T00:00:00Z",
+    "dateModified": "2026-03-18T00:00:00Z",
+    "author":{
+        "@type": "Person",
+        "name": "NixBytes",},
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "//localhost:1313/posts/machine-spirits--malicious-queries-a-sql-injection-lab-chronicle/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NixBytes",
+      "description": "",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "//localhost:1313/favicon.ico"
+      }
+    }
+}
+</script><title>Machine Spirits &amp; Malicious Queries: A SQL Injection Lab Chronicle</title><link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" media="screen" href="//localhost:1313/css/style.min.ce986785270ae4e6882d600059761d9223897d8623d63d223f208a7050e005de.css" integrity="sha256-zphnhScK5OaILWAAWXYdkiOJfYYj1j0iPyCKcFDgBd4=" crossorigin="anonymous">
+	</head>
+
+<body id="page">
+<header id="site-header">
+	<div class="hdr-wrapper section-inner">
+		<div class="hdr-left">
+			<div class="site-branding">
+				<a href="//localhost:1313/">NixBytes</a>
+			</div>
+			<nav class="site-nav hide-in-mobile"><a href="//localhost:1313/about">About</a><a href="//localhost:1313/posts">Blog</a></nav>
+		</div>
+		<div class="hdr-right hdr-icons">
+			<button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+   </svg></button>
+		</div>
+	</div>
+</header>
+<div id="mobile-menu" class="animated fast">
+	<ul><li><a href="//localhost:1313/about">About</a></li><li><a href="//localhost:1313/posts">Blog</a></li></ul>
+</div>
+
+	<main class="site-main section-inner animated fadeIn faster"><article class="thin">
+			<header class="post-header">
+				<div class="post-date"><span>Mar 18, 2026</span></div>
+				<h1>Machine Spirits &amp; Malicious Queries: A SQL Injection Lab Chronicle</h1>
+			</header>
+			<div class="post-description"><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+   stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather">
+   <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+   <line x1="16" y1="8" x2="2" y2="22"></line>
+   <line x1="17.5" y1="15" x2="9" y2="15"></line>
+</svg>NixBytes</p><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon">
+      <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+      <line x1="7" y1="7" x2="7" y2="7"></line>
+   </svg><span class="tag"><a href="//localhost:1313/tags/exploits">Exploits</a></span><span class="tag"><a href="//localhost:1313/tags/injection">Injection</a></span><span class="tag"><a href="//localhost:1313/tags/sql">SQL</a></span><span class="tag"><a href="//localhost:1313/tags/queries">Queries</a></span><span class="tag"><a href="//localhost:1313/tags/union">UNION</a></span></p><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+      <polyline points="14 2 14 8 20 8"></polyline>
+      <line x1="16" y1="13" x2="8" y2="13"></line>
+      <line x1="16" y1="17" x2="8" y2="17"></line>
+      <polyline points="10 9 9 9 8 9"></polyline>
+   </svg>629&nbsp;Words </p>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+      <line x1="16" y1="2" x2="16" y2="6"></line>
+      <line x1="8" y1="2" x2="8" y2="6"></line>
+      <line x1="3" y1="10" x2="21" y2="10"></line>
+   </svg>2026-03-17 20:00 -0400</p></div>
+			<hr class="post-end">
+			<div class="content">
+				 <h2 id="machine-spirits--malicious-queries-a-sql-injection-lab-chronicle">Machine Spirits &amp; Malicious Queries: A SQL Injection Lab Chronicle<a href="#machine-spirits--malicious-queries-a-sql-injection-lab-chronicle" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>In the grim darkness of the modern internet, there is only… vulnerable input fields.</p>
+<p>Recently, I completed a hands-on cybersecurity lab from portswigger focused on identifying the number of columns returned by a database query using a UNION-based SQL Injection technique. While performing the exercise, I couldn’t help but imagine the process through the lens of the techno-mystic engineers of the Adeptus Mechanicus from the universe of Warhammer 40,000.</p>
+<p>To them, machines possess spirits. To a security tester, applications behave in similarly mysterious ways—responding to carefully crafted inputs like ancient systems awaiting the correct command rites.</p>
+<h2 id="the-lab-objective-decoding-the-machine">The Lab Objective: Decoding the Machine<a href="#the-lab-objective-decoding-the-machine" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>The application in the lab contained a <strong>SQL injection vulnerability in a product category filter</strong>. Because the query results were reflected in the application response, it allowed the use of a UNION-based attack to retrieve data from other tables.</p>
+<p>But before extracting any hidden knowledge from the database, the first ritual must be performed:</p>
+<p>Determine the number of columns returned by the original query.</p>
+<p>Without this knowledge, a UNION attack will fail—much like a Tech-Priest attempting to interface with a sacred machine without first understanding its ports and conduits.</p>
+<h2 id="the-ritual-of-incremental-union-queries">The Ritual of Incremental UNION Queries<a href="#the-ritual-of-incremental-union-queries" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>The method used involves submitting a sequence of payloads that gradually increase the number of <code>NULL</code> values:</p>
+<pre tabindex="0"><code>&#39; UNION SELECT NULL--
+&#39; UNION SELECT NULL,NULL--
+&#39; UNION SELECT NULL,NULL,NULL--
+</code></pre><p>Each attempt is a probe into the machine’s inner structure.</p>
+<p>If the number of columns in the injected query <strong>does not match</strong> the original query, the database responds with an error such as:</p>
+<blockquote>
+<p>“All queries combined using a UNION, INTERSECT or EXCEPT operator must have an equal number of expressions in their target lists.”</p>
+</blockquote>
+<p>In other words: the rite was performed incorrectly.</p>
+<h2 id="why-null-is-the-sacred-offering">Why NULL is the Sacred Offering<a href="#why-null-is-the-sacred-offering" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>In this technique, <code>NULL</code> values are used because of their flexibility.</p>
+<p>Databases require that the data types in both queries be compatible. Since <code>NULL</code> can be converted into most data types, it becomes the perfect placeholder when trying to match the column structure of the original query.</p>
+<p>Think of it as offering a <strong>universal key</strong> to the machine spirit—one that fits almost any lock.</p>
+<h2 id="observing-the-machines-response">Observing the Machine’s Response<a href="#observing-the-machines-response" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Once the correct number of <code>NULL</code> values matches the column count, the database accepts the UNION query.</p>
+<p>At this moment, something interesting happens.</p>
+<p>The database returns <strong>an additional row containing NULL values</strong> across all columns.</p>
+<p>Depending on how the application processes the response, this may appear as:</p>
+<ul>
+<li>An extra row in a table</li>
+<li>A new error caused by null values</li>
+<li>Subtle changes in the HTTP response</li>
+<li>Or sometimes no obvious difference at all</li>
+</ul>
+<p>Interpreting these signals is part science and part intuition—very much like diagnosing the temperament of a stubborn machine spirit.</p>
+<h2 id="the-outcome">The Outcome<a href="#the-outcome" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>By iterating through these UNION SELECT payloads, I was able to successfully determine the number of columns returned by the query.</p>
+<p>This step is foundational for more advanced exploitation techniques, such as:</p>
+<ul>
+<li>Identifying columns that accept text</li>
+<li>Extracting database information</li>
+<li>Retrieving sensitive data from other tables</li>
+</ul>
+<p>Once the structure of the query is known, the path to deeper enumeration opens.</p>
+<h2 id="lessons-from-the-forge">Lessons from the Forge<a href="#lessons-from-the-forge" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>This lab reinforced several key penetration testing principles:</p>
+<p><strong>Understand the structure before exploitation</strong>
+<strong>Observe subtle application responses carefully</strong>
+<strong>Use safe placeholder values like NULL when probing queries</strong>
+<strong>Iterative testing reveals hidden system behavior</strong></p>
+<p>In many ways, penetration testing feels similar to the work of the Adeptus Mechanicus: studying ancient systems, experimenting carefully, and deciphering how hidden mechanisms respond to precise commands.</p>
+<p>The difference is that instead of incense and sacred oils, we wield payloads and HTTP requests.</p>
+<p><strong>The machine spirit has spoken—and the query structure has been revealed.</strong></p>
+<p><em>The Omnissiah approves of well-structured queries… and properly tested applications.</em> 🔧</p>
+
+			</div>
+			
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="//localhost:1313/posts/neon-exploits-breaching-the-data-veil-with-a-union-injection/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left">
+      <line x1="19" y1="12" x2="5" y2="12"></line>
+      <polyline points="12 19 5 12 12 5"></polyline>
+   </svg>&nbsp;Newer</span><br><span>Neon Exploits: Breaching the Data Veil with a UNION Injection</span>
+			</a>
+			<a class="prev-post" href="//localhost:1313/posts/exploringsysinternalstools/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right">
+      <line x1="5" y1="12" x2="19" y2="12"></line>
+      <polyline points="12 5 19 12 12 19"></polyline>
+   </svg></span><br><span>Exploring Sysinternals Tools</span>
+			</a>
+		</div>
+		<div id="comments" class="thin"></div>
+	</main>
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+<p>
+	&copy; 2026 <a href="//localhost:1313/">NixBytes</a>
+	&#183; 
+	&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener" title="The world's fastest framework for building websites">Hugo</a> &amp; <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener" title="A fast, minimalist Hugo theme">Hermit-V2</a>
+	</p></footer>
+<script async src="//localhost:1313/js/bundle.min.217d62397cbef6f9f5d8bab30d7e7969d78c52a436ca5d5790cef4d6fef3f1f2.js" integrity="sha256-IX1iOXy+9vn12LqzDX55adeMUqQ2yl1XkM701v7z8fI=" crossorigin="anonymous"></script></body>
+</html>

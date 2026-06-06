@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Sysinternals on NixBytes</title>
+		<link>//localhost:1313/tags/sysinternals/</link>
+		<description>Recent content in Sysinternals on NixBytes</description>
+		<generator>Hugo -- 0.162.1</generator>
+		<language>en-us</language>
+		<copyright>MIT</copyright>
+		<lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate>
+		<atom:link href="//localhost:1313/tags/sysinternals/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		<item>
+			<title>Exploring Sysinternals Tools</title>
+			<link>//localhost:1313/posts/exploringsysinternalstools/</link>
+			<pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/posts/exploringsysinternalstools/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="exploring-sysinternals-tools-sigcheck-streams-and-sdelete">Exploring Sysinternals Tools: Sigcheck, Streams, and SDelete<a href="#exploring-sysinternals-tools-sigcheck-streams-and-sdelete" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<h2 id="introduction-to-sysinternals-tools">Introduction to Sysinternals Tools<a href="#introduction-to-sysinternals-tools" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Sysinternals provides a suite of tools for Windows system administration and troubleshooting. We&rsquo;ll focus on three notable tools: Sigcheck, Streams, and SDelete, highlighting their importance in cybersecurity.</p>
+<h2 id="the-significance-of-windows-in-cybersecurity">The Significance of Windows in Cybersecurity<a href="#the-significance-of-windows-in-cybersecurity" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Despite various opinions about Windows as a platform, its widespread use makes it a critical focus in cybersecurity. Understanding Windows is essential because:</p>
+<ul>
+<li><strong>Prevalence</strong>: Windows is widely used in businesses and homes, making it a frequent target for cyber threats.</li>
+<li><strong>Complexity</strong>: Its complexity and variability mean that vulnerabilities can often go unnoticed.</li>
+<li><strong>Interconnectivity</strong>: Windows systems are often part of larger networks, where one compromised machine can lead to broader security breaches.</li>
+</ul>
+<p>Learning to manage and secure Windows systems is thus crucial for a robust cybersecurity strategy.</p>
+<h3 id="sigcheck-ensuring-file-integrity">Sigcheck: Ensuring File Integrity<a href="#sigcheck-ensuring-file-integrity" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p><strong>Sigcheck</strong> is a command-line utility that provides file version, timestamp, and digital signature details. It can check a file&rsquo;s status on VirusTotal, helping identify potentially harmful files in Windows environments.</p>
+<h4 id="use-case-verifying-windows-system-files">Use Case: Verifying Windows System Files<a href="#use-case-verifying-windows-system-files" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<p>For example, using Sigcheck to check for unsigned files in <code>C:\Windows\System32</code> is vital for maintaining system integrity.</p>
+<h4 id="key-parameters">Key Parameters:<a href="#key-parameters" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><code>-u</code>: Show files unknown by VirusTotal or with non-zero detection.</li>
+<li><code>-e</code>: Scan executable images only.</li>
+</ul>
+<p><img src="image-sigcheck-execution.jpg" alt="Sigcheck Execution"></p>
+<h3 id="streams-managing-alternate-data-streams">Streams: Managing Alternate Data Streams<a href="#streams-managing-alternate-data-streams" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p><strong>Streams</strong> addresses Alternate Data Streams (ADS) in NTFS, allowing for multiple data streams within a file.</p>
+<h4 id="example-security-implications-of-downloads">Example: Security Implications of Downloads<a href="#example-security-implications-of-downloads" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<p>Internet-downloaded files receive an ADS identifier, impacting their security handling in Windows. Knowing how to view and manage these streams is key in cybersecurity.</p>
+<p><img src="image-streams-execution.jpg" alt="Streams Execution"></p>
+<h3 id="sdelete-secure-data-erasure">SDelete: Secure Data Erasure<a href="#sdelete-secure-data-erasure" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p><strong>SDelete</strong> is vital for securely deleting files or cleansing free space, using standards like the DOD 5220.22-M for data wiping.</p>
+<h4 id="cybersecurity-aspect">Cybersecurity Aspect<a href="#cybersecurity-aspect" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<p>It&rsquo;s used in data destruction and file deletion techniques, making understanding its usage crucial in both offensive and defensive cybersecurity strategies.</p>
+<p><img src="image-sdelete-implementation.jpg" alt="SDelete Implementation"></p>
+<h3 id="conclusion-embracing-windows-in-cybersecurity">Conclusion: Embracing Windows in Cybersecurity<a href="#conclusion-embracing-windows-in-cybersecurity" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Despite its criticisms, Windows remains a cornerstone in the cybersecurity landscape. Tools like Sigcheck, Streams, and SDelete are essential for maintaining security and integrity in Windows environments. By mastering these tools, cybersecurity professionals can better defend against the myriad of threats targeting Windows systems.</p>
+<p>Continue your exploration of Windows-centric cybersecurity tools at the <a href="https://docs.microsoft.com/en-us/sysinternals/downloads/file-and-disk-utilities">Sysinternals File and Disk Utilities page</a>.</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>
