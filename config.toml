@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "hermit-V2"
+theme = "hermit-v2"
 
 paginate = 5
 
