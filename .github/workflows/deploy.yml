@@ -18,4 +18,4 @@ jobs:
           hugo-version: '0.160.0'
           extended: false
       - name: Build Website
-        run: bash deploy.sh
+        run: ls -l
