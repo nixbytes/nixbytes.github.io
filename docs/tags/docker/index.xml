@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Docker on NixBytes</title>
 		<link>/tags/docker/</link>
 		<description>Recent content in Docker on NixBytes</description>
-		<generator>Hugo -- 0.162.1</generator>
+		<generator>Hugo</generator>
 		<language>en-us</language>
-		<copyright>MIT</copyright>
-		<lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
-		<atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
 		
 		
-		<item>
-			<title>Docker Update Images</title>
-			<link>/posts/docker-update-images/</link>
-			<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/docker-update-images/</guid>
-			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull <!-- raw HTML omitted --> command. This simple one-liner can help you update all images at once.</p>
-<pre tabindex="0"><code>docker images |grep -v REPOSITORY|awk &#39;{print $1}&#39;|xargs -L1 docker pull
-</code></pre>]]></content>
-		</item>
 		
+			<copyright>MIT</copyright>
+		
+		
+			<lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Docker Update Images</title>
+				<link>/posts/docker-update-images/</link>
+				<pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+				<guid>/posts/docker-update-images/</guid>
+				<description>&lt;p&gt;A great way to update docker images is to use this one-liner. Since, docker does not have a command; this command will update images that you have already pulled. The only way is to pull all images again using docker pull &lt;!-- raw HTML omitted --&gt; command. This simple one-liner can help you update all images at once.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker images |grep -v REPOSITORY|awk &amp;#39;{print $1}&amp;#39;|xargs -L1 docker pull&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
 	</channel>
 </rss>
