@@ -1,26 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Emails on NixBytes</title>
 		<link>/tags/emails/</link>
 		<description>Recent content in Emails on NixBytes</description>
-		<generator>Hugo</generator>
+		<generator>Hugo -- 0.163.0</generator>
 		<language>en-us</language>
+		<copyright>MIT</copyright>
+		<lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0000</lastBuildDate>
+		<atom:link href="/tags/emails/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		<item>
+			<title>Regex Use Cases</title>
+			<link>/posts/regex_use_cases/</link>
+			<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/regex_use_cases/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Regex&rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&rsquo;t have to.</p>
+<p>so let do some exercises on regex like emails and IP for your everyday technical needs</p>
+<h3 id="finding-mailing-data">Finding Mailing data<a href="#finding-mailing-data" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>extract email adresses from some file</p>
+<pre tabindex="0"><code class="language-regex" data-lang="regex">([[:alnum:]_.-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6})
+</code></pre><ol>
+<li>
+<p><code>[:alnum:]</code>: Alphanumeric characters: <code>[:alpha:]</code> and <code>[:digit:]</code>; in the <code>C</code> locale and ASCII character encoding, this is the same as <code>[0-9A-Za-z]</code>.</p>
+</li>
+<li>
+<p><code>[ _.+]</code>: One of the characters in the brackets. in which looks for one of
+these characters <code>_.+</code></p>
+</li>
+<li>
+<p><code>?</code>: Makes quantifiers &ldquo;lazy&rdquo;</p>
+</li>
+<li>
+<p><code>\.</code>: Escapes a special character for the <code>.</code></p>
+</li>
+</ol>
+<h3 id="check-for-ip-address">Check for IP address<a href="#check-for-ip-address" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Look for IPv4 address in files</p>
+<pre tabindex="0"><code>([0-9]{1,3}\.){3}[0-9]{1,3}
+</code></pre><ol>
+<li>
+<p><code>[0-9]</code>: One of the characters in the range from 0 to 9</p>
+</li>
+<li>
+<p><code>{1,3}</code>: One to three times, &ldquo;greedy&rdquo;</p>
+</li>
+<li>
+<p><code>\.</code>: Escapes a special character for the <code>.</code></p>
+</li>
+</ol>
+<p>Like any programming language, it just requires a bit of understanding to get the hang of it. Regex is very powerful can be used for varies of a task that is needed. so keep in mind sprinkle of regex can improve on any project you are working on the shell</p>
+<ul>
+<li><a href="https://www.commandlinefu.com/commands/view/5668/extract-ipv4-addressess-from-file">By: rubenmoran</a></li>
+<li><a href="https://www.commandlinefu.com/commands/view/2431/extract-email-adresses-from-some-file-or-any-other-pattern">By: wires</a></li>
+<li><a href="https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html">GNU Grep</a></li>
+</ul>
+]]></content>
+		</item>
 		
-			<copyright>MIT</copyright>
-		
-		
-			<lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="/tags/emails/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Regex Use Cases</title>
-				<link>/posts/regex_use_cases/</link>
-				<pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
-				<guid>/posts/regex_use_cases/</guid>
-				<description>&lt;p&gt;Regex&amp;rsquo;s some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn&amp;rsquo;t have to.&lt;/p&gt;&#xA;&lt;p&gt;so let do some exercises on regex like emails and IP for your everyday technical needs&lt;/p&gt;&#xA;&lt;h3 id=&#34;finding-mailing-data&#34;&gt;Finding Mailing data&lt;/h3&gt;&#xA;&lt;p&gt;extract email adresses from some file&lt;/p&gt;</description>
-			</item>
 	</channel>
 </rss>

@@ -1,26 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Code on NixBytes</title>
 		<link>/tags/code/</link>
 		<description>Recent content in Code on NixBytes</description>
-		<generator>Hugo</generator>
+		<generator>Hugo -- 0.163.0</generator>
 		<language>en-us</language>
+		<copyright>MIT</copyright>
+		<lastBuildDate>Tue, 04 Dec 2018 22:02:58 -0500</lastBuildDate>
+		<atom:link href="/tags/code/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		<item>
+			<title>About</title>
+			<link>/about/</link>
+			<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate><guid>/about/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="unveiling-the-mysteries-of-technology-a-security-engineers-tale">Unveiling the Mysteries of Technology: A Security Engineer&rsquo;s Tale<a href="#unveiling-the-mysteries-of-technology-a-security-engineers-tale" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<h2 id="welcome-to-the-realm-of-technological-wonders">Welcome to the Realm of Technological Wonders!<a href="#welcome-to-the-realm-of-technological-wonders" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Hello, fellow tech adventurers! I&rsquo;m excited to take you on a journey through the depths of technology, where I wear the dual hats of a Security Engineer by day and a passionate coder by night. This blog is my sanctum, a place where I unravel the dark mysteries and hidden powers of Linux/Unix systems, coding, and cybersecurity.</p>
+<h3 id="linux-and-unix-systems-exploring-the-unknown">Linux and Unix Systems: Exploring the Unknown<a href="#linux-and-unix-systems-exploring-the-unknown" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>My exploration into Linux and Unix is not just a profession; it&rsquo;s an odyssey into the unknown. These systems, with their complex layers and philosophies, are like ancient ruins waiting to be explored. I&rsquo;ve navigated through the labyrinths of Redhat, Centos, Ubuntu, Debian, and beyond, each distro revealing its own secrets and strengths.</p>
+<h4 id="delving-into-the-depths">Delving into the Depths<a href="#delving-into-the-depths" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><strong>Redhat and Centos</strong>: Here, I unearthed the secrets of enterprise stability and scalability.</li>
+<li><strong>Ubuntu and Debian</strong>: These distros were like uncovering ancient scrolls, teaching me about community and user accessibility.</li>
+</ul>
+<h3 id="coding-deciphering-the-cryptic-scripts">Coding: Deciphering the Cryptic Scripts<a href="#coding-deciphering-the-cryptic-scripts" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>When the sun sets, my coding saga begins. Each line of code is a cryptic script waiting to be deciphered, a puzzle demanding to be solved. My night is spent in this mystical world of algorithms and logic, where I unlock the true potential and power of technology.</p>
+<h4 id="my-nightly-ritual">My Nightly Ritual<a href="#my-nightly-ritual" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><strong>Challenging Projects</strong>: From creating intricate algorithms to contributing to arcane open-source projects, every code is a key to a new mystery.</li>
+<li><strong>Continuous Learning</strong>: Like a sorcerer honing his spells, I continually sharpen my coding skills through online courses and relentless practice.</li>
+</ul>
+<h3 id="web-technology-weaving-magic-in-the-digital-realm">Web Technology: Weaving Magic in the Digital Realm<a href="#web-technology-weaving-magic-in-the-digital-realm" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>In the domain of web technology, I&rsquo;m a wizard weaving spells of creativity and security. Building websites, understanding the enigmas of web protocols, and experimenting with avant-garde frameworks are part of my quest to master this art.</p>
+<h4 id="crafting-and-securing-digital-experiences">Crafting and Securing Digital Experiences<a href="#crafting-and-securing-digital-experiences" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><strong>Secured Creation</strong>: Integrating impenetrable security into web development is my forte.</li>
+<li><strong>Design Alchemy</strong>: Balancing functionality with enchanting design is a magical challenge I thrive on.</li>
+</ul>
+<h3 id="cybersecurity-the-guardian-of-digital-secrets">Cybersecurity: The Guardian of Digital Secrets<a href="#cybersecurity-the-guardian-of-digital-secrets" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>My foray into cybersecurity is a vigil in the shadows, guarding against unseen threats. I delve deep into the systems, unraveling their secrets, ensuring that they stand impervious to the lurking dangers of the digital world.</p>
+<h4 id="my-creed">My Creed<a href="#my-creed" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><strong>Unearthing Vulnerabilities</strong>: Like a detective in the night, I proactively seek out weaknesses before they can be exploited.</li>
+<li><strong>Spreading Wisdom</strong>: Sharing my knowledge of cybersecurity is akin to teaching the art of ancient defense.</li>
+</ul>
+<h3 id="conclusion-join-me-in-this-enigmatic-journey">Conclusion: Join Me in this Enigmatic Journey<a href="#conclusion-join-me-in-this-enigmatic-journey" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>This blog is more than a collection of technological tales; it&rsquo;s a beacon for those who seek to explore the uncharted territories of IT. Whether you&rsquo;re a kindred spirit in coding, a seeker of Linux/Unix knowledge, or a fellow guardian in cybersecurity, I invite you to join me. Together, let&rsquo;s uncover the arcane powers and hidden mysteries of technology. Join me on this spellbinding adventure into the heart of the digital world!</p>
+]]></content>
+		</item>
 		
-			<copyright>MIT</copyright>
-		
-		
-			<lastBuildDate>Tue, 04 Dec 2018 22:02:58 -0500</lastBuildDate>
-		
-			<atom:link href="/tags/code/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>About</title>
-				<link>/about/</link>
-				<pubDate>Tue, 04 Dec 2018 22:02:58 -0500</pubDate>
-				<guid>/about/</guid>
-				<description>&lt;h1 id=&#34;unveiling-the-mysteries-of-technology-a-security-engineers-tale&#34;&gt;Unveiling the Mysteries of Technology: A Security Engineer&amp;rsquo;s Tale&lt;/h1&gt;&#xA;&lt;h2 id=&#34;welcome-to-the-realm-of-technological-wonders&#34;&gt;Welcome to the Realm of Technological Wonders!&lt;/h2&gt;&#xA;&lt;p&gt;Hello, fellow tech adventurers! I&amp;rsquo;m excited to take you on a journey through the depths of technology, where I wear the dual hats of a Security Engineer by day and a passionate coder by night. This blog is my sanctum, a place where I unravel the dark mysteries and hidden powers of Linux/Unix systems, coding, and cybersecurity.&lt;/p&gt;</description>
-			</item>
 	</channel>
 </rss>
