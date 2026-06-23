@@ -35,6 +35,27 @@
     <loc>/tags/union/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/command-line/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cryptographic/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/gentoo/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/gpg/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/shell/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/the-doctrine-of-verified-cipher-why-your-keys-cannot-be-guided-by-mere-sentiment/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/posts/exploringsysinternalstools/</loc>
     <lastmod>2023-12-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -89,9 +110,6 @@
     <loc>/posts/freq_numbers/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/command-line/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/docker/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -102,9 +120,6 @@
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/one-liners/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/shell/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/ssacli/</loc>
@@ -120,9 +135,6 @@
     <lastmod>2019-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/learning-c&#43;&#43;/</loc>
-    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/linux/</loc>
     <lastmod>2019-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/low-level/</loc>
@@ -244,8 +256,6 @@
   </url><url>
     <loc>/posts/my-first-post/</loc>
     <lastmod>2018-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/the-doctrine-of-verified-cipher-why-your-keys-cannot-be-guided-by-mere-sentiment/</loc>
   </url><url>
     <loc>/categories/</loc>
   </url>
