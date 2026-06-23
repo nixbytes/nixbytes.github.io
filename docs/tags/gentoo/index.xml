@@ -7,14 +7,14 @@
 		<generator>Hugo -- 0.163.0</generator>
 		<language>en-us</language>
 		<copyright>MIT</copyright>
-		<lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
 		<atom:link href="/tags/gentoo/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>Subdue Cryptographic Chaos</title>
 			<link>/posts/the-doctrine-of-verified-cipher-why-your-keys-cannot-be-guided-by-mere-sentiment/</link>
-			<pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate><guid>/posts/the-doctrine-of-verified-cipher-why-your-keys-cannot-be-guided-by-mere-sentiment/</guid>
+			<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>/posts/the-doctrine-of-verified-cipher-why-your-keys-cannot-be-guided-by-mere-sentiment/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h2 id="blog-post-the-gospel-of-trust--or-how-to-subdue-cryptographic-chaos">Blog Post: The Gospel of Trust — Or, How to Subdue Cryptographic Chaos<a href="#blog-post-the-gospel-of-trust--or-how-to-subdue-cryptographic-chaos" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round" class="feather">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
