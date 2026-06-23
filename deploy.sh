@@ -5,8 +5,13 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 echo "Building the project"
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
+# Ensure submodule is their
+
+git submodule update --init --recursive
+
 # Go To Public folder
 cd public
+
 # Add changes to git.
 git add -A
 
