@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Updates on NixBytes</title>
+		<link>/tags/updates/</link>
+		<description>Recent content in Updates on NixBytes</description>
+		<generator>Hugo -- 0.163.0</generator>
+		<language>en-us</language>
+		<copyright>MIT</copyright>
+		<lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate>
+		<atom:link href="/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		<item>
+			<title>Writing Back</title>
+			<link>/posts/writing_back/</link>
+			<pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/writing_back/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="writing-back">Writing Back<a href="#writing-back" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p>New Year to start exploring new tech and focus on a few things. AI, Machine learning, cyber security, Lower level programming languages, to name a few.Hope I will wonder what the future will bring in these trying times. The next focus or project is to write more rust programming language and a little blog or community surrounding it. The command line world and its related tools. This is a footnote for myself, and see what I can document as I don&rsquo;t have a good memory, so tech will help me in that area. Whoever is reading this, sorry for the ramble, and welcome to my page again. I will post more on the topics I mention, and hopefully, this helps others.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Bash 5.0 Release</title>
+			<link>/posts/bash-5.0/</link>
+			<pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/bash-5.0/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also  The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it</p>
+<p>comments from the mailing list</p>
+<blockquote>
+<p>This release fixes several outstanding bugs in bash-4.4 and introduces several new features. The most significant bug fixes are an overhaul of how nameref variables resolve and a number of potential out-of-bounds memory errors discovered via fuzzing. There are a number of changes to the expansion of <code>$@</code> and <code>$*</code> in various contexts where word splitting is not performed to conform to a Posix standard interpretation, and additional changes to resolve corner cases for Posix conformance.</p>
+</blockquote>
+<p>Here are the large amount cool feature added to powerful shell</p>
+<h3 id="directly-from-the-mailing-list">Directly from the mailing list<a href="#directly-from-the-mailing-list" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<ol>
+<li>New Features in Bash</li>
+</ol>
+<p>a. The <code>wait</code> builtin can now wait for the last process substitution created.</p>
+<p>b. There is an EPOCHSECONDS variable, which expands to the time in seconds
+since the Unix epoch.</p>
+<p>c. There is an EPOCHREALTIME variable, which expands to the time in seconds
+since the Unix epoch with microsecond granularity.</p>
+<p>d. New loadable builtins: rm, stat, fdflags.</p>
+<p>e. <code>BASH_ARGV0</code>: a new variable that expands to $0 and sets $0 on assignment.</p>
+<p>f. When supplied a numeric argument, the shell-expand-line bindable readline
+command does not perform quote removal and suppresses command and process
+substitution.</p>
+<p>g. <code>history -d</code> understands negative arguments: negative arguments offset from
+the end of the history list.</p>
+<p>h. The <code>name</code> argument to the <code>coproc</code> reserved word now undergoes word
+expansion, so unique coprocs can be created in loops.</p>
+<p>i. A nameref name resolution loop in a function now resolves to a variable by
+that name in the global scope.</p>
+<p>j. The <code>wait</code> builtin now has a <code>-f</code> option, which signfies to wait until the
+specified job or process terminates, instead of waiting until it changes
+state.</p>
+<p>k. There is a define in config-top.h that allows the shell to use a static
+value for <code>$PATH</code>, overriding whatever is in the environment at startup, for
+use by the restricted shell.</p>
+<p>l. Process substitution does not inherit the <code>v</code> option, like command
+substitution.</p>
+<p>m. If a non-interactive shell with job control enabled detects that a foreground
+job died due to <code>SIGINT</code>, it acts as if it received the <code>SIGINT</code>.</p>
+<p>n. The <code>SIGCHLD</code> trap is run once for each exiting child process even if job
+control is not enabled when the shell is in Posix mode.</p>
+<p>o. A new shopt option: <code>localvar_inherit</code>; if set, a local variable inherits the
+value of a variable with the same name at the nearest preceding scope.</p>
+<p>p. <code>bind -r</code> now checks whether a key sequence is bound before binding it to
+NULL, to avoid creating keymaps for a multi-key sequence.</p>
+<p>q. A numeric argument to the line editing <code>operate-and-get-next</code> command
+specifies which history entry to use.</p>
+<p>r. The positional parameters are now assigned before running the shell startup
+files, so startup files can use address@hidden</p>
+<p>s. There is a compile-time option that forces the shell to disable the check
+for an inherited OLDPWD being a directory.</p>
+<p>t. The <code>history</code> builtin can now delete ranges of history entries using
+<code>-d start-end</code>.</p>
+<p>u. The <code>vi-edit-and-execute-command</code> bindable readline command now puts readline
+back in vi insertion mode after executing commands from the edited file.</p>
+<p>v. The command completion code now matches aliases and shell function names
+case-insensitively if the readline completion-ignore-case variable is set.</p>
+<p>w. There is a new <code>assoc_expand_once</code> shell option that attempts to expand
+associative array subscripts only once.</p>
+<p>x. The shell only sets up <code>BASH_ARGV</code> and <code>BASH_ARGC</code> at startup if extended
+debugging mode is active. The old behavior of unconditionally setting them
+is available as part of the shell compatibility options.</p>
+<p>y. The <code>umask</code> builtin now allows modes and masks greater than octal 777.</p>
+<p>z. The <code>times</code> builtin now honors the current locale when printing a decimal
+point.</p>
+<p>aa. There is a new (disabled by default, undocumented) shell option to enable and disable sending history to syslog at runtime.</p>
+<p>bb. Bash no longer allows variable assignments preceding a special builtin that changes variable attributes to propagate back to the calling environment unless the compatibility level is 44 or lower.</p>
+<p>cc. You can set the default value for $HISTSIZE at build time in config-top.h.</p>
+<p>dd. The <code>complete</code> builtin now accepts a <code>-I</code> option that applies the completion to the initial word on the line.</p>
+<p>ee.  The internal bash malloc now uses mmap (if available) to satisfy requests greater than 128K bytes, so free can use mfree to return the pages to the kernel.</p>
+<p>ff. The shell doesn&rsquo;t automatically set <code>BASH_ARGC</code> and <code>BASH_ARGV</code> at startup unless it&rsquo;s in debugging mode, as the documentation has always said, but will dynamically create them if a script references them at the top level without having enabled debugging mode.</p>
+<p>gg. The <code>localvar_inherit</code> option will not attempt to inherit a value from a variable of an incompatible type (indexed vs. associative arrays, for example).</p>
+<p>hh. The <code>globasciiranges</code> option is now enabled by default; it can be set to off by default at configuration time.</p>
+<p>ii. Associative and indexed arrays now allow subscripts consisting solely of whitespace.</p>
+<p>jj. <code>checkwinsize</code> is now enabled by default.</p>
+<p>kk. The <code>localvar_unset</code> shopt option is now visible and documented.</p>
+<p>ll. The <code>progcomp_alias</code> shopt option is now visible and documented.</p>
+<p>mm. The signal name processing code now understands <code>SIGRTMIN+n</code>call the way up to SIGRTMAX.</p>
+<p>nn. There is a new <code>seq</code> loadable builtin.</p>
+<p>oo. Trap execution now honors the (internal) max invocations of <code>eval</code>, since traps are supposed to be executed as if using <code>eval</code>.</p>
+<p>pp. The <code>$_</code> variable doesn&rsquo;t change when the shell executes a command that forks.</p>
+<p>qq. The <code>kill</code> builtin now supports <code>-sSIGNAME</code> and <code>-nSIGNUM</code>, even though conforming applications aren&rsquo;t supposed to use them.</p>
+<p>rr. POSIX mode now enables the <code>shift_verbose</code> option.</p>
+<ol start="2">
+<li>New Features in Readline</li>
+</ol>
+<p>a. Non-incremental vi-mode search (<code>N</code>, <code>n</code>) can search for a shell pattern, as
+Posix specifies (uses fnmatch(3) if available).</p>
+<p>b. There are new <code>next-screen-line</code> and <code>previous-screen-line</code> bindable commands, which move the cursor to the same column in the next, or previous, physical line, respectively.</p>
+<p>c. There are default key bindings for control-arrow-key key combinations.</p>
+<p>d. A negative argument (-N) to <code>quoted-insert</code>  means to insert the next N characters using quoted-insert.</p>
+<p>e. New public function: <code>rl_check_signals()</code>, which allows applications to respond to signals that readline catches while waiting for input using a custom read function.</p>
+<p>f. There is new support for conditionally testing the readline version in an inputrc file, with a full set of arithmetic comparison operators available.</p>
+<p>g. There is a simple variable comparison facility available for use within an inputrc file. Allowable operators are equality and inequality; string variables may be compared to a value; boolean variables must be compared to either <code>on</code> or <code>off</code>; variable names are separated from the operator by whitespace.</p>
+<p>h. The history expansion library now understands command and process substitution and extended globbing and allows them to appear anywhere in a word.</p>
+<p>i. The history library has a new variable that allows applications to set the initial quoting state, so quoting state can be inherited from a previous line.</p>
+<p>j. Readline now allows application-defined keymap names; there is a new public function, <code>rl_set_keymap_name()</code>, to do that.</p>
+<p>k. The &ldquo;Insert&rdquo; keypad key, if available, now puts readline into overwrite mode.</p>
+<p>with a bundle of new improvement, fixes and feature it&rsquo;s a lot to cover on one news post, we will post a tutorial, use cases, and features soon.</p>
+<p><img src="https://lists.gnu.org/archive/html/bug-bash/2019-01/msg00063.html" alt="Bash mailing source">
+<img src="https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29" alt="Bash Wiki">
+<img src="https://linux.pictures/" alt="Bash Image Source"></p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

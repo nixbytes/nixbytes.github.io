@@ -1,3 +1,16 @@
+---
+title: "Subdue Cryptographic Chaos"
+date: 2025-06-21
+tags:
+  - Cryptographic
+  - linux
+  - shell
+  - command line
+  - GPG
+  - Gentoo
+
+---
+
 ## Blog Post: The Gospel of Trust — Or, How to Subdue Cryptographic Chaos
 
 *(A Treatise for Initiates in Digital Protocol and Sacred Key Management)*
