@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Programming on NixBytes</title>
+		<link>/tags/programming/</link>
+		<description>Recent content in Programming on NixBytes</description>
+		<generator>Hugo -- 0.163.0</generator>
+		<language>en-us</language>
+		<copyright>MIT</copyright>
+		<lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+		<atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		<item>
+			<title>What Is programming Really?</title>
+			<link>/posts/what_is_programming/</link>
+			<pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/what_is_programming/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="what-is-programming">What is Programming<a href="#what-is-programming" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p>This a question for anyone now in days in today&rsquo;s world, is scripting or compiling the true nature? What is programming, really? I mean their many languages. Some argue scripting is false and compiling machine code is best, but not too low or high is the battle for many developers, engineers, and coders. This paradigm is better than others etc. If you can type it and run it, it is programming as long it turns complete.</p>
+<p>some food for thoughs</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Learning C&#43;&#43;</title>
+			<link>/posts/learning-c&#43;&#43;/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/learning-c&#43;&#43;/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.</p>
+<h3 id="first-the-community">First The Community<a href="#first-the-community" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>The language itself has many followers, and many business use C++ for varies of reason. Having a great community is one of the primary core foundations that any language should have. With a good community, you can get support, and the more people will be building useful tools to make development in that particular language more accessible. That being said, that language is used a lot in AAA game companies. Also, it doesn&rsquo;t hurt that the language has an overall high answer rate on StackOverflow.</p>
+<h3 id="control">Control<a href="#control" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>This language is very performant in the right hands of a developer. Since it&rsquo;s statically typed language, C++ is generally more performant than dynamically typed languages because the code is type-checked before it is executed.  in which will take up a minimal resource if done correctly.</p>
+<h3 id="scalability">Scalability<a href="#scalability" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>One of its greatest strength it&rsquo;s how it scales, in the CG (computer graphics) the language is used primarily for these areas of programming for its scalability. As mention before in game programming is one of them.</p>
+<h3 id="various-of-styles">Various of Styles<a href="#various-of-styles" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>C++ is a multiparadigm programming language that not only supports OOP paradigm. The language also supports anonymous functions, also known as lambda expressions. It contains generic programming styles, which allow one value to take on different types, or you Free-form the language in which you only have to follow the semantic rules of C++.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Mastering Regular Expressions</title>
+			<link>/posts/mastering-regular-expressions/</link>
+			<pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/mastering-regular-expressions/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>So Linux Academy is offering a great course called Mastering Regular Expressions. After taking a few video course and video, I have to say learning more about regular expressions is more important than ever. Perhaps a few regexes (regular expressions) is fine for simple tasks, but for complex problems, having a deeper knowledge on many levels can boost your technical skill to a new level especially with the need for big data.</p>
+<p>Regex is serving a fundamental tool for the filter, searches analyze and summarize data. In today programming languages its extremely rare for a language to not a regex engine of any kind. Let go back in history a bit, and regular expressions were also known as rational expression, which in the 1950s a man named  Stephen Cole Kleene formalized the description the logical expression as a regular language.</p>
+<p>It was a common use with Unix, Linux and Unix-like text-processing utilities such as POSIX tools, sed, awk, Perl and many others. Here is a diagram of the Translating from Thompson Kleene show as regex processor translates a regular expression</p>
+<hr>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Thompson-kleene-star.svg/1000px-Thompson-kleene-star.svg.png" alt="Alt Thompson kleene star"></p>
+<p><code>(s* means 'zero or more of s ')</code></p>
+<h4 id="sources">Sources<a href="#sources" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<p><a href="https://en.wikipedia.org/wiki/Regular_expression">Regular Expression</a>
+<a href="https://en.wikipedia.org/wiki/Stephen_Cole_Kleene">Stephen Cole Kleene</a>
+<a href="https://linuxacademy.com/devops/training/course/name/mastering-regular-expressions">linux Academy</a></p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Ios on NixBytes</title>
+		<link>/tags/ios/</link>
+		<description>Recent content in Ios on NixBytes</description>
+		<generator>Hugo -- 0.163.0</generator>
+		<language>en-us</language>
+		<copyright>MIT</copyright>
+		<lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
+		<atom:link href="/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		<item>
+			<title>Linux Shell on IPad or IPhone</title>
+			<link>/posts/linux-shell-on-ipad-or-iphone/</link>
+			<pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/linux-shell-on-ipad-or-iphone/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p><img src="https://ish.app/assets/github-readme.png" alt="IOS"></p>
+<p>Hello Fellower Moles, thier is a great tools that haves a linux shell on moble devices.
+The new Linux command line iSH app on iPad or iPhone. With iSH Shell is a Linux shell for iOS that uses an x86 emulator to run a simplified version of Alpine Linux on IOS. You can install packages and additional software directly into iSH with the Alpine package manager.</p>
+<p>Why Alpine Linux you say? Is a Linux distribution based on musl and BusyBox which many power users use, that want a light weight distro. Because of its small size, it&rsquo;s heavily used in containers providing quick a boot-up times, which makes a great choice for small userspace on IOS. To Install the iSH Shell into iOS requires TestFlight, which is a developer tool.</p>
+<p>The beauty of the shell is that is can be used on any device even on mobile. this is a great project called iSH in which you can run a container Linux on IOS is a great example. This is an excellent project that will open the doors for many users. We hope to see more of the shell get implements on more device.</p>
+<p>check it out and give a trie on your IOS device.</p>
+<h4 id="sources">Sources:<a href="#sources" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h4>
+<ul>
+<li><a href="https://ish.app/">iSH</a></li>
+<li><a href="http://osxdaily.com/2018/12/11/ish-linux-shell-ios/">osxdaily</a></li>
+<li><a href="https://github.com/tbodt/ish">iSH Github</a></li>
+</ul>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

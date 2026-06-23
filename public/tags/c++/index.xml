@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>C&#43;&#43; on NixBytes</title>
+		<link>/tags/c&#43;&#43;/</link>
+		<description>Recent content in C&#43;&#43; on NixBytes</description>
+		<generator>Hugo -- 0.163.0</generator>
+		<language>en-us</language>
+		<copyright>MIT</copyright>
+		<lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
+		<atom:link href="/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		<item>
+			<title>Learning C&#43;&#43;</title>
+			<link>/posts/learning-c&#43;&#43;/</link>
+			<pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate><author>Linux-Bytes</author><guid>/posts/learning-c&#43;&#43;/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>After dabblingly in a few programming languages like javascript, bash, and python, I finally biting the bullet and trying out C++, as low-level features and high-level abstraction, I figure this would boost my coding skills and get me closer into more development. So far, the language is not as scary as many make it be. Let touch on a few things on why C++ is good to learn.</p>
+<h3 id="first-the-community">First The Community<a href="#first-the-community" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>The language itself has many followers, and many business use C++ for varies of reason. Having a great community is one of the primary core foundations that any language should have. With a good community, you can get support, and the more people will be building useful tools to make development in that particular language more accessible. That being said, that language is used a lot in AAA game companies. Also, it doesn&rsquo;t hurt that the language has an overall high answer rate on StackOverflow.</p>
+<h3 id="control">Control<a href="#control" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>This language is very performant in the right hands of a developer. Since it&rsquo;s statically typed language, C++ is generally more performant than dynamically typed languages because the code is type-checked before it is executed.  in which will take up a minimal resource if done correctly.</p>
+<h3 id="scalability">Scalability<a href="#scalability" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>One of its greatest strength it&rsquo;s how it scales, in the CG (computer graphics) the language is used primarily for these areas of programming for its scalability. As mention before in game programming is one of them.</p>
+<h3 id="various-of-styles">Various of Styles<a href="#various-of-styles" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>C++ is a multiparadigm programming language that not only supports OOP paradigm. The language also supports anonymous functions, also known as lambda expressions. It contains generic programming styles, which allow one value to take on different types, or you Free-form the language in which you only have to follow the semantic rules of C++.</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>
