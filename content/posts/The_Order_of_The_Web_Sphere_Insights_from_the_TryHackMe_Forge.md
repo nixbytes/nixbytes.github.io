@@ -1,6 +1,6 @@
 ---
 title: "The Order of the Web-Sphere: Insights from the TryHackMe Forge"
-date: 2023-10-27
+date: 2026-9-14
 ---
 
 *The logic is sound. The protocols are codified.*
