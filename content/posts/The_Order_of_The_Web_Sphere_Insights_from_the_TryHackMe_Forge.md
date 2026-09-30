@@ -1,6 +1,12 @@
 ---
 title: "The Order of the Web-Sphere: Insights from the TryHackMe Forge"
-date: 2026-9-14
+date: 2026-09-14
+tags:
+    - Web
+    - TryHackMe
+    - Focus
+    - Bypasses
+    - Pentest
 ---
 
 *The logic is sound. The protocols are codified.*
