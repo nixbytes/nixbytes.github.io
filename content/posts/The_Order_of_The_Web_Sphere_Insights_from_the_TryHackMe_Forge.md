@@ -1,6 +1,7 @@
 ---
 title: "The Order of the Web-Sphere: Insights from the TryHackMe Forge"
 date: 2026-09-14
+author: Linux-Bytes
 tags:
     - Web
     - TryHackMe
